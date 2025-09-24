@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="./src/img/favicon.svg" type="image/x-icon">
+        <title>SpaceTheme</title>
+        
+        <meta name="theme-color" content="#666cff">
+        <meta name='description' content="Themes with a dark aesthetic and modular-inspired look, offering clarity, flexibility, and an enhanced user experience.">
+        <meta name="hostname" content="spacetheme.de">
+        
+        <meta name='og:url' content="https://spacetheme.de">
+        <meta name='og:title' content="SpaceTheme - Home">
+        <meta name='og:description' content="Themes with a dark aesthetic and modular-inspired look, offering clarity, flexibility, and an enhanced user experience.">
+        
+        <link rel="stylesheet" href="index.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navbar">
+            <img class="logo" src="./src/img/textLogo.svg" alt="Logo">
+            <div class="nav-pages">
+                <a href="/themes">Themes</a>
+                <a href="/" class="active">Home</a>
+                <a href="https://discord.spacetheme.net">Community</a>
+            </div>
+        </div>
+
+        <div id="page-content">
+            <div id="landing" class="section">
+                <div class="title">
+                    <img src="/src/img/textLogo.svg" alt="">
+                    <span>made by <a href="https://spaceenergy.github.io"><span class="author-space">Space<span class="author-energy">Energy</span></span></a></span>
+                </div>
+                <video class="landing-background" src="src/intro.webm" muted autoplay loop></video>
+            </div>
+            <div id="themes" class="section">
+                <img src="./src/img/themes.webp" alt="">
+                <div class="info">
+                    <h1>Themes</h1>
+                    <p class="section-desciption">Themes featuring a modern dark aesthetic with a modular-inspired appearance. The clean structure enhances clarity and navigability, while flexible customization options allow every detail to be tailored to individual preferences. The result is a personalized design that not only looks sleek but also elevates usability and overall user experience.</p>
+                </div>
+                <a href="/themes" class="btn">
+                    <span>Show Themes</span>
+                </a>
+            </div>
+            <div id="supporter" class="section">
+                <h1>Project Supporter ❤️</h1>
+                <p class="section-desciption">These are the users who supported this project via ko-fi.</p>
+                <div id="supporter-list"></div>
+                <a href="" class="btn">
+                    <img src="./src/img/kofi.svg" alt="">
+                    <span>Support on Kofi</span>
+                </a>
+            </div>
+        </div>
+
+        <div id="navigator">
+            <div class="navigator-page"></div>
+            <div class="navigator-page"></div>
+            <div class="navigator-page"></div>
+        </div>
+
+        <div class="no-mobile">
+            <span>This website is not optimized for mobile devices yet. <br> Please visit it on a desktop device for the best experience.</span>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
