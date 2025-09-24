@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () => {
             behavior: 'smooth'
         });
         setActiveNavigator(index);
-        setNavbarActive(index);
     }
 
     function setActiveNavigator(index) {
@@ -69,7 +68,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const scrollLeft = pageContent.scrollLeft;
         const currentIndex = Math.round(scrollLeft / sectionWidth);
         setActiveNavigator(currentIndex);
-        setNavbarActive(currentIndex);
     });
 
     // Klick auf Navigator-Page
