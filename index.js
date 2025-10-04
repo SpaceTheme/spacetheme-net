@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log('API Response:', data);
             const counter = document.getElementById('download-counter');
             if (data && typeof data.download_count !== 'undefined') {
-                counter.innerHTML = `${data.download_count} downloads`;
+                counter.innerHTML = `<br><br>${data.download_count} downloads`;
             } else {
                 counter.innerHTML = 'No downloads';
             }
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(err => {
             console.error('API Error:', err);
             const counter = document.getElementById('download-counter');
-            if (counter) counter.innerHTML = 'Error';
+            if (counter) counter.innerHTML = '<br><br>Error';
         });
 
 });
