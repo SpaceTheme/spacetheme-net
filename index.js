@@ -98,4 +98,31 @@ document.addEventListener('DOMContentLoaded', () => {
                 supporterList.appendChild(userDiv);
             });
         });
+
+    fetch('https://steambrew.app/api/v2/extern/download_count/zQndv1rI0FXLh3QTRgOL')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            const contentType = response.headers.get('content-type');
+            if (!contentType || !contentType.includes('application/json')) {
+                throw new Error('Response was not JSON');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('API Response:', data);
+            const counter = document.getElementById('download-counter');
+            if (data && typeof data.download_count !== 'undefined') {
+                counter.innerHTML = `${data.download_count} downloads`;
+            } else {
+                counter.innerHTML = 'No downloads';
+            }
+        })
+        .catch(err => {
+            console.error('API Error:', err);
+            const counter = document.getElementById('download-counter');
+            if (counter) counter.innerHTML = 'Error';
+        });
+
 });
