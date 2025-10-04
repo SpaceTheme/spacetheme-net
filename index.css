@@ -192,23 +192,23 @@ h1 {
 
 
 
-#themes {
+.section:not(#landing) {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#themes img {
-    height: 500px;
+.section:not(#landing) img {
+    width: 900px;
 }
 
-#themes .info {
+.info {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 600px;
+    max-width: 700px;
     margin: 16px 0;
 }
 
