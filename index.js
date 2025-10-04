@@ -98,21 +98,4 @@ document.addEventListener('DOMContentLoaded', () => {
                 supporterList.appendChild(userDiv);
             });
         });
-
-    // Download-Counter abfragen und anzeigen
-    fetch('https://steambrew.app/api/v2/extern/download_count/zQndv1rI0FXLh3QTRgOL')
-        .then(response => response.json())
-        .then(data => {
-            console.log('API Response:', data);
-            const counter = document.getElementById('download-counter');
-            if (data && typeof data.download_count !== 'undefined') {
-                counter.innerHTML = `<br><br>${data.download_count} downloads`;
-            } else {
-                counter.innerHTML = 'No downloads';
-            }
-        })
-        .catch(err => {
-            console.error('API Error:', err);
-            document.getElementById('download-counter').innerHTML = '<br><br>Error';
-        });
 });
