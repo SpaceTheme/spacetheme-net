@@ -4,7 +4,7 @@ const path = 'assets/data/downloads.json';
 
 function curlJson(url) {
     try {
-        const result = execSync(`curl -sL "${url}"`, { encoding: 'utf8', timeout: 10000 });
+        const result = execSync(`curl -sL -H "User-Agent: SpaceTheme" "${url}"`, { encoding: 'utf8', timeout: 10000 });
         return JSON.parse(result);
     } catch (e) {
         console.error(`Error fetching ${url} :`, e.message);
