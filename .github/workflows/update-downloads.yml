@@ -21,10 +21,10 @@ jobs:
         run: npm install axios
 
       - name: Update downloads.json
-        run: node .github/assets/scripts/update-downloads.js
+        run: node assets/scripts/update-downloads.js
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update downloads.json from API
-          file_pattern: .github/assets/data/downloads.json
+          file_pattern: assets/data/downloads.json

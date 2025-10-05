@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Supporter laden und anzeigen
-    fetch('.github/assets/data/supporter.json')
+    fetch('assets/data/supporter.json')
         .then(response => response.json())
         .then(data => {
             const supporterList = document.getElementById('supporter-list');
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
     // Downloads aus JSON holen und Platzhalter im HTML ersetzen
-    fetch('.github/assets/data/downloads.json')
+    fetch('assets/data/downloads.json')
         .then(response => response.json())
         .then(data => {
             const values = {};
