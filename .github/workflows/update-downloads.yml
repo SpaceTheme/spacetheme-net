@@ -2,7 +2,7 @@ name: Update Downloads
 
 on:
   schedule:
-    - cron: '0 * * * *' # Jede Stunde
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
