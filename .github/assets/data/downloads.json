@@ -1,0 +1,42 @@
+{
+    "themes": [
+        {
+            "name": "steam",
+            "api": "https://steambrew.app/api/v2/extern/download_count/zQndv1rI0FXLh3QTRgOL",
+            "api2": "https://api.github.com/repos/SpaceTheme/Discord/releases",
+            "data_path": "download_count",
+            "value": ""
+        },
+        {
+            "name": "discord",
+            "api": "https://api.github.com/repos/SpaceTheme/Discord/releases",
+            "data_path": "download_count",
+            "value": ""
+        },
+        {
+            "name": "zen",
+            "api": "",
+            "data_path": "",
+            "value": ""
+        },
+        {
+            "name": "firefox",
+            "api": "",
+            "data_path": "",
+            "value": ""
+        },
+        {
+            "name": "tidal",
+            "api": "",
+            "data_path": "",
+            "value": ""
+        },
+        {
+            "name": "spotify",
+            "api": "",
+            "data_path": "",
+            "value": ""
+        }
+    ],
+    "total_downloads": ""
+}

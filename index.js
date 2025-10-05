@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Supporter laden und anzeigen
-    fetch('src/supporter.json')
+    fetch('.github/assets/data/supporter.json')
         .then(response => response.json())
         .then(data => {
             const supporterList = document.getElementById('supporter-list');
@@ -99,30 +99,37 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
 
-    fetch('https://steambrew.app/api/v2/extern/download_count/zQndv1rI0FXLh3QTRgOL')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            const contentType = response.headers.get('content-type');
-            if (!contentType || !contentType.includes('application/json')) {
-                throw new Error('Response was not JSON');
-            }
-            return response.json();
-        })
+    // Downloads aus JSON holen und Platzhalter im HTML ersetzen
+    fetch('.github/assets/data/downloads.json')
+        .then(response => response.json())
         .then(data => {
-            console.log('API Response:', data);
-            const counter = document.getElementById('download-counter');
-            if (data && typeof data.download_count !== 'undefined') {
-                counter.innerHTML = `<br><br>${data.download_count} downloads`;
-            } else {
-                counter.innerHTML = 'No downloads';
+            const values = {};
+            data.themes.forEach(theme => {
+                const val = parseInt(theme.value) || 0;
+                values[theme.name] = val;
+            });
+
+            // Platzhalter-Map vorbereiten
+            const replacements = {
+                '${downloads}': data.total_downloads || '0'
+            };
+            Object.keys(values).forEach(name => {
+                replacements[`$\{downloads_${name}\}`] = values[name].toString();
+            });
+
+            // Alle Textknoten im Body ersetzen
+            function replaceTextNodes(node) {
+                if (node.nodeType === Node.TEXT_NODE) {
+                    let txt = node.textContent;
+                    Object.entries(replacements).forEach(([key, value]) => {
+                        txt = txt.replaceAll(key, value);
+                    });
+                    node.textContent = txt;
+                } else {
+                    node.childNodes.forEach(replaceTextNodes);
+                }
             }
-        })
-        .catch(err => {
-            console.error('API Error:', err);
-            const counter = document.getElementById('download-counter');
-            if (counter) counter.innerHTML = '<br><br>Error';
+            replaceTextNodes(document.body);
         });
 
 });

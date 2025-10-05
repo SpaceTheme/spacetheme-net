@@ -1,0 +1,30 @@
+name: Update Downloads
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Jede Stunde
+  workflow_dispatch:
+
+jobs:
+  update-downloads:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install axios
+
+      - name: Update downloads.json
+        run: node .github/assets/scripts/update-downloads.js
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update downloads.json from API
+          file_pattern: .github/assets/data/downloads.json
