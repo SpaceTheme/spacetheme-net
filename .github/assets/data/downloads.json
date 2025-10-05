@@ -5,38 +5,38 @@
             "api": "https://steambrew.app/api/v2/extern/download_count/zQndv1rI0FXLh3QTRgOL",
             "api2": "https://api.github.com/repos/SpaceTheme/Steam/releases",
             "data_path": "download_count",
-            "value": ""
+            "value": "0"
         },
         {
             "name": "discord",
             "api": "https://api.github.com/repos/SpaceTheme/Discord/releases",
             "data_path": "download_count",
-            "value": ""
+            "value": "0"
         },
         {
             "name": "zen",
             "api": "",
             "data_path": "",
-            "value": ""
+            "value": "0"
         },
         {
             "name": "firefox",
             "api": "",
             "data_path": "",
-            "value": ""
+            "value": "0"
         },
         {
             "name": "tidal",
             "api": "",
             "data_path": "",
-            "value": ""
+            "value": "0"
         },
         {
             "name": "spotify",
             "api": "",
             "data_path": "",
-            "value": ""
+            "value": "0"
         }
     ],
-    "total_downloads": ""
+    "total_downloads": "0"
 }
