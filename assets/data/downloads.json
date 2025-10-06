@@ -11,7 +11,7 @@
             "name": "discord",
             "api": "https://api.github.com/repos/SpaceTheme/Discord/releases",
             "data_path": "download_count",
-            "value": "2194"
+            "value": "2195"
         },
         {
             "name": "zen",
@@ -38,5 +38,5 @@
             "value": "0"
         }
     ],
-    "total_downloads": "8415"
+    "total_downloads": "8416"
 }
