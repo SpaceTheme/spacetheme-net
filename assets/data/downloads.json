@@ -5,7 +5,7 @@
             "api": "https://steambrew.app/api/v2/extern/download_count/zQndv1rI0FXLh3QTRgOL",
             "api2": "https://api.github.com/repos/SpaceTheme/Steam/releases",
             "data_path": "download_count",
-            "value": "6221"
+            "value": "6225"
         },
         {
             "name": "discord",
@@ -38,5 +38,5 @@
             "value": "0"
         }
     ],
-    "total_downloads": "8417"
+    "total_downloads": "8421"
 }
