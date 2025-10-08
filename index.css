@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'FluentSystemIcons-Filled';
+    src: url("./themes/_fonts/FluentSystemIcons-Filled.ttf") format("trueType");
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -73,9 +78,13 @@ h1 {
     height: 46px;
 }
 
-#navbar .logo {
+#navbar .logo,
+#navbar .small-logo {
     height: 20px;
     border-radius: 0;
+}
+#navbar .small-logo {
+    display: none;
 }
 
 #navbar .nav-pages {
@@ -86,16 +95,17 @@ h1 {
     gap: 16px;
     align-items: center;
 }
-#navbar .nav-pages a {
+#navbar .nav-pages span {
     font-weight: 600;
     color: #dddddd;
     text-transform: uppercase;
 }
-#navbar .nav-pages a:hover {
+#navbar .nav-pages span:hover {
     color: #fff;
 }
 
-#navbar .nav-pages a.active {
+#navbar .nav-pages a.active,
+#navbar .nav-pages a.active span {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -139,12 +149,16 @@ h1 {
     align-items: center;
     flex-direction: column;
     min-width: calc(100vw - 32px);
-    height: 100vh;
+    height: 100%;
+    padding: 0 16px;
 }
 
 
 
 
+#landing {
+    padding: 0 32px;
+}
 
 #landing .title {
     z-index: 1;
@@ -155,7 +169,8 @@ h1 {
 }
 
 #landing .title img {
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
 }
 
 #landing .title .author-space {
@@ -165,6 +180,17 @@ h1 {
 #landing .title .author-energy {
     color: #666CFF;
     font-weight: 900;
+}
+
+#landing .title .downloads {
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 18px;
+    border-radius: 100px;
+    color: #aaaaaa;
+    background-color: rgba(30, 30, 30, 80%);
+    backdrop-filter: blur(4px) !important;
 }
 
 #landing .landing-background {
@@ -197,8 +223,6 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100%;
-    padding: 0 16px;
 }
 
 .section:not(#landing) img {
@@ -348,7 +372,61 @@ h1 {
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 24px;
+    }
+    .section-desciption {
+        font-size: 12px;
+    }
+
+    #navbar .logo {
+        display: none;
+    }
+    #navbar .small-logo {
+        display: block;
+    }
+
+    #navbar .nav-pages a {
+        display: flex;
+    }
+
+    #navbar .nav-pages a::before {
+        content: "";
+        font-family: FluentSystemIcons-Filled !important;
+        font-style: normal;
+        font-weight: normal !important;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        color: #dddddd;
+        font-size: 20px;
+    }
+    #navbar .nav-pages a.active::before {
+        color: #666CFF;
+    }
+    #navbar .nav-pages a.navThemes::before {
+        content: "\f2f6";
+    }
+    #navbar .nav-pages a.navHome::before {
+        content: "\f488";
+    }
+    #navbar .nav-pages a.navCommunity::before {
+        content: "\f5c3";
+    }
+    #navbar .nav-pages a.navStatus::before {
+        content: "\f4fb";
+    }
+
+    #navbar .nav-pages span {
+        font-size: 0;
+    }
+
+
+    #navbar .copyright {
+        display: none;
+    }
+
     #supporter-list {
         grid-template-columns: repeat(3, 1fr);
         gap: 6px
@@ -357,7 +435,17 @@ h1 {
         padding: 0;
     }
     #supporter .user img {
-        max-width: 80px;
-        max-height: 80px;
+        max-width: 60px;
+        max-height: 60px;
     }
+
+
+    .btn {
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+    #supporter .btn img {
+    width: 18px;
+    height: 18px;
+}
 }
