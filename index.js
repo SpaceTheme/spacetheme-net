@@ -132,4 +132,36 @@ document.addEventListener('DOMContentLoaded', () => {
             replaceTextNodes(document.body);
         });
 
+    let touchStartX = null;
+    pageContent.addEventListener('touchstart', function(e) {
+        if (e.touches.length === 1) {
+            touchStartX = e.touches[0].clientX;
+        }
+    });
+
+    pageContent.addEventListener('touchend', function(e) {
+        if (touchStartX === null || scrollBlocked) return;
+        const touchEndX = e.changedTouches[0].clientX;
+        const deltaX = touchEndX - touchStartX;
+        const sectionWidth = pageContent.offsetWidth;
+        const scrollLeft = pageContent.scrollLeft;
+        const currentIndex = Math.round(scrollLeft / sectionWidth);
+
+        let nextIndex = currentIndex;
+        if (deltaX < -50 && currentIndex < sections.length - 1) {
+            nextIndex++;
+        } else if (deltaX > 50 && currentIndex > 0) {
+            nextIndex--;
+        }
+
+        if (nextIndex !== currentIndex) {
+            targetIndex = nextIndex;
+            scrollToSection(targetIndex);
+            scrollBlocked = true;
+            setTimeout(() => {
+                scrollBlocked = false;
+            }, 700);
+        }
+        touchStartX = null;
+    });
 });
