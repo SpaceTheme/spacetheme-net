@@ -8,11 +8,8 @@ function curlJson(url) {
         let curlCmd = `curl -sL "${url}"`;
         if (url.includes('api.github.com/') && GH_TOKEN) {
             curlCmd = `curl -sL -H "Authorization: Bearer ${GH_TOKEN}" -H "User-Agent: SpaceThemeBot" "${url}"`;
-        } else {
-            curlCmd = `curl -sL -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0" -H "Accept: application/json" "${url}"`;
         }
         const result = execSync(curlCmd, { encoding: 'utf8', timeout: 10000 });
-        console.log(`Response from ${url}:\n`, result);
         return JSON.parse(result);
     } catch (e) {
         console.error(`Error fetching ${url} :`, e.message);
@@ -44,7 +41,6 @@ function updateDownloads() {
         let themeTotal = 0;
         const apiKeys = Object.keys(theme).filter(key => key.startsWith('api') && theme[key]);
         for (const apiKey of apiKeys) {
-            // data_pathX für apiX, sonst data_path
             let suffix = apiKey.length > 3 ? apiKey.substring(3) : '';
             let dataPathKey = 'data_path' + suffix;
             let dataPath = theme[dataPathKey] || theme.data_path || '';
