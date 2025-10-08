@@ -197,10 +197,13 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100%;
+    padding: 0 16px;
 }
 
 .section:not(#landing) img {
-    width: 900px;
+    max-width: 900px;
+    width: 100%;
 }
 
 .info {
@@ -280,10 +283,10 @@ h1 {
     padding-bottom: 26px;
 }
 #supporter-list .user img {
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
     border: 3px solid #1e1e1e;
-    border-radius: 26px;
+    border-radius: 28%;
     transition: all 0.2s ease-in-out;
 }
 #supporter-list .user:hover img {
@@ -342,5 +345,19 @@ h1 {
 @media screen and (min-width: 950px) and (min-height: 950px) {
     .no-mobile {
         display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #supporter-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px
+    }
+    #supporter .user {
+        padding: 0;
+    }
+    #supporter .user img {
+        max-width: 80px;
+        max-height: 80px;
     }
 }
