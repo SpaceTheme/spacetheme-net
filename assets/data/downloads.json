@@ -4,13 +4,17 @@
             "name": "steam",
             "api": "https://steambrew.app/api/v2/extern/download_count/zQndv1rI0FXLh3QTRgOL",
             "api2": "https://api.github.com/repos/SpaceTheme/Steam/releases",
+            "api3": "https://api.github.com/repos/SpaceTheme/Steam/traffic/clone",
             "data_path": "download_count",
+            "data_path3": "count",
             "value": "6229"
         },
         {
             "name": "discord",
             "api": "https://api.github.com/repos/SpaceTheme/Discord/releases",
+            "api2": "https://api.github.com/repos/SpaceTheme/Discord/traffic/clone",
             "data_path": "download_count",
+            "data_path2": "count",
             "value": "2196"
         },
         {
