@@ -348,24 +348,6 @@ h1 {
 
 
 
-.no-mobile {
-    z-index: 999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 100vh;
-    width: 100vw;
-    padding: 32px;
-    font-size: 18px;
-    font-weight: 600;
-    transform: translate(-50%, -50%);
-    background-color: #0a0a0a;
-}
-
-
 @media screen and (min-width: 780px) {
     #supporter-list {
         grid-template-columns: repeat(6, 1fr);
