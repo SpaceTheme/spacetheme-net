@@ -415,6 +415,16 @@ h1 {
     }
 
 
+    #supporter-list {
+        grid-template-columns: repeat(auto-fill,minmax(60px,1fr));
+    }
+
+    #supporter-list .user img {
+        max-width: 60px;
+        max-height: 60px;
+    }
+
+
     .btn {
         padding: 12px 16px;
         font-size: 14px;
