@@ -18,25 +18,28 @@ body, html {
     height: 100%;
     font-family: 'Be Vietnam Pro', sans-serif;
     color: #fff;
-    background-color: #0a0a0a;
+    background-color: rgb(10, 10, 10);
 }
 body {
     padding: 0 16px;
     overflow: hidden;
 }
 .btn {
+    cursor: pointer;
     display: flex;
     gap: 6px;
     justify-content: center;
     padding: 12px 24px;
+    border: unset;
     border-radius: 8px;
-    background-color: #1e1e1e;
+    color: unset;
+    background-color: rgb(30, 30, 30);
     transition: all 0.2s ease-in-out;
 }
 .btn:hover {
     font-weight: 600;
     border-radius: 14px;
-    background-color: #222222;
+    background-color: rgb(34, 34, 34);
 }
 a {
     text-decoration: none;
@@ -109,7 +112,7 @@ h1 {
     position: relative;
     display: flex;
     flex-direction: column;
-    color: #666CFF;
+    color: rgb(102, 108, 255);
 }
 #navbar .nav-pages a.active::after {
     content: "";
@@ -118,7 +121,7 @@ h1 {
     width: 100%;
     height: 3px;
     border-radius: 8px;
-    background-color: #666CFF;
+    background-color: rgb(102, 108, 255);
 }
 
 
@@ -140,7 +143,7 @@ h1 {
     margin-bottom: 16px;
     padding: 0;
     border-radius: 8px;
-    background-color: #111111;
+    background-color: rgb(17, 17, 17);
 }
 
 .section {
@@ -174,11 +177,11 @@ h1 {
 }
 
 #landing .title .author-space {
-    color: #878CFF;
+    color: rgb(135, 140, 255);
     font-weight: 500;
 }
 #landing .title .author-energy {
-    color: #666CFF;
+    color: rgb(102, 108, 255);
     font-weight: 900;
 }
 
@@ -263,19 +266,45 @@ h1 {
     width: 12px;
     height: 12px;
     border-radius: 8px;
-    background-color: #2d2d2d;
+    background-color: rgb(45, 45, 45);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
 #navigator .navigator-page.active {
     width: 24px;
-    background-color: #666CFF;
+    background-color: rgb(102, 108, 255);
 }
 
 
 
 
+.status {
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 12px;
+    line-height: 12px;
+    border-radius: 100px;
+    background-color: rgba(30, 30, 30, 80%);
+    backdrop-filter: blur(4px) !important;
+}
 
+.status::before {
+    content: "\f4fb";
+    font-family: FluentSystemIcons-Filled !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    color: #dddddd;
+    font-size: 20px;
+}
 
 
 
@@ -309,7 +338,7 @@ h1 {
 #supporter-list .user img {
     max-width: 80px;
     max-height: 80px;
-    border: 3px solid #1e1e1e;
+    border: 3px solid rgb(30, 30, 30);
     border-radius: 28%;
     transition: all 0.2s ease-in-out;
 }
@@ -317,7 +346,7 @@ h1 {
     transform: scale(1.1);
 }
 #supporter-list .user.member img {
-    border-color: #666CFF;
+    border-color: rgb(102, 108, 255);
 }
 
 #supporter-list .user .name {
@@ -394,7 +423,7 @@ h1 {
         font-size: 20px;
     }
     #navbar .nav-pages a.active::before {
-        color: #666CFF;
+        color: rgb(102, 108, 255);
     }
     #navbar .nav-pages a.navThemes::before {
         content: "\f2f6";
@@ -405,8 +434,8 @@ h1 {
     #navbar .nav-pages a.navCommunity::before {
         content: "\f5c3";
     }
-    #navbar .nav-pages a.navStatus::before {
-        content: "\f4fb";
+    #navbar .nav-pages a.navArtworks::before {
+        content: "\f490";
     }
 
     #navbar .nav-pages span {

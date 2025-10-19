@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let targetIndex = 0;
     let scrollBlocked = false;
 
-    // Passt die Breite jeder Section an die Breite von #page-content an
     function resizeSections() {
         const width = pageContent.offsetWidth;
         sections.forEach(section => {
@@ -58,10 +57,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }, { passive: false });
 
-    // Initial aktiv setzen
     setActiveNavigator(0);
 
-    // Bei manuellem Scrollen die aktive Seite nur aktualisieren, wenn nicht blockiert
     pageContent.addEventListener('scroll', function() {
         if (scrollBlocked) return;
         const sectionWidth = pageContent.offsetWidth;
@@ -70,7 +67,6 @@ document.addEventListener('DOMContentLoaded', () => {
         setActiveNavigator(currentIndex);
     });
 
-    // Klick auf Navigator-Page
     navigatorPages.forEach((el, i) => {
         el.addEventListener('click', () => {
             if (scrollBlocked) return;
@@ -83,7 +79,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Supporter laden und anzeigen
     fetch('assets/data/supporter.json')
         .then(response => response.json())
         .then(data => {
@@ -99,7 +94,6 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
 
-    // Downloads aus JSON holen und Platzhalter im HTML ersetzen
     fetch('assets/data/downloads.json')
         .then(response => response.json())
         .then(data => {
@@ -109,15 +103,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 values[theme.name] = val;
             });
 
-            // Platzhalter-Map vorbereiten
+            function formatNumber(n) {
+                const num = Number(n);
+                return Number.isFinite(num) ? num.toLocaleString('en-US') : String(n);
+            }
+
             const replacements = {
-                '${downloads}': data.total_downloads || '0'
+                '${downloads}': formatNumber(data.total_downloads || '0')
             };
             Object.keys(values).forEach(name => {
                 replacements[`$\{downloads_${name}\}`] = values[name].toString();
             });
 
-            // Alle Textknoten im Body ersetzen
             function replaceTextNodes(node) {
                 if (node.nodeType === Node.TEXT_NODE) {
                     let txt = node.textContent;
