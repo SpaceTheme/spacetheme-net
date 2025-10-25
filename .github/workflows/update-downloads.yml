@@ -25,10 +25,16 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: Update downloads.json from API
-          file_pattern: assets/data/downloads.json
-          commit_user_name: github-actions[bot]
-          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+      - name: Commit changes
+        if: success()
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "update: download count"
+            for i in {1..10}; do
+              git pull --rebase origin main && git push && break || sleep 10
+            done
+          fi
