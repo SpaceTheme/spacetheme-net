@@ -7,7 +7,7 @@
             "api3": "https://api.github.com/repos/SpaceTheme/Steam/traffic/clones",
             "data_path": "download_count",
             "data_path3": "count",
-            "value": "102640"
+            "value": "102751"
         },
         {
             "name": "steam-custom-artworks",
@@ -15,7 +15,7 @@
             "api2": "https://api.github.com/repos/SpaceTheme/Steam-Custom-Artworks/traffic/clones",
             "data_path": "download_count",
             "data_path2": "count",
-            "value": "707"
+            "value": "672"
         },
         {
             "name": "discord",
@@ -23,7 +23,7 @@
             "api2": "https://api.github.com/repos/SpaceTheme/Discord/traffic/clones",
             "data_path": "download_count",
             "data_path2": "count",
-            "value": "2241"
+            "value": "2239"
         },
         {
             "name": "installer",
@@ -31,7 +31,7 @@
             "api2": "https://api.github.com/repos/SpaceTheme/Installer/traffic/clones",
             "data_path": "download_count",
             "data_path2": "count",
-            "value": "4455"
+            "value": "4453"
         },
         {
             "name": "userstyles",
@@ -39,7 +39,7 @@
             "api2": "https://api.github.com/repos/SpaceTheme/Userstyles/traffic/clones",
             "data_path": "download_count",
             "data_path2": "count",
-            "value": "11"
+            "value": "9"
         },
         {
             "name": "zen",
@@ -66,5 +66,5 @@
             "value": "0"
         }
     ],
-    "total_downloads": "110054"
+    "total_downloads": "110124"
 }
