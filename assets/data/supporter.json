@@ -53,11 +53,14 @@
         {
             "name": "Angle E.",
             "image": "https://storage.ko-fi.com/cdn/useruploads/post/702d0b64-3af3-42bf-b677-c4bdd12a967e_34943c7b-2203-4b42-9faa-3d6e5ac12c6e.png"
-        }
-        ,
+        },
         {
             "name": "Chesckers",
             "image": "https://storage.ko-fi.com/cdn/useruploads/c99ea15c-36a6-4fad-98cf-2b999412a1d4_203c8bd7-7f5f-4536-b956-d19c2bc9c657.png"
+        },
+        {
+            "name": "Rawkers",
+            "image": "https://ko-fi.com/img/anon5.png?v=1"
         }
     ]
 }
