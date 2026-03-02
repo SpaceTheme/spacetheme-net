@@ -244,7 +244,11 @@ h1 {
 
 
 
-
+.gfm-embed {
+    position: absolute;
+    top: 58px;
+    right: 32px;
+}
 
 
 
@@ -434,8 +438,8 @@ h1 {
     #navbar .nav-pages a.navCommunity::before {
         content: "\f5c3";
     }
-    #navbar .nav-pages a.navArtworks::before {
-        content: "\f490";
+    #navbar .nav-pages a.navGithub::before {
+        content: "\e1f3";
     }
 
     #navbar .nav-pages span {
@@ -444,7 +448,7 @@ h1 {
 
 
     #navbar .copyright {
-        display: none;
+        font-size: 8px;
     }
 
 
@@ -463,7 +467,16 @@ h1 {
         font-size: 14px;
     }
     #supporter .btn img {
-    width: 18px;
-    height: 18px;
-}
+        width: 18px;
+        height: 18px;
+    }
+
+
+    
+
+    .gfm-embed {
+        top: 36px;
+        right: 0;
+        transform: scale(0.8);
+    }
 }
