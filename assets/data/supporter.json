@@ -7,7 +7,7 @@
         },
         {
             "name": "KingxHai",
-            "image": "https://ko-fi.com/img/anon6.png?v=1",
+            "image": "https://ko-fi.com/img/anon6.png",
             "member": true
         },
         {
@@ -32,15 +32,15 @@
         },
         {
             "name": "PURI",
-            "image": "https://ko-fi.com/img/anon7.png?v=1"
+            "image": "https://ko-fi.com/img/anon7.png"
         },
         {
             "name": "Junnio",
-            "image": "https://ko-fi.com/img/anon7.png?v=1"
+            "image": "https://ko-fi.com/img/anon7.png"
         },
         {
             "name": "nomd346",
-            "image": "https://ko-fi.com/img/anon2.png?v=1"
+            "image": "https://ko-fi.com/img/anon2.png"
         },
         {
             "name": "Michelle",
@@ -48,7 +48,7 @@
         },
         {
             "name": "Emadility",
-            "image": "https://ko-fi.com/img/anon7.png?v=1"
+            "image": "https://ko-fi.com/img/anon7.png"
         },
         {
             "name": "Angle E.",
@@ -60,7 +60,12 @@
         },
         {
             "name": "Rawkers",
-            "image": "https://ko-fi.com/img/anon5.png?v=1"
+            "image": "https://ko-fi.com/img/anon5.png"
+        }
+        ,
+        {
+            "name": "Marek M. M.",
+            "image": "https://ko-fi.com/img/anon9.png"
         }
     ]
 }
