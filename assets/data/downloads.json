@@ -23,7 +23,7 @@
             "api2": "https://api.github.com/repos/SpaceTheme/Discord/traffic/clones",
             "data_path": "download_count",
             "data_path2": "count",
-            "value": "2372"
+            "value": "2374"
         },
         {
             "name": "installer",
@@ -74,5 +74,5 @@
             "value": "0"
         }
     ],
-    "total_downloads": "183704"
+    "total_downloads": "183706"
 }
