@@ -7,7 +7,7 @@
             "api3": "https://api.github.com/repos/SpaceTheme/Steam/traffic/clones",
             "data_path": "download_count",
             "data_path3": "count",
-            "value": "352516"
+            "value": "352929"
         },
         {
             "name": "steam-custom-artworks",
@@ -23,7 +23,7 @@
             "api2": "https://api.github.com/repos/SpaceTheme/Discord/traffic/clones",
             "data_path": "download_count",
             "data_path2": "count",
-            "value": "2448"
+            "value": "2449"
         },
         {
             "name": "installer",
@@ -31,7 +31,7 @@
             "api2": "https://api.github.com/repos/SpaceTheme/Installer/traffic/clones",
             "data_path": "download_count",
             "data_path2": "count",
-            "value": "5168"
+            "value": "5169"
         },
         {
             "name": "userstyles",
@@ -74,5 +74,5 @@
             "value": "0"
         }
     ],
-    "total_downloads": "360672"
+    "total_downloads": "361087"
 }
