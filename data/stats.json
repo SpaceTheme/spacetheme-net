@@ -1,6 +1,6 @@
 {
-    "updated": "2026-10-14T18:36:26.059Z",
-    "total_downloads": 427259,
+    "updated": "2026-10-14T22:13:38.585Z",
+    "total_downloads": 427782,
     "total_stars": 355,
     "themes": {
         "steam-custom-artworks": {
@@ -8,17 +8,17 @@
             "image": "https://raw.githubusercontent.com/SpaceTheme/Steam-Custom-Artworks/main/.github/assets/banner.png",
             "socialImage": "https://repository-images.githubusercontent.com/908138433/e9566f6e-839c-4b33-be65-9eef37d1cd1d",
             "changelog": "releases",
-            "version": "v20261011",
-            "versionDate": "2026-10-11T05:54:49Z",
-            "updated": "2026-10-11T14:22:17Z",
+            "version": "v20261014",
+            "versionDate": "2026-10-14T22:07:27Z",
+            "updated": "2026-10-14T22:07:27Z",
             "description": "Custom covers, banners, heroes and logos for your Steam library in one consistent style.",
             "license": "MIT",
             "stars": 32,
             "forks": 4,
-            "issues": 24,
-            "downloads": 1616,
+            "issues": 0,
+            "downloads": 1617,
             "sources": {
-                "releases": 1616,
+                "releases": 1617,
                 "clones": 0
             }
         },
@@ -30,16 +30,16 @@
             "version": "14f6c46",
             "versionDate": "2026-10-13T13:29:44Z",
             "updated": "2026-10-13T13:29:46Z",
-            "description": "A dark, modular theme for Steam with lots of options to customize the library, store and friends list.",
+            "description": "Theme with a dark aesthetic and modular-inspired look, offering clarity, flexibility, and an enhanced user experience.",
             "license": "MIT",
             "stars": 288,
             "forks": 29,
             "issues": 13,
-            "downloads": 417979,
+            "downloads": 418501,
             "sources": {
                 "releases": 13147,
                 "clones": 0,
-                "steambrew": 404832
+                "steambrew": 405354
             }
         },
         "discord": {
