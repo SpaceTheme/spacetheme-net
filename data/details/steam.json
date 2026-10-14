@@ -1,0 +1,1387 @@
+{
+    "readme": "<div id=\"readme\" class=\"md\" data-path=\"README.md\"><article class=\"markdown-body entry-content container-lg\" itemprop=\"text\"><div align=\"center\" dir=\"auto\">\n<div class=\"markdown-heading\" dir=\"auto\"><h3 class=\"heading-element\" dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/logo.webp\"><img height=\"76px\" src=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/logo.webp\" style=\"max-width: 100%; height: auto; max-height: 76px;\"></a></h3><a id=\"\" class=\"anchor\" aria-label=\"Permalink: \" href=\"#\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\"><a href=\"https://discord.spacetheme.net\" rel=\"nofollow\">Community</a> | <a href=\"https://kofi.spacetheme.net\" rel=\"nofollow\">Support the Project</a> | <a href=\"https://spacetheme.net\" rel=\"nofollow\">Website</a></p>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://camo.githubusercontent.com/8065b68d8813253a3fec5fac9ccb2652a0c9fd29ac7041d56ad702f2ee90b904/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f53706163655468656d653f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6162656c436f6c6f723d25323331313131313126636f6c6f723d253233316531653165\"><img src=\"https://camo.githubusercontent.com/8065b68d8813253a3fec5fac9ccb2652a0c9fd29ac7041d56ad702f2ee90b904/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f53706163655468656d653f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6162656c436f6c6f723d25323331313131313126636f6c6f723d253233316531653165\" alt=\"GitHub Org's stars\" data-canonical-src=\"https://img.shields.io/github/stars/SpaceTheme?style=for-the-badge&amp;logo=github&amp;labelColor=%23111111&amp;color=%231e1e1e\" style=\"max-width: 100%;\"></a></p>\n<hr>\n</div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.webp\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.webp\" alt=\"Preview\" style=\"max-width: 100%;\"></a></p>\n<details>\n    <summary>More images (10. Nov. 2025)</summary>\n<markdown-accessiblity-table><table>\n<thead>\n<tr>\n<th align=\"center\">Library home</th>\n<th align=\"center\">Library gamepage</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/libHome.webp\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/libHome.webp\" alt=\"Preview\" style=\"max-width: 100%;\"></a></td>\n<td align=\"center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/libGamepage.webp\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/libGamepage.webp\" alt=\"Preview\" style=\"max-width: 100%;\"></a></td>\n</tr>\n<tr>\n<td align=\"center\"><strong>Store</strong></td>\n<td align=\"center\"><strong>Store Gamepage</strong></td>\n</tr>\n<tr>\n<td align=\"center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storePage.webp\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storePage.webp\" alt=\"Preview\" style=\"max-width: 100%;\"></a></td>\n<td align=\"center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeGamepage.webp\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeGamepage.webp\" alt=\"Preview\" style=\"max-width: 100%;\"></a></td>\n</tr>\n<tr>\n<td align=\"center\"><strong>Store Wishlist</strong></td>\n<td align=\"center\"><strong>Store Cart</strong></td>\n</tr>\n<tr>\n<td align=\"center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeWishlist.webp\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeWishlist.webp\" alt=\"Preview\" style=\"max-width: 100%;\"></a></td>\n<td align=\"center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeCart.webp\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeCart.webp\" alt=\"Preview\" style=\"max-width: 100%;\"></a></td>\n</tr>\n<tr>\n<td align=\"center\"><strong>Store News</strong></td>\n<td align=\"center\"><strong>Community</strong></td>\n</tr>\n<tr>\n<td align=\"center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeNews.webp\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/storeNews.webp\" alt=\"Preview\" style=\"max-width: 100%;\"></a></td>\n<td align=\"center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/communityPage.webp\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/communityPage.webp\" alt=\"Preview\" style=\"max-width: 100%;\"></a></td>\n</tr>\n<tr>\n<td align=\"center\"><strong>Friend list &amp; Chat</strong></td>\n<td align=\"center\"></td>\n</tr>\n<tr>\n<td align=\"center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/friendAndChat.webp\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/friendAndChat.webp\" alt=\"Preview\" style=\"max-width: 100%;\"></a></td>\n<td align=\"center\"></td>\n</tr>\n</tbody>\n</table></markdown-accessiblity-table>\n</details>\n<details>\n    <summary>More images (Concepts)</summary>\n<markdown-accessiblity-table><table>\n<thead>\n<tr>\n<th align=\"center\">Library home</th>\n<th align=\"center\">Library gamepage</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/concepts/conceptLibHome.webp\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/concepts/conceptLibHome.webp\" alt=\"Preview\" style=\"max-width: 100%;\"></a></td>\n<td align=\"center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/concepts/conceptLibGamepage.webp\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/concepts/conceptLibGamepage.webp\" alt=\"Preview\" style=\"max-width: 100%;\"></a></td>\n</tr>\n<tr>\n<td align=\"center\"><strong>Store</strong></td>\n<td align=\"center\"><strong>Store gamepage</strong></td>\n</tr>\n<tr>\n<td align=\"center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/concepts/conceptStorePage.webp\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/concepts/conceptStorePage.webp\" alt=\"Preview\" style=\"max-width: 100%;\"></a></td>\n<td align=\"center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/concepts/conceptStoreGamepage.webp\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/concepts/conceptStoreGamepage.webp\" alt=\"Preview\" style=\"max-width: 100%;\"></a></td>\n</tr>\n</tbody>\n</table></markdown-accessiblity-table>\n</details>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 class=\"heading-element\" dir=\"auto\">Installation</h2><a id=\"user-content-installation\" class=\"anchor\" aria-label=\"Permalink: Installation\" href=\"#installation\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<ol dir=\"auto\">\n<li>Download <a href=\"https://docs.steambrew.app/users/getting-started/installation\" rel=\"nofollow\">Millennium</a> and follow the provided instructions to install the patcher.</li>\n<li>Open the <a href=\"https://steambrew.app/theme?id=zQndv1rI0FXLh3QTRgOL\" rel=\"nofollow\">Theme Page</a> and click the Copy Theme ID button.</li>\n<li>Navigate to the Theme tab in the Millennium settings and select \"Install Theme\" and paste the Theme ID.</li>\n</ol>\n<p dir=\"auto\"><strong>Voilà! Enjoy the new look of your Steam!</strong></p>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 class=\"heading-element\" dir=\"auto\">Info</h2><a id=\"user-content-info\" class=\"anchor\" aria-label=\"Permalink: Info\" href=\"#info\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<ul dir=\"auto\">\n<li>Some things only work properly when steam is maximized on a 1920x1080p (or higher) monitor.\n<ul dir=\"auto\">\n<li>Smaller monitors may be properly supported later</li>\n</ul>\n</li>\n</ul>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 class=\"heading-element\" dir=\"auto\">Fully supported plugins</h2><a id=\"user-content-fully-supported-plugins\" class=\"anchor\" aria-label=\"Permalink: Fully supported plugins\" href=\"#fully-supported-plugins\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<ul dir=\"auto\">\n<li><a href=\"https://steambrew.app/plugin?id=f685622bace6\" rel=\"nofollow\">HLTB for Steam</a></li>\n<li><a href=\"https://steambrew.app/plugin?id=e73371b61eef\" rel=\"nofollow\">Size on Disk</a></li>\n</ul>\n</article></div>",
+    "roadmap": [
+        {
+            "title": "Store",
+            "tasks": [
+                {
+                    "text": "Home",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "(WIP) Navbar",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Discovery",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "(WIP) Pointshop",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Charts",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "(WIP) Gamepage",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Bundle info",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Hardware page",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "The Steam Awards page",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Steam Replay page",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Steam Labs page",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Tags page",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Community recommends page",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Interactive recommender page",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Among friends page",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Steam curators page",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Cart",
+                    "done": true,
+                    "tasks": []
+                },
+                {
+                    "text": "Wishlist rework",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "(WIP) Checkout",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Categories page",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Personal calendar",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Search result list page",
+                    "done": true,
+                    "tasks": []
+                },
+                {
+                    "text": "Account page",
+                    "done": false,
+                    "tasks": [
+                        {
+                            "text": "Gift cards",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "License & Key activations",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Add funds",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Manage subscriptions",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Purchase history",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Redeem",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Manage phone number",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Manage family view",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Update store country",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Delete Steam account",
+                            "done": false,
+                            "tasks": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Library",
+            "tasks": [
+                {
+                    "text": "(WIP) Collection page",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Gamepage rework",
+                    "done": false,
+                    "tasks": []
+                }
+            ]
+        },
+        {
+            "title": "Community",
+            "tasks": [
+                {
+                    "text": "Home",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Gamepage",
+                    "done": false,
+                    "tasks": [
+                        {
+                            "text": "Screenshots",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Artworks",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Guides",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "News",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Reviews",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Videos",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Workshop",
+                            "done": false,
+                            "tasks": [
+                                {
+                                    "text": "Item page",
+                                    "done": false,
+                                    "tasks": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "text": "Discussions",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Workshop",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Market",
+                    "done": false,
+                    "tasks": [
+                        {
+                            "text": "Home",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Item page",
+                            "done": false,
+                            "tasks": []
+                        }
+                    ]
+                },
+                {
+                    "text": "Broadcast",
+                    "done": false,
+                    "tasks": []
+                }
+            ]
+        },
+        {
+            "title": "User",
+            "tasks": [
+                {
+                    "text": "Profile",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Activity",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Friends",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Content (User's screenshots/artworks/videos/...)",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Awards",
+                    "done": true,
+                    "tasks": []
+                },
+                {
+                    "text": "(WIP) Badges",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Inventory",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Booster Pack Creator",
+                    "done": false,
+                    "tasks": []
+                }
+            ]
+        },
+        {
+            "title": "Friends & Chat",
+            "tasks": [
+                {
+                    "text": "Compact mode support",
+                    "done": true,
+                    "tasks": []
+                },
+                {
+                    "text": "Chat",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Group chat",
+                    "done": false,
+                    "tasks": []
+                }
+            ]
+        },
+        {
+            "title": "Big Picture Mode",
+            "tasks": [
+                {
+                    "text": "Home",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Sidebar",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Gamepage",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Library",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Store",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Friends & Chat",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Media",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Downloads",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Settings",
+                    "done": false,
+                    "tasks": []
+                }
+            ]
+        },
+        {
+            "title": "Overlay",
+            "tasks": [
+                {
+                    "text": "Game Overview",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Achievements",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Notes",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Clock",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Guides",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Discussions",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Recordings & Screenshots",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Browser",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Controller Settings",
+                    "done": false,
+                    "tasks": []
+                }
+            ]
+        },
+        {
+            "title": "Other",
+            "tasks": [
+                {
+                    "text": "(WIP) Notifications",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "(WIP) Steam Settings",
+                    "done": false,
+                    "tasks": [
+                        {
+                            "text": "Account",
+                            "done": true,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Family",
+                            "done": true,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Notifications",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Library",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Download",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Storage",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "In Game",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Compatibility",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Accessibility",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Controller",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Game Recording",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Voice",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Remote Play",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Music",
+                            "done": false,
+                            "tasks": []
+                        }
+                    ]
+                },
+                {
+                    "text": "(WIP) Inputs",
+                    "done": false,
+                    "tasks": [
+                        {
+                            "text": "(WIP) Button",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Dropdown",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Search",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "(WIP) Color",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Emoji picker",
+                            "done": true,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Checkbox",
+                            "done": false,
+                            "tasks": [
+                                {
+                                    "text": "Checkbox Switch",
+                                    "done": true,
+                                    "tasks": []
+                                }
+                            ]
+                        },
+                        {
+                            "text": "(WIP) Radio",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Radiogroup",
+                            "done": true,
+                            "tasks": []
+                        },
+                        {
+                            "text": "(WIP) Range",
+                            "done": false,
+                            "tasks": []
+                        }
+                    ]
+                },
+                {
+                    "text": "Recordings & Screenshots",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Special Offers",
+                    "done": true,
+                    "tasks": []
+                },
+                {
+                    "text": "Game server window",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Players window",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Add non-steam game window",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "About Steam window",
+                    "done": true,
+                    "tasks": []
+                }
+            ]
+        }
+    ],
+    "releases": [
+        {
+            "tag": "info",
+            "name": "INFO",
+            "date": "2025-09-20T00:20:25Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/info",
+            "downloads": 0,
+            "body": "<p>From now on, this repository will be updated via commits only.<br>\nPreviously, changes were collected and published as a release.<br>\nNow, updates are pushed directly through commits – there will be no more separate releases.</p>\n<p>👉 Whenever new updates are available, they will appear in Millennium under the Update tab.</p>",
+            "assets": []
+        },
+        {
+            "tag": "v20250912",
+            "name": "v20250912",
+            "date": "2025-09-12T19:56:37Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250912",
+            "downloads": 0,
+            "body": "<h2>v2025-09-12 is now out!</h2>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/674b193\"><code>674b193</code></a> - weird color bug in game page from store (<a href=\"https://github.com/SpaceTheme/Steam/issues/103\" data-hovercard-type=\"issue\" data-hovercard-url=\"/SpaceTheme/Steam/issues/103/hovercard\">#103</a>)</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250901...v20250912\"><code>v20250901...v20250912</code></a></p>",
+            "assets": []
+        },
+        {
+            "tag": "v20250901",
+            "name": "v20250901",
+            "date": "2025-09-01T04:36:27Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250901",
+            "downloads": 823,
+            "body": "<h2>v2025-09-01 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/2fecb03\"><code>2fecb03</code></a> - Improve \"Window Controls\" Option (Added \"Show only on hover\")</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/a25812e\"><code>a25812e</code></a> - Millennium Theme Settings Are Cut Off</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/41e5258\"><code>41e5258</code></a> - The Give an Award dialog is cut off and doesn't scroll (<a href=\"https://github.com/SpaceTheme/Steam/issues/98\" data-hovercard-type=\"issue\" data-hovercard-url=\"/SpaceTheme/Steam/issues/98/hovercard\">#98</a>)</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/7f267c2\"><code>7f267c2</code></a> - enabling acrylic background causes play button area to get transparent (<a href=\"https://github.com/SpaceTheme/Steam/issues/101\" data-hovercard-type=\"issue\" data-hovercard-url=\"/SpaceTheme/Steam/issues/101/hovercard\">#101</a>)</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250821...v20250901\"><code>v20250821...v20250901</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 101379,
+                    "downloads": 823,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250901/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250821",
+            "name": "v20250821",
+            "date": "2025-08-21T10:10:32Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250821",
+            "downloads": 279,
+            "body": "<h2>v2025-08-21 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/d74bca7\"><code>d74bca7</code></a> - Update \"Gamepage\" (Age Ratings)</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/7bcceba\"><code>7bcceba</code></a> - Can't interact with many buttons on any game's store page (<a href=\"https://github.com/SpaceTheme/Steam/issues/102\" data-hovercard-type=\"issue\" data-hovercard-url=\"/SpaceTheme/Steam/issues/102/hovercard\">#102</a>)</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250819...v20250821\"><code>v20250819...v20250821</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 100437,
+                    "downloads": 279,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250821/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250819",
+            "name": "v20250819",
+            "date": "2025-08-19T14:07:38Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250819",
+            "downloads": 63,
+            "body": "<h2>v2025-08-19 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/6e250af\"><code>6e250af</code></a> - Added \"Window Controls\" - <em>Hide the Window Controls (Minimize, Maximize, Close) from the titlebar</em></li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/71d1d3c\"><code>71d1d3c</code></a> - Added \"Info sidebar on right\" - <em>Changes the info sidebar from right to left</em></li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/bd7d519\"><code>bd7d519</code></a> - Update \"Gamepage\"</li>\n</ul>\n<h3>Update</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/268349b\"><code>268349b</code></a> -  Agecheck</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/6624ae0\"><code>6624ae0</code></a> -  Store Navbar Max Width</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/92cb64b\"><code>92cb64b</code></a> - Typing Message... indicator is out of chat window (<a href=\"https://github.com/SpaceTheme/Steam/issues/92\" data-hovercard-type=\"issue\" data-hovercard-url=\"/SpaceTheme/Steam/issues/92/hovercard\">#92</a>)</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250812...v20250819\"><code>v20250812...v20250819</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 100462,
+                    "downloads": 63,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250819/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250812",
+            "name": "v20250812",
+            "date": "2025-08-12T03:38:24Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250812",
+            "downloads": 279,
+            "body": "<h2>v2025-08-12 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/7c337b2\"><code>7c337b2</code></a> - Added \"Banner position\" - <em>Change the position of the banner (applies to all banners)</em></li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/f6cdea8\"><code>f6cdea8</code></a> - Added \"Mica &amp; Acrylic plugin support\" - <em>Support for Mica and Acrylic plugin <a href=\"https://steambrew.app/plugin?id=b4c58634419b\" rel=\"nofollow\">https://steambrew.app/plugin?id=b4c58634419b</a> (Only works with the standard theme colors)</em></li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/2eb6175\"><code>2eb6175</code></a> - Added Montserrat to \"Font\" option</li>\n</ul>\n<h3>Skin</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/b35c572\"><code>b35c572</code></a> -  Soundtrack Page</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/35fdf35\"><code>35fdf35</code></a>  -  Store Gamepage Video Player (Steam Beta)</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/5075bcf\"><code>5075bcf</code></a>  -  Pointshop Header</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250727...v20250812\"><code>v20250727...v20250812</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 98982,
+                    "downloads": 279,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250812/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250727",
+            "name": "v20250727",
+            "date": "2025-07-27T21:35:40Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250727",
+            "downloads": 489,
+            "body": "<h2>v2025-07-27 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/f40b457\"><code>f40b457</code></a> - Update \"Gamepage\"</li>\n</ul>\n<h3>Skin</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/b355cbc\"><code>b355cbc</code></a> -  Steam Beta Store Navbar (WIP)</li>\n</ul>\n<h3>Improve</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/368bcf6\"><code>368bcf6</code></a> - Store Valve Footer</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/c25635c\"><code>c25635c</code></a> - Store Navbar Big Space Between Buttons</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/3181286\"><code>3181286</code></a> - 2 Steam Loading Visuals (<a href=\"https://github.com/SpaceTheme/Steam/issue/94\">#94</a>)</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250725...v20250727\"><code>v20250725...v20250727</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 93426,
+                    "downloads": 489,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250727/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250725",
+            "name": "v20250725",
+            "date": "2025-07-24T22:33:08Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250725",
+            "downloads": 136,
+            "body": "<h2>v2025-07-25 is now out!</h2>\n<h3>Skin</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/c7d5286\"><code>c7d5286</code></a> - Millennium Sidebar</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/01e7cf1\"><code>01e7cf1</code></a> - Augmented Steam Store Button (<a href=\"https://github.com/SpaceTheme/Steam/issue/90\">#90</a>)</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/0b47632\"><code>0b47632</code></a> - Default Of \"Achievement Notification\" Option</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/656796b\"><code>656796b</code></a> - Border-Top In The Millennium Settings</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250718...v20250725\"><code>v20250718...v20250725</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 89019,
+                    "downloads": 136,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250725/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250718",
+            "name": "v20250718",
+            "date": "2025-07-17T23:06:18Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250718",
+            "downloads": 317,
+            "body": "<h2>v2025-07-18 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/711ade1\"><code>711ade1</code></a> - Added \"Achievement Notification\" - <em>Hide the Achievment Notification (Sound is still there)</em></li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/9cd5159\"><code>9cd5159</code></a> - \"VAC-Ban visibility\" option</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250628...v20250718\"><code>v20250628...v20250718</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 89930,
+                    "downloads": 317,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250718/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250628",
+            "name": "v20250628",
+            "date": "2025-06-28T21:51:25Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250628",
+            "downloads": 944,
+            "body": "<h2>v2025-06-28 is now out!</h2>\n<h3>Skin</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/accca2f\"><code>accca2f</code></a> - Points Shop (WIP)</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/8471210\"><code>8471210</code></a> - \"SteamDeck &amp; Giftcard\" Option</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/2d266bd\"><code>2d266bd</code></a> - Bigger Banner Option Not Working For Non-Steam Games (<a href=\"https://github.com/SpaceTheme/Steam/issue/89\">#89</a>)</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/72f3e81\"><code>72f3e81</code></a> - Alignment Issue With Account Changer (<a href=\"https://github.com/SpaceTheme/Steam/issue/91\">#91</a>)</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/394ce66\"><code>394ce66</code></a> - Recordings And Screenshot Section Is Cut Off (<a href=\"https://github.com/SpaceTheme/Steam/issue/83\">#83</a>)</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250623...v20250628\"><code>v20250623...v20250628</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 89425,
+                    "downloads": 944,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250628/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250623",
+            "name": "v20250623",
+            "date": "2025-06-23T00:23:25Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250623",
+            "downloads": 229,
+            "body": "<h2>v2025-06-23 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/2809fd9\"><code>2809fd9</code></a> - Improve Structure - <strong>you have to redo your settings</strong></li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/6c6a447\"><code>6c6a447</code></a> - Added Custom Section Titels</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/475f7e4\"><code>475f7e4</code></a> - Added \"SteamDeck &amp; Giftcard\" - <em>Hide SteamDeck, Giftcard or both from the stores sidebar</em></li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/aaa72c3\"><code>aaa72c3</code></a> - Added \"Broadcast\" - <em>Hide broadcasts on the store gamepage</em> (<a href=\"https://github.com/SpaceTheme/Steam/issue/88\">#88</a>)</li>\n</ul>\n<h3>Skin</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/25afde2\"><code>25afde2</code></a> - Startup/Login Window</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/48b41c8\"><code>48b41c8</code></a> - Steam Settings (WIP)</li>\n</ul>\n<h3>Added</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/b785b99\"><code>b785b99</code></a> - Custom Background - <em>Only for <a href=\"https://ko-fi.com/spacetheme/tiers\" rel=\"nofollow\">Ko-Fi</a> Supporter+</em></li>\n</ul>\n<h3>Improve</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/6652033\"><code>6652033</code></a> - Structure</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250604...v20250623\"><code>v20250604...v20250623</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 86030,
+                    "downloads": 229,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250623/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250604",
+            "name": "v20250604",
+            "date": "2025-06-04T20:31:45Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250604",
+            "downloads": 472,
+            "body": "<h2>v2025-06-04 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/66d140a\"><code>66d140a</code></a> - \"Game Overlay\" - <em>Game Overlay from the concept (Early Experimental)</em></li>\n</ul>\n<h3>Skin</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/7897662\"><code>7897662</code></a> - New Millennium Settings - v2.26.0</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/2907653\"><code>2907653</code></a> - Startup/Login Window (WIP)</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/6591904\"><code>6591904</code></a> - \"Gamepage bigger banner\" setting not working (<a href=\"https://github.com/SpaceTheme/Steam/issue/87\">#87</a>)</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/b1386a7\"><code>b1386a7</code></a> - Download Bar Top Border</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/3404003\"><code>3404003</code></a> - Window Title Not Displayed</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/20250601...v20250604\"><code>20250601...v20250604</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 77541,
+                    "downloads": 472,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250604/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250601",
+            "name": "v20250601",
+            "date": "2025-06-01T13:03:56Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250601",
+            "downloads": 109,
+            "body": "<h2>v2025-06-01 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/a3b6374\"><code>a3b6374</code></a> - Added - \"Arial\" Custom Font</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/387e774\"><code>387e774</code></a> - Added - Store Sidebar Only On Hover</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250525...v20250601\"><code>v20250525...v20250601</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 69632,
+                    "downloads": 109,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250601/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250525",
+            "name": "v20250525",
+            "date": "2025-05-25T02:30:54Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250525",
+            "downloads": 197,
+            "body": "<h2>v2025-05-25 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/f25bf74\"><code>f25bf74</code></a> - Custom Font</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250524...v20250525\"><code>v20250524...v20250525</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 68599,
+                    "downloads": 197,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250525/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v202505024",
+            "name": "v202505024",
+            "date": "2025-05-23T23:51:02Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v202505024",
+            "downloads": 39,
+            "body": "<h2>v2025-05-24 is now out!</h2>\n<h3>Skin</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/9e48746\"><code>9e48746</code></a> - Gamepage, Settings/Info/Favorites Button</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/2644722\"><code>2644722</code></a> - Gamepage, VR Required Tag</li>\n</ul>\n<h3>Improve</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/86d4595\"><code>86d4595</code></a> - Bigger Banner Theme Setting</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/67a899b\"><code>67a899b</code></a> - Custom Icons</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250522...v20250524\"><code>v20250522...v20250524</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 65583,
+                    "downloads": 39,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v202505024/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v202505022",
+            "name": "v202505022",
+            "date": "2025-05-22T00:56:35Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v202505022",
+            "downloads": 51,
+            "body": "<h2>v2025-05-22 is now out!</h2>\n<h3>Added</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/f4f99dc\"><code>f4f99dc</code></a> - More Custom Icons</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/16da11b\"><code>16da11b</code></a> - Download Page Support For Steam-Custom-Artworks</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/76d0609\"><code>76d0609</code></a> - White Square In Downlaod Page Using Custom Steam Artworks (<a href=\"https://github.com/SpaceTheme/Steam/issue/79\">#79</a>)</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/e5b959a\"><code>e5b959a</code></a> - Demo Gamepage Overlapping Button (<a href=\"https://github.com/SpaceTheme/Steam/issue/78\">#78</a>)</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250520...v20250522\"><code>v20250520...v20250522</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 64820,
+                    "downloads": 51,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v202505022/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v202505020",
+            "name": "v202505020",
+            "date": "2025-05-19T22:21:38Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v202505020",
+            "downloads": 64,
+            "body": "<h2>v2025-05-20 is now out!</h2>\n<h3>Improve</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/15f597e\"><code>15f597e</code></a> - Install Button Position On Game Card</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/752cfaf\"><code>752cfaf</code></a> - News Modal Backdrop</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/b76076c\"><code>b76076c</code></a> - Move Color Variables To root.css - <em>More colors can be edited in the theme settings now</em></li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/f9332c7\"><code>f9332c7</code></a> - Divider On Webkit Right Click Menus</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/29b483a\"><code>29b483a</code></a> - Store Navbar Button Cliping (<a href=\"https://github.com/SpaceTheme/Steam/issue/49\">#49</a>)</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/a5f503d\"><code>a5f503d</code></a> - Store/Wishlist Bar being partially shown while look at a developers page (<a href=\"https://github.com/SpaceTheme/Steam/issue/42\">#42</a>)</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250513...v20250520\"><code>v20250513...v20250520</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 64704,
+                    "downloads": 64,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v202505020/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v202505013",
+            "name": "v202505013",
+            "date": "2025-05-13T18:24:25Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v202505013",
+            "downloads": 172,
+            "body": "<h2>v2025-05-13 is now out!</h2>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/28c5673\"><code>28c5673</code></a> - Crop Custom Artwork When \"Biggerbanner\" Active</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/7a02743\"><code>7a02743</code></a> - Display Color When Sidebar Actions Are Active - by <a href=\"https://github.com/ToBinio\">@ToBinio</a> in <a href=\"https://github.com/SpaceTheme/Steam/pull/72\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/SpaceTheme/Steam/pull/72/hovercard\">#72</a></li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/de8512f\"><code>de8512f</code></a> - Display Sidebar Custom Up Button While Disappearing - by <a href=\"https://github.com/ToBinio\">@ToBinio</a> in <a href=\"https://github.com/SpaceTheme/Steam/pull/75\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/SpaceTheme/Steam/pull/75/hovercard\">#75</a></li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250506...v20250513\"><code>v20250506...v20250513</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 64474,
+                    "downloads": 172,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v202505013/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250506",
+            "name": "v20250506",
+            "date": "2025-05-06T19:44:38Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250506",
+            "downloads": 220,
+            "body": "<h2>v2025-05-06 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/50c35d2\"><code>50c35d2</code></a> - Added \"Gamepage Steam-Custom-Artowrks Support\" - <em>For the best support for <a href=\"https://github.com/SpaceTheme/Steam-Custom-Artworks\">Steam-Custom-Artworks</a></em></li>\n</ul>\n<h3>Improve</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/66a77c1\"><code>66a77c1</code></a> - A Bit Bigger Gamepage Banner Without The Option</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250504...v20250506\"><code>v20250504...v20250506</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 64513,
+                    "downloads": 220,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250506/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250504",
+            "name": "v20250504",
+            "date": "2025-05-04T17:54:35Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250504",
+            "downloads": 53,
+            "body": "<h2>v2025-05-04 is now out!</h2>\n<h3>Skin</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/2ef1b92\"><code>2ef1b92</code></a> - Store, News Page</li>\n</ul>\n<h3>Added</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/feb1328\"><code>feb1328</code></a> - Divider In Sidebar</li>\n</ul>\n<h3>Improve</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/86d2056\"><code>86d2056</code></a> - Move \"NEW TO LIBRARY\" Text In Libhome To Bottom And Install Button To Top</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/e54e9b6\"><code>e54e9b6</code></a> - Icon for the \"rename collection\" button is oversized and misaligned (<a href=\"https://github.com/SpaceTheme/Steam/pull/71\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/SpaceTheme/Steam/pull/71/hovercard\">#71</a>)</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250428...v20250504\"><code>v20250428...v20250504</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 63831,
+                    "downloads": 53,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250504/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250428",
+            "name": "v20250428",
+            "date": "2025-04-28T20:42:00Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250428",
+            "downloads": 175,
+            "body": "<h2>v2025-04-28 is now out!</h2>\n<h3>Skin</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/3727f84\"><code>3727f84</code></a> - Gamepage, \"Check out the full game\"</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/9c75f0f\"><code>9c75f0f</code></a> - Gamepage, Demo Tag</li>\n</ul>\n<h3>Improve</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/2254ea9\"><code>2254ea9</code></a> - Library Scroll To Top</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/c451eec\"><code>c451eec</code></a> - Icon for the \"rename collection\" button is oversized and misaligned (<a href=\"https://github.com/SpaceTheme/Steam/issues/69\" data-hovercard-type=\"issue\" data-hovercard-url=\"/SpaceTheme/Steam/issues/69/hovercard\">#69</a>)</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250419...v20250428\"><code>v20250419...v20250428</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 61673,
+                    "downloads": 175,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250428/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250419",
+            "name": "v20250419",
+            "date": "2025-04-19T15:19:29Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250419",
+            "downloads": 271,
+            "body": "<h2>v2025-04-19 is now out!</h2>\n<h3>Added</h3>\n<ul>\n<li>More Custom Icons (VR Icon) - <a href=\"https://github.com/SpaceTheme/Steam/commit/9c2ad6b\"><code>9c2ad6b</code></a></li>\n<li>Wallet Balance To The Userpannel - (Only When \"Userpannel\" Option Is Enabled) - <a href=\"https://github.com/SpaceTheme/Steam/commit/1f703c0\"><code>1f703c0</code></a></li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li>\"Wallet balance\" option - <a href=\"https://github.com/SpaceTheme/Steam/commit/ca67289\"><code>ca67289</code></a></li>\n<li>News Icon - <a href=\"https://github.com/SpaceTheme/Steam/commit/3307dcd\"><code>3307dcd</code></a></li>\n<li>Sidebar When No Games Are Listed - <a href=\"https://github.com/SpaceTheme/Steam/commit/7a2e788\"><code>7a2e788</code></a></li>\n<li>[Try-Fix] Sidebar Width On Store Pages - <a href=\"https://github.com/SpaceTheme/Steam/commit/27b58a6\"><code>27b58a6</code></a></li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250403...v20250419\"><code>v20250403...v20250419</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 61394,
+                    "downloads": 271,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250419/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250403",
+            "name": "v20250403",
+            "date": "2025-04-03T01:41:05Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250403",
+            "downloads": 432,
+            "body": "<h2>v2025-04-03 is now out!</h2>\n<h3>Skin</h3>\n<ul>\n<li>Library Scroll To Top</li>\n</ul>\n<h3>Added</h3>\n<ul>\n<li>More Custom Icons ( Playbar On The Library Gamepage)</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li>Gamepage Post-Game Summary</li>\n<li>Library Play Next Pannel</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250330_hotfix...v20250403\"><code>v20250330_hotfix...v20250403</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 60482,
+                    "downloads": 432,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250403/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250330",
+            "name": " v20250330",
+            "date": "2025-03-30T02:26:15Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250330",
+            "downloads": 26,
+            "body": "<h2>v2025-03-30 is now out!</h2>\n<h3>Skin</h3>\n<ul>\n<li>Webkit Footer</li>\n</ul>\n<h3>Added</h3>\n<ul>\n<li>Regular Icon Font</li>\n<li>Store Search Suggests Tags &amp; Creator Card Hover Effect</li>\n</ul>\n<h3>Improve</h3>\n<ul>\n<li>Gamepage Post-Game Summary</li>\n<li>Store Gamepage Header - <em>(Only When \"Store Gamepage\" Option Is Enabled)</em></li>\n</ul>\n<h3>Change</h3>\n<ul>\n<li>Store Navbar Searchbar Max-Width To 430px</li>\n<li>Store Navbar Wishlist/Cart Buttons</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li>Userpannel Option</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250327...v20250330\"><code>v20250327..v20250330</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 59319,
+                    "downloads": 26,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250330/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250330_hotfix",
+            "name": "v20250330_hotfix",
+            "date": "2025-03-30T03:11:31Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250330_hotfix",
+            "downloads": 142,
+            "body": "<h2>v2025-03-30_hotfix is now out!</h2>\n<h3>Bug fixes</h3>\n<ul>\n<li>Webkit Footer</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250330...v20250330_hotfix\"><code>v20250330..v20250330_hotfix</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 59329,
+                    "downloads": 142,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250330_hotfix/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250327",
+            "name": "v20250327",
+            "date": "2025-03-27T00:33:48Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250327",
+            "downloads": 132,
+            "body": "<h2>v2025-03-27 is now out!</h2>\n<h3>Bug fixes</h3>\n<ul>\n<li>Some icons of steam are 'empty squares' (<a href=\"https://github.com/SpaceTheme/Steam/issues/62\" data-hovercard-type=\"issue\" data-hovercard-url=\"/SpaceTheme/Steam/issues/62/hovercard\">#62</a>)</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250324...v20250327\"><code>v20250316..v20250324</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 58645,
+                    "downloads": 132,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250327/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250324",
+            "name": "v20250324",
+            "date": "2025-03-24T09:57:37Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250324",
+            "downloads": 179,
+            "body": "<h2>v2025-03-24 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li>Added \"Store Gamepage\" - <em>Store Gamepage from the concept</em></li>\n<li>Update \"Userpannel\" - Change Avatar Size</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li>Image From Gamepage Infobox Was Under Container</li>\n<li>\"Shop Cart Recommendations\" Theme Option</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250316...v20250324\"><code>v20250316..v20250324</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 58643,
+                    "downloads": 179,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250324/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250316",
+            "name": "v20250316",
+            "date": "2025-03-16T17:32:14Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250316",
+            "downloads": 307,
+            "body": "<h2>v2025-03-16 is now out!</h2>\n<h3>Bug fixes</h3>\n<ul>\n<li>HLTB Infos When \"Gamepage always show game infos\" Option Is On</li>\n<li>Store Gamepage Queue button</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250315...v20250316\"><code>v20250315..v20250316</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 58143,
+                    "downloads": 307,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250316/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250315",
+            "name": "v20250315",
+            "date": "2025-03-15T17:44:11Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250315",
+            "downloads": 51,
+            "body": "<h2>v2025-03-15 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li>Change \"Navigation buttons\" Default To \"no\"</li>\n<li>Change \"Shop Cart Recommendations\" Default To \"no\"</li>\n</ul>\n<h3>Skin</h3>\n<ul>\n<li>Store Gamepage Header - <em>gamepage looks buggy but it is not (it is currently in the skinning process)</em></li>\n</ul>\n<h3>Added</h3>\n<ul>\n<li>Info To readme.md</li>\n</ul>\n<h3>Change/Update</h3>\n<ul>\n<li>Store Navbar Width</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li>Legacy Popup Titlebar / Can not close or drag image popup from friends chat (<a href=\"https://github.com/SpaceTheme/Steam/issues/44\" data-hovercard-type=\"issue\" data-hovercard-url=\"/SpaceTheme/Steam/issues/44/hovercard\">#44</a>)</li>\n<li>Can't give award cause Give an award tab (UI in general) is too big and you can't scroll (<a href=\"https://github.com/SpaceTheme/Steam/issues/41\" data-hovercard-type=\"issue\" data-hovercard-url=\"/SpaceTheme/Steam/issues/41/hovercard\">#41</a>)</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250311...v20250315\"><code>v20250311..v20250315</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 57423,
+                    "downloads": 51,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250315/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        },
+        {
+            "tag": "v20250311",
+            "name": "v20250311",
+            "date": "2025-03-11T21:52:08Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250311",
+            "downloads": 137,
+            "body": "<h2>v2025-03-11 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li>Gamepage Bigger Banner - <em>Bigger banner on the game page</em></li>\n</ul>\n<h3>Added</h3>\n<ul>\n<li>100% Complete, Libhome Icon</li>\n<li>Pen, Libhome Icon</li>\n<li>Collection Dynamic, Libhome Icon</li>\n</ul>\n<h3>Improve/Change</h3>\n<ul>\n<li>Padding Of Main Container of Library Home &amp; Gamepage</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li>Weird bar at top in collection (<a href=\"https://github.com/SpaceTheme/Steam/issues/11\" data-hovercard-type=\"issue\" data-hovercard-url=\"/SpaceTheme/Steam/issues/11/hovercard\">#11</a>) <em><strong>again</strong></em></li>\n<li>Friends Icon</li>\n<li>Wishlist</li>\n<li>\"... Is Typing A Message\" Text In Friend Chat</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250307...v20250311\"><code>v20250307..v20250311</code></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme_for_Steam.zip",
+                    "size": 56713,
+                    "downloads": 137,
+                    "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250311/SpaceTheme_for_Steam.zip"
+                }
+            ]
+        }
+    ],
+    "commits": [
+        {
+            "sha": "14f6c46",
+            "title": "change: move roadmap to ROADMAP.md",
+            "body": "",
+            "date": "2026-10-13T13:29:44Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/14f6c469e1f8cf7aef2978e5dc7ac3b4c2bdddea"
+        },
+        {
+            "sha": "17f93c5",
+            "title": "change: store home send a gift card button hover shadow",
+            "body": "",
+            "date": "2026-10-04T18:05:36Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/17f93c585fe18056386ccf5a1cb1d47001be29d1"
+        },
+        {
+            "sha": "be1b33c",
+            "title": "fix: #228",
+            "body": "",
+            "date": "2026-10-04T13:25:21Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/be1b33cd9224d1a471d932efdae7b69701b32b10"
+        },
+        {
+            "sha": "8e8fda5",
+            "title": "fix: #226",
+            "body": "",
+            "date": "2026-10-04T13:20:35Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/8e8fda51454b2607b5452a9a2ba236c8db21cae7"
+        },
+        {
+            "sha": "ce67165",
+            "title": "fix: #227",
+            "body": "",
+            "date": "2026-10-04T13:06:19Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/ce67165b14dc933bc21f84a51d87f9e020a1ba8d"
+        },
+        {
+            "sha": "f58f13a",
+            "title": "Merge pull request #218 from EldinBegano/fix/dropdown-popup-corners",
+            "body": "fix: rounded corners for dropdown",
+            "date": "2026-10-04T12:49:23Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/f58f13a016360a78101215fe564c4c4d9e5a6631"
+        },
+        {
+            "sha": "3e17b7f",
+            "title": "Update dropdown.css",
+            "body": "",
+            "date": "2026-10-04T12:48:50Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/3e17b7fd2f2b95c3746bfc21a7da9660f7548759"
+        },
+        {
+            "sha": "4c2311b",
+            "title": "Update dropdown.css",
+            "body": "",
+            "date": "2026-10-04T12:45:31Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/4c2311bc0a835e7e8d2e5cc22264e7c9f64c76aa"
+        },
+        {
+            "sha": "aa7bb1d",
+            "title": "Merge pull request #220 from ForgottenHero/cursor/hover-sidebar-user-panel",
+            "body": "Keep hover sidebar open over the user panel and download bar.",
+            "date": "2026-10-04T11:46:53Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/aa7bb1d6395a044a5a163a37c16d5ee2bc25ab40"
+        },
+        {
+            "sha": "a8e5880",
+            "title": "add: option compact favorite friends area status background",
+            "body": "",
+            "date": "2026-10-04T11:43:53Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/a8e5880cfc1fa3b12ae4a432e853425a474b8467"
+        },
+        {
+            "sha": "66f1dda",
+            "title": "add: option to hide gift card button on store homepage",
+            "body": "",
+            "date": "2026-10-04T11:11:43Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/66f1ddae59a974b2c7b297e6c6919c9bf62512d5"
+        },
+        {
+            "sha": "039dc6e",
+            "title": "skin: store home gift card button",
+            "body": "",
+            "date": "2026-10-04T11:09:25Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/039dc6ea398cf8661b77bd097a0b5051d9c6c6f6"
+        },
+        {
+            "sha": "12d723d",
+            "title": "fix: store home discovery section",
+            "body": "",
+            "date": "2026-10-04T10:52:30Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/12d723d4c12c467443dd7b317f487bee1b1e9768"
+        },
+        {
+            "sha": "215247c",
+            "title": "Merge branch 'SpaceTheme:main' into cursor/hover-sidebar-user-panel",
+            "body": "",
+            "date": "2026-10-01T10:12:34Z",
+            "author": "ForgottenHero",
+            "avatar": "https://avatars.githubusercontent.com/u/4233945?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/215247c0807ee054120cadf39f3203b5ce0af617"
+        },
+        {
+            "sha": "44f8db2",
+            "title": "Remove the extra 0.12s hover sidebar collapse delay.",
+            "body": "Co-authored-by: Cursor <cursoragent@cursor.com>",
+            "date": "2026-10-01T10:12:06Z",
+            "author": "ForgottenHero",
+            "avatar": "https://avatars.githubusercontent.com/u/4233945?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/44f8db24e6c4dd47a190013f04786918e35410b3"
+        },
+        {
+            "sha": "ed560f2",
+            "title": "Merge pull request #221 from S0rax/fix/side-panel-resize",
+            "body": "fix panel resize on right side",
+            "date": "2026-09-27T10:56:45Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/ed560f2bd9aae88f1194b9b12e170231cff84640"
+        },
+        {
+            "sha": "849a6b4",
+            "title": "change: sidebar game logo update circle color",
+            "body": "",
+            "date": "2026-09-27T08:45:12Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/849a6b406c49c7003c4665a241be4ed7f9d2b892"
+        },
+        {
+            "sha": "a3e46f5",
+            "title": "add max 50% width to resize logic",
+            "body": "",
+            "date": "2026-09-26T23:03:06Z",
+            "author": "S0rax",
+            "avatar": "https://avatars.githubusercontent.com/u/36013570?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/a3e46f51a9f9ae5cdcbf743a7bee53f20e00affb"
+        },
+        {
+            "sha": "54a2385",
+            "title": "fix behaviour in webkit pages",
+            "body": "",
+            "date": "2026-09-26T22:56:13Z",
+            "author": "S0rax",
+            "avatar": "https://avatars.githubusercontent.com/u/36013570?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/54a23856bbf178724f0887ef2912cb14dc45009e"
+        },
+        {
+            "sha": "98aa5cb",
+            "title": "skin: store home \"your personal calendar\" section",
+            "body": "",
+            "date": "2026-09-26T21:11:21Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/98aa5cbc905c4beb1be4a49ce2feb0f663d51e2d"
+        },
+        {
+            "sha": "96828b2",
+            "title": "fix: store star in wishlist game pill",
+            "body": "",
+            "date": "2026-09-26T20:57:46Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/96828b2860d3fa43a3df62c4528897c575abefea"
+        },
+        {
+            "sha": "5d84f66",
+            "title": "improve/fix: store carousel navigation",
+            "body": "",
+            "date": "2026-09-26T20:57:21Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/5d84f669636fcd619451c0b3d0765e3105562576"
+        },
+        {
+            "sha": "d62c0d7",
+            "title": "fix panel resize on right side",
+            "body": "",
+            "date": "2026-09-26T20:18:03Z",
+            "author": "S0rax",
+            "avatar": "https://avatars.githubusercontent.com/u/36013570?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/d62c0d780a4120e4c6c3102a0202b9c1f9c723f4"
+        },
+        {
+            "sha": "0dc343b",
+            "title": "improve: sidebar game update indicator",
+            "body": "",
+            "date": "2026-09-26T20:16:29Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/0dc343b1a4088816e8181eb2a276d7bb3b789e9b"
+        },
+        {
+            "sha": "76817d2",
+            "title": "Merge pull request #216 from EldinBegano/main",
+            "body": "fix: update Millennium installation link in README",
+            "date": "2026-09-26T19:56:00Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/76817d29298fad9ed50b698cf0f3e9e3e2a0f714"
+        },
+        {
+            "sha": "4a331ae",
+            "title": "Merge pull request #214 from S0rax/fix/gamepage-achievement-card",
+            "body": "fix achievement card on gamepage",
+            "date": "2026-09-26T19:55:38Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/4a331ae48783d8d20f402ebb9a501885e95b8ac3"
+        },
+        {
+            "sha": "5af2c8b",
+            "title": "update/change: style of the cards",
+            "body": "",
+            "date": "2026-09-26T19:54:46Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/5af2c8b92771d58c244bbdf387794d6d8be063e0"
+        },
+        {
+            "sha": "0adf547",
+            "title": "change: webkit new&trending list preview image contain mature content",
+            "body": "",
+            "date": "2026-09-26T19:06:24Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/0adf5473ffc3c773d8dc1dd014a22a48b5bc073b"
+        },
+        {
+            "sha": "60ecd59",
+            "title": "Keep hover sidebar open over the user panel and download bar.",
+            "body": "Fixes #219 by expanding the open state when those overlays are hovered or focused, with a short close delay to bridge the gap.\n\nCo-authored-by: Cursor <cursoragent@cursor.com>",
+            "date": "2026-09-26T08:31:35Z",
+            "author": "ForgottenHero",
+            "avatar": "https://avatars.githubusercontent.com/u/4233945?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/60ecd59553b5c224b893b6ccdcbcee62be205d87"
+        },
+        {
+            "sha": "55d9b3c",
+            "title": "fix: rounded corners for dropdown",
+            "body": "",
+            "date": "2026-09-24T20:43:26Z",
+            "author": "EldinBegano",
+            "avatar": "https://avatars.githubusercontent.com/u/114646273?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/55d9b3c121a25bffa09331dfc615f506c242b96d"
+        }
+    ]
+}

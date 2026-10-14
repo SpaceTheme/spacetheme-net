@@ -1,12 +1,25 @@
-name: Update Downloads
+name: Update Data
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    # every hour (minute 17: GitHub delays runs at :00 when many workflows start at once)
+    - cron: '17 * * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'data/themes.json'
+      - '.github/scripts/update-data.mjs'
   workflow_dispatch:
 
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
 jobs:
-  update-downloads:
+  update-data:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -17,24 +30,22 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies
-        run: npm install axios
-
-      - name: Update downloads.json
-        run: node assets/scripts/update-downloads.js
+      # GH_TOKEN needs push access to the theme repos for clone stats,
+      # without it the default token is used (no clone stats)
+      - name: Update data
+        run: node .github/scripts/update-data.mjs
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN || github.token }}
 
       - name: Commit changes
-        if: success()
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
-          git add assets/data/downloads.json || true
+          git add data/stats.json data/details data/artworks.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "update: download count"
+            git commit -m "update: theme data"
             for i in {1..10}; do
               git pull --rebase origin main && git push && break || sleep 10
             done

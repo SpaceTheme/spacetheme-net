@@ -1,0 +1,600 @@
+{
+    "readme": "<div id=\"readme\" class=\"md\" data-path=\"README.md\"><article class=\"markdown-body entry-content container-lg\" itemprop=\"text\"><div align=\"center\" dir=\"auto\">\n<div class=\"markdown-heading\" dir=\"auto\"><h3 class=\"heading-element\" dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Discord/main/.github/assets/logo.png\"><img height=\"52px\" src=\"https://raw.githubusercontent.com/SpaceTheme/Discord/main/.github/assets/logo.png\" style=\"max-width: 100%; height: auto; max-height: 52px;\"></a></h3><a id=\"\" class=\"anchor\" aria-label=\"Permalink: \" href=\"#\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://camo.githubusercontent.com/8065b68d8813253a3fec5fac9ccb2652a0c9fd29ac7041d56ad702f2ee90b904/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f53706163655468656d653f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6162656c436f6c6f723d25323331313131313126636f6c6f723d253233316531653165\"><img src=\"https://camo.githubusercontent.com/8065b68d8813253a3fec5fac9ccb2652a0c9fd29ac7041d56ad702f2ee90b904/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f53706163655468656d653f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6162656c436f6c6f723d25323331313131313126636f6c6f723d253233316531653165\" alt=\"GitHub Org's stars\" data-canonical-src=\"https://img.shields.io/github/stars/SpaceTheme?style=for-the-badge&amp;logo=github&amp;labelColor=%23111111&amp;color=%231e1e1e\" style=\"max-width: 100%;\"></a>\n<a href=\"https://discord.spacetheme.net\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/875703d58fe863bac2bc0fdfe8033ac2f691fd5290177560a861198dc2657e48/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f313130343531363035303533373638353134343f7374796c653d666f722d7468652d6261646765266c6f676f3d646973636f7264266c6f676f436f6c6f723d253233666666266c6162656c436f6c6f723d25323335383635663226636f6c6f723d253233353836356632\" alt=\"Discord\" data-canonical-src=\"https://img.shields.io/discord/1104516050537685144?style=for-the-badge&amp;logo=discord&amp;logoColor=%23fff&amp;labelColor=%235865f2&amp;color=%235865f2\" style=\"max-width: 100%;\"></a>\n<a href=\"https://kofi.spacetheme.net\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/140c5137021b05a90f1991093c5806ddb77ba0b17beea7e85818b23333fbe4d1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6b6f66692d6461726b3f7374796c653d666f722d7468652d6261646765266c6f676f3d6b6f6669266c6f676f436f6c6f723d253233666666266c6162656c436f6c6f723d25323366663565356226636f6c6f723d253233666635653562\" alt=\"KoFi\" data-canonical-src=\"https://img.shields.io/badge/kofi-dark?style=for-the-badge&amp;logo=kofi&amp;logoColor=%23fff&amp;labelColor=%23ff5e5b&amp;color=%23ff5e5b\" style=\"max-width: 100%;\"></a>\n<a href=\"https://spacetheme.net\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/c976902aa8d9f6181aac17c1eaa0d1d6b074363696b8773e999f1a01bd75f178/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f776562736974652d6261636b3f7374796c653d666f722d7468652d6261646765266c6f676f3d676f6f676c656368726f6d65266c6f676f436f6c6f723d253233666666666666266c6162656c436f6c6f723d25323331313131313126636f6c6f723d253233313131313131\" alt=\"Website\" data-canonical-src=\"https://img.shields.io/badge/website-back?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=%23ffffff&amp;labelColor=%23111111&amp;color=%23111111\" style=\"max-width: 100%;\"></a></p>\n<hr>\n</div>\n<div class=\"markdown-alert markdown-alert-important\" dir=\"auto\"><p class=\"markdown-alert-title\" dir=\"auto\"><svg data-component=\"Octicon\" class=\"octicon octicon-report mr-2\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v9.5A1.75 1.75 0 0 1 14.25 13H8.06l-2.573 2.573A1.458 1.458 0 0 1 3 14.543V13H1.75A1.75 1.75 0 0 1 0 11.25Zm1.75-.25a.25.25 0 0 0-.25.25v9.5c0 .138.112.25.25.25h2a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h6.5a.25.25 0 0 0 .25-.25v-9.5a.25.25 0 0 0-.25-.25Zm7 2.25v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z\"></path></svg>Important</p><p dir=\"auto\">This will be reworked</p>\n</div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Discord/main/.github/assets/placeholder.png\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Discord/main/.github/assets/placeholder.png\" alt=\"Preview\" style=\"max-width: 100%;\"></a></p>\n<details>\n    <summary>More images (xx.xx.xxxx)</summary>\n<markdown-accessiblity-table><table>\n<thead>\n<tr>\n<th align=\"center\">Placeholder</th>\n<th align=\"center\">Placeholder</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Discord/main/.github/assets/placeholder.png\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Discord/main/.github/assets/placeholder.png\" alt=\"Preview\" style=\"max-width: 100%;\"></a></td>\n<td align=\"center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Discord/main/.github/assets/placeholder.png\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Discord/main/.github/assets/placeholder.png\" alt=\"Preview\" style=\"max-width: 100%;\"></a></td>\n</tr>\n<tr>\n<td align=\"center\"><strong>Placeholder</strong></td>\n<td align=\"center\"><strong>Placeholder</strong></td>\n</tr>\n<tr>\n<td align=\"center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Discord/main/.github/assets/placeholder.png\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Discord/main/.github/assets/placeholder.png\" alt=\"Preview\" style=\"max-width: 100%;\"></a></td>\n<td align=\"center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Discord/main/.github/assets/placeholder.png\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Discord/main/.github/assets/placeholder.png\" alt=\"Preview\" style=\"max-width: 100%;\"></a></td>\n</tr>\n<tr>\n<td align=\"center\"><strong>Placeholder</strong></td>\n<td align=\"center\"></td>\n</tr>\n<tr>\n<td align=\"center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Discord/main/.github/assets/placeholder.png\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Discord/main/.github/assets/placeholder.png\" alt=\"Preview\" style=\"max-width: 100%;\"></a></td>\n<td align=\"center\"></td>\n</tr>\n</tbody>\n</table></markdown-accessiblity-table>\n</details>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 class=\"heading-element\" dir=\"auto\">Installation</h2><a id=\"user-content-installation\" class=\"anchor\" aria-label=\"Permalink: Installation\" href=\"#installation\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<ol dir=\"auto\">\n<li>soon</li>\n</ol>\n<p dir=\"auto\"><strong>Voilà! Enjoy the new look of your Discord!</strong></p>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 class=\"heading-element\" dir=\"auto\">Info</h2><a id=\"user-content-info\" class=\"anchor\" aria-label=\"Permalink: Info\" href=\"#info\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<ul dir=\"auto\">\n<li></li>\n</ul>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 class=\"heading-element\" dir=\"auto\">Roadmap</h2><a id=\"user-content-roadmap\" class=\"anchor\" aria-label=\"Permalink: Roadmap\" href=\"#roadmap\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<ul dir=\"auto\">\n<li>[ ]</li>\n</ul>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 class=\"heading-element\" dir=\"auto\">Know issue</h2><a id=\"user-content-know-issue\" class=\"anchor\" aria-label=\"Permalink: Know issue\" href=\"#know-issue\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<ul dir=\"auto\">\n<li></li>\n</ul>\n</article></div>",
+    "releases": [
+        {
+            "tag": "v1.4.0-alpha",
+            "name": "v1.4.0-alpha",
+            "date": "2024-07-19T03:05:21Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.4.0-alpha",
+            "downloads": 1169,
+            "body": "<h2>v1.4.0-alpha is now out!</h2>\n<ul>\n<li>Add SpotifyControls plugin support</li>\n<li>Custom border-radius setting</li>\n<li>Change padding and margin from 5px-&gt;6px, 10px-&gt;12px and 15px-&gt;16px</li>\n<li>Many many source code improvements...</li>\n<li>Bug fixes\n<ul>\n<li>Channel headers</li>\n<li>Browse Channels tab (Channels &amp; Roles)</li>\n<li>And a few others</li>\n</ul>\n</li>\n</ul>",
+            "assets": [
+                {
+                    "name": "SpaceTheme.theme.css",
+                    "size": 1271,
+                    "downloads": 1169,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.4.0-alpha/SpaceTheme.theme.css"
+                }
+            ]
+        },
+        {
+            "tag": "v1.3.3-alpha",
+            "name": "v1.3.3 (alpha)",
+            "date": "2024-05-21T19:26:02Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.3.3-alpha",
+            "downloads": 257,
+            "body": "<ul>\n<li>Settings (not finished)\n<ul>\n<li>Sidebar icons (only with the Vencord plugin \"ThemeAttributes\")</li>\n<li>My account tab</li>\n<li>Invites tab</li>\n<li>Privacy tab</li>\n<li>Family tab (will probably not be 100% skinned as i probably don't see a few pages of it)</li>\n<li>Devices tab</li>\n<li>Gift Inventory tab</li>\n<li>Language tab (only with the Vencord plugin \"ThemeAttributes\")</li>\n<li>Emoji tab</li>\n<li>Channel permissions tab (not finished)</li>\n<li>General improvements</li>\n<li>Small sidebar when using a vertical monitor (like the memberlist)</li>\n</ul>\n</li>\n<li>ServerProfile plugin support</li>\n<li>Emoji autocomplete popup over chat input</li>\n<li>Addon grid adjustments (Themes/Plugin page)</li>\n<li>Source code improvement (the performance should also have gotten a boost)</li>\n<li>Improvement\n<ul>\n<li>Emoji/Sticker/Gif picker has been reduced in height by 100px</li>\n</ul>\n</li>\n<li>Bug fixes\n<ul>\n<li>Game group invite</li>\n<li>Message input when messages editing</li>\n<li>Gap at the chat input left when there is no upload button</li>\n<li>White shadow under the chat scrollbar</li>\n<li>When opening or loading pages, the Discord standard background color was displayed</li>\n<li>Setting page bottom margin</li>\n<li>Discover sidebar</li>\n<li>Thread create sidebar</li>\n<li>Emoji chat button was cut off</li>\n<li>If a Spotify song title was too long it went through the button in the user modal</li>\n<li>Inbox and Pins note badge</li>\n</ul>\n</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/0795b627f86195a53884b3c38cf8c144044740ac\">Full Changelog</a></strong></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-alpha.theme.css",
+                    "size": 798,
+                    "downloads": 257,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.3.3-alpha/SpaceTheme-alpha.theme.css"
+                }
+            ]
+        },
+        {
+            "tag": "v1.3.2-alpha",
+            "name": "v1.3.2 (alpha)",
+            "date": "2024-04-13T01:56:38Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.3.2-alpha",
+            "downloads": 251,
+            "body": "<ul>\n<li>Create server modal v0.1</li>\n<li>Polls</li>\n<li>Code block improvement</li>\n<li>Source code improvement</li>\n<li>Bug fixes\n<ul>\n<li>The user game panel no longer covers anything</li>\n<li>Server list server mentions badges are no longer displayed above the bottom 2 pinned buttons</li>\n<li>Forum cards are no longer cut off if the window is too small</li>\n</ul>\n</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/e176fd81b3b6024602f23f6f34b12bbddf61f7a7\">Full Changelog</a></strong></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-alpha.theme.css",
+                    "size": 798,
+                    "downloads": 251,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.3.2-alpha/SpaceTheme-alpha.theme.css"
+                }
+            ]
+        },
+        {
+            "tag": "v1.3.1-alpha",
+            "name": "v1.3.1 (alpha)",
+            "date": "2024-03-27T00:23:54Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.3.1-alpha",
+            "downloads": 84,
+            "body": "<ul>\n<li>Larger user modal</li>\n<li>Pins</li>\n<li>Code block improvement</li>\n<li>Source code improvement</li>\n<li>Bug fixes\n<ul>\n<li>Random boxes have a different background (Settings)</li>\n<li>Space at the bottom for all settings pages</li>\n<li>Payment methods/billing (user settings)</li>\n<li>Large space in the member list of role editing (server settings)</li>\n</ul>\n</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/81d432f7830b73858cb5b801a0b1a91d2dcd9998\">Full Changelog</a></strong></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-alpha.theme.css",
+                    "size": 798,
+                    "downloads": 84,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.3.1-alpha/SpaceTheme-alpha.theme.css"
+                }
+            ]
+        },
+        {
+            "tag": "v1.3.0-alpha-part_2/2",
+            "name": "v1.3.0 (alpha) part 2/2",
+            "date": "2024-01-12T21:45:52Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.3.0-alpha-part_2/2",
+            "downloads": 201,
+            "body": "<ul>\n<li>Inbox</li>\n<li>Modals v0.1</li>\n<li>App Directory v0.1</li>\n<li>BetterFolders plugin support - Vencord Version</li>\n<li>User Settings\n<ul>\n<li>Payment Methodes/Billings</li>\n<li>Registered Games v0.1</li>\n</ul>\n</li>\n<li>Server Settings\n<ul>\n<li>Role and Permissions v0.2</li>\n</ul>\n</li>\n<li>Source code improvement</li>\n<li>Bug fixes\n<ul>\n<li>In messages you could not click on the lower part of the avatar</li>\n<li>Spotify icon in user profile</li>\n<li>Linux base top margin</li>\n<li>Custom gradient username in modal</li>\n<li>Chat pills dont use variables</li>\n<li>Distance between forum chat and forum member list</li>\n</ul>\n</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/3d18658c90f30807f3f6d3b635d71e889e6cb60f\">Full Changelog</a></strong></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-alpha.theme.css",
+                    "size": 802,
+                    "downloads": 201,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.3.0-alpha-part_2/2/SpaceTheme-alpha.theme.css"
+                }
+            ]
+        },
+        {
+            "tag": "v1.3.0-alpha-part_1/2",
+            "name": "v1.3.0 (alpha) part 1/2",
+            "date": "2023-12-10T23:27:13Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.3.0-alpha-part_1/2",
+            "downloads": 88,
+            "body": "<ul>\n<li>Codeblock part 2/2</li>\n<li>Emoji/Sticker/Gif picker</li>\n<li>Server members tab v0.1</li>\n<li>Source code improvement</li>\n<li>Bug fixes\n<ul>\n<li>Role and Permissions width</li>\n<li>Chat compact mode</li>\n</ul>\n</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/ab558ea2268c4b5cd305df201ec7e41aa27bcd6a\">Full Changelog</a></strong></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-alpha.theme.css",
+                    "size": 802,
+                    "downloads": 88,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.3.0-alpha-part_1/2/SpaceTheme-alpha.theme.css"
+                }
+            ]
+        },
+        {
+            "tag": "v1.2.9-alpha",
+            "name": "v1.2.9 (alpha)",
+            "date": "2023-11-26T13:15:56Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.2.9-alpha",
+            "downloads": 45,
+            "body": "<ul>\n<li>Experiements tab</li>\n<li>Codeblock part1/2</li>\n<li>Forum v0.3</li>\n<li>Build override embed</li>\n<li>Remove new server dropdown</li>\n<li>Server Settings\n<ul>\n<li>Role and Permissions v0.1</li>\n</ul>\n</li>\n<li>Source code improvement</li>\n<li>Bug fixes\n<ul>\n<li>Forum list cards</li>\n</ul>\n</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/2e3f10d852b5e806605099084f49f19589f2170c\">Full Changelog</a></strong></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-alpha.theme.css",
+                    "size": 802,
+                    "downloads": 45,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.2.9-alpha/SpaceTheme-alpha.theme.css"
+                }
+            ]
+        },
+        {
+            "tag": "v1.2.8-alpha",
+            "name": "v1.2.8 (alpha)",
+            "date": "2023-11-12T16:10:53Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.2.8-alpha",
+            "downloads": 32,
+            "body": "<ul>\n<li>Voice calls v0.1</li>\n<li>New server dropdown</li>\n<li>Compact chat member list for vertical monitors</li>\n<li>Vencord addon list</li>\n<li>Remove Fluent status icons</li>\n<li>Source code improvements</li>\n<li>Bug fixes\n<ul>\n<li>Folder icon</li>\n<li>Message bubbles</li>\n<li>Custom gradient username</li>\n<li>Adding margin to text in no permission message input</li>\n<li>Removing attach button in no permission message input</li>\n</ul>\n</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/0344e03374afd2ee355b656b9c60c257af07fc32\">Full Changelog</a></strong></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-alpha.theme.css",
+                    "size": 802,
+                    "downloads": 32,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.2.8-alpha/SpaceTheme-alpha.theme.css"
+                }
+            ]
+        },
+        {
+            "tag": "v1.2.7-alpha",
+            "name": "v1.2.7 (alpha)",
+            "date": "2023-10-28T18:56:16Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.2.7-alpha",
+            "downloads": 61,
+            "body": "<ul>\n<li>Chat search</li>\n<li>Source code improvements</li>\n<li>The whole theme fixed from the Discord update which changed all classes</li>\n</ul>\n<p><strong>Please update BetterDiscord to version 1.9.5 otherwise the theme will not work properly</strong>.</p>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/410d153d8afbf2d0424b9ffb266c0427369b9007\">Full Changelog</a></strong></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-alpha.theme.css",
+                    "size": 802,
+                    "downloads": 61,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.2.7-alpha/SpaceTheme-alpha.theme.css"
+                }
+            ]
+        },
+        {
+            "tag": "v1.2.6-alpha",
+            "name": "v1.2.6 (alpha)",
+            "date": "2023-10-13T20:00:16Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.2.6-alpha",
+            "downloads": 31,
+            "body": "<ul>\n<li>Login screen</li>\n<li>New BetterDiscord addon list</li>\n<li>Spotify invite rework</li>\n<li>Better Spotify profile activity</li>\n<li>Better edited message date</li>\n<li>Radio buttons</li>\n<li>Context menu</li>\n<li>Source code improvements</li>\n<li>Bug fixes</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/683b17a8f72cac570f5ada608c04f12e5705b609\">Full Changelog</a></strong></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-alpha.theme.css",
+                    "size": 802,
+                    "downloads": 31,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.2.6-alpha/SpaceTheme-alpha.theme.css"
+                }
+            ]
+        },
+        {
+            "tag": "v1.2.5.1-alpha",
+            "name": "v1.2.5.1 (alpha)",
+            "date": "2023-10-08T14:43:17Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.2.5.1-alpha",
+            "downloads": 18,
+            "body": "<ul>\n<li><del>Nitro</del> Free avatar decorations</li>\n<li><del>Nitro</del> Free home icons</li>\n<li>Source code improvements</li>\n<li>Bug fixes</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/d1370f9c5c221907c784758cb52888b81f39346f\">Full Changelog</a></strong></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-alpha.theme.css",
+                    "size": 802,
+                    "downloads": 18,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.2.5.1-alpha/SpaceTheme-alpha.theme.css"
+                }
+            ]
+        },
+        {
+            "tag": "v1.2.5-alpha",
+            "name": "v1.2.5 (alpha)",
+            "date": "2023-09-24T17:43:21Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.2.5-alpha",
+            "downloads": 25,
+            "body": "<ul>\n<li>Friends list cards</li>\n<li>Fluent status icons</li>\n<li>Better message bubbles (Mention, Reply, Automod)</li>\n<li>Chat date divider pills</li>\n<li>Sliders</li>\n<li>Source code improvements</li>\n<li>Bug fixes</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/78c6311e8f260df3c9623e22ea58040f86ec9bd2\">Full Changelog</a></strong></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-alpha.theme.css",
+                    "size": 677,
+                    "downloads": 25,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.2.5-alpha/SpaceTheme-alpha.theme.css"
+                }
+            ]
+        },
+        {
+            "tag": "v1.2.4-alpha",
+            "name": "v1.2.4 (alpha)",
+            "date": "2023-08-27T08:09:57Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.2.4-alpha",
+            "downloads": 40,
+            "body": "<ul>\n<li>Channel icons are back</li>\n<li>Forum v0.2</li>\n<li>Source code improvements</li>\n<li>Bug fixes</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/6689ecf98f66f59163e4c08dad956a64a99434be\">Full Changelog</a></strong></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-alpha.theme.css",
+                    "size": 677,
+                    "downloads": 40,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.2.4-alpha/SpaceTheme-alpha.theme.css"
+                }
+            ]
+        },
+        {
+            "tag": "v1.2.3-alpha",
+            "name": "v1.2.3 (alpha)",
+            "date": "2023-08-13T08:37:41Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.2.3-alpha",
+            "downloads": 18,
+            "body": "<ul>\n<li>Modern scrollbar</li>\n<li>Forum v0.1</li>\n<li>Browse Channels v0.1</li>\n<li>Source code improvements</li>\n<li>Bug fixes</li>\n</ul>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-alpha.theme.css",
+                    "size": 677,
+                    "downloads": 18,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.2.3-alpha/SpaceTheme-alpha.theme.css"
+                }
+            ]
+        },
+        {
+            "tag": "v1.2.2-alpha",
+            "name": "v1.2.2 (alpha)",
+            "date": "2023-07-30T15:53:20Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.2.2-alpha",
+            "downloads": 29,
+            "body": "<ul>\n<li>Setting width 100%</li>\n<li>Connections tab (User settings)</li>\n<li>Source code improvements</li>\n<li>Bug fixes</li>\n</ul>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-alpha.theme.css",
+                    "size": 615,
+                    "downloads": 29,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.2.2-alpha/SpaceTheme-alpha.theme.css"
+                }
+            ]
+        },
+        {
+            "tag": "v1.2.1-alpha",
+            "name": "v1.2.1 (alpha)",
+            "date": "2023-07-09T16:16:24Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.2.1-alpha",
+            "downloads": 23,
+            "body": "<ul>\n<li>The source code was further revised</li>\n<li>Server and User Settings v1</li>\n<li>Dropdowns</li>\n<li>Bug Fixes</li>\n<li>Remove Custom Channel Icons (It will come back when it is fixed)</li>\n<li>Custom Server Banner (<a href=\"https://discord.com/channels/1104516050537685144/1126872641211473920\" rel=\"nofollow\">Request your Custom Server Banner</a>)</li>\n<li>Custom Gradient Username (<a href=\"https://discord.com/channels/1104516050537685144/1126874696097484821\" rel=\"nofollow\">Request your Custom Gradient Username</a>)</li>\n</ul>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-alpha.theme.css",
+                    "size": 615,
+                    "downloads": 23,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.2.1-alpha/SpaceTheme-alpha.theme.css"
+                }
+            ]
+        },
+        {
+            "tag": "v1.2.0-alpha",
+            "name": "v1.2.0 (alpha)",
+            "date": "2023-06-25T15:53:22Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.2.0-alpha",
+            "downloads": 4,
+            "body": "<ul>\n<li><strong>Add auto update</strong></li>\n<li>Source code was redone</li>\n<li>BetterDiscord Theme/Plugin Cards</li>\n<li>Server Banner</li>\n<li>Server Nitro Progress</li>\n<li>Checkboxes</li>\n<li>Color Picker</li>\n<li>Custom Badges (<a href=\"https://discord.com/channels/1104516050537685144/1121922302800564407\" rel=\"nofollow\">Request your Custom Badge</a>)</li>\n<li>Custom Server Channel Icons (<a href=\"https://discord.com/channels/1104516050537685144/1121922363827699762\" rel=\"nofollow\">Request your Server</a>)</li>\n</ul>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-alpha.theme.css",
+                    "size": 615,
+                    "downloads": 4,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.2.0-alpha/SpaceTheme-alpha.theme.css"
+                }
+            ]
+        },
+        {
+            "tag": "v1.1.4-alpha",
+            "name": "v1.1.4 (alpha)",
+            "date": "2023-05-21T22:42:41Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.1.4-alpha",
+            "downloads": 62,
+            "body": "<ul>\n<li>Channel Icons (Only for this Server yet)</li>\n<li>Server Discover</li>\n</ul>",
+            "assets": [
+                {
+                    "name": "SpaceTheme.theme.css",
+                    "size": 27464,
+                    "downloads": 62,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.1.4-alpha/SpaceTheme.theme.css"
+                }
+            ]
+        },
+        {
+            "tag": "v1.1.3-alpha",
+            "name": "v1.1.3 (alpha)",
+            "date": "2023-05-14T15:56:56Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.1.3-alpha",
+            "downloads": 15,
+            "body": "<ul>\n<li>Chat Part 1</li>\n<li>Cursor changed at user panel</li>\n</ul>",
+            "assets": [
+                {
+                    "name": "SpaceTheme.theme.css",
+                    "size": 17842,
+                    "downloads": 15,
+                    "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.1.3-alpha/SpaceTheme.theme.css"
+                }
+            ]
+        }
+    ],
+    "commits": [
+        {
+            "sha": "de3e8b2",
+            "title": "chore: update classes",
+            "body": "",
+            "date": "2026-05-05T10:19:05Z",
+            "author": "github-actions[bot]",
+            "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/de3e8b2329a7eccc68e54da6bcd6d8014f136e28"
+        },
+        {
+            "sha": "00eeaa4",
+            "title": "Update testWorkflow.css",
+            "body": "",
+            "date": "2026-05-05T10:18:31Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/00eeaa426c7130ea895c2acabfcb758715854005"
+        },
+        {
+            "sha": "8275ecf",
+            "title": "chore: update classes",
+            "body": "",
+            "date": "2026-05-05T10:15:57Z",
+            "author": "github-actions[bot]",
+            "avatar": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/8275ecf835be6c4dbfa38fc7c07249798db4c7ce"
+        },
+        {
+            "sha": "ab71ac4",
+            "title": "Update testWorkflow.css",
+            "body": "",
+            "date": "2026-05-05T10:15:20Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/ab71ac4265dda80ed14c656f664732cb1de2405e"
+        },
+        {
+            "sha": "bffe06d",
+            "title": "Update update-classes.yml",
+            "body": "",
+            "date": "2026-04-28T22:41:59Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/bffe06d387587e7ff85369138b31870cea35e265"
+        },
+        {
+            "sha": "8ccc203",
+            "title": "Update update-classes.yml",
+            "body": "",
+            "date": "2026-04-28T22:38:13Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/8ccc203f1726d93c002f5a9735be4c83f344c991"
+        },
+        {
+            "sha": "acec3e6",
+            "title": "Merge pull request #9 from SpaceTheme/next",
+            "body": "add: workflow to test",
+            "date": "2026-04-28T22:36:13Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/acec3e6159c9d080cf374018d2872d1f11d514ee"
+        },
+        {
+            "sha": "20bbe6f",
+            "title": "add: workflow to test",
+            "body": "",
+            "date": "2026-04-28T22:35:05Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/20bbe6f8659acc6b09db9d16c518e3b088db741f"
+        },
+        {
+            "sha": "e5c9a59",
+            "title": "Update LICENCE",
+            "body": "",
+            "date": "2026-01-04T21:08:35Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/e5c9a593681f7fa95bfd4de9cde5a66fd850b5d7"
+        },
+        {
+            "sha": "711e061",
+            "title": "Update README.md",
+            "body": "",
+            "date": "2025-10-05T08:08:26Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/711e0613309ae97dde87164f05c5f6a569adb6d0"
+        },
+        {
+            "sha": "17ad887",
+            "title": "Update README.md",
+            "body": "",
+            "date": "2025-10-04T20:14:10Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/17ad887cb8212a1cda3d1d08f69f5775ce760e13"
+        },
+        {
+            "sha": "4f7ce1d",
+            "title": "Update README.md",
+            "body": "",
+            "date": "2025-10-04T20:09:43Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/4f7ce1dbad06288a4e2d7aa73065c45eacf653c7"
+        },
+        {
+            "sha": "d9aa268",
+            "title": "update: core",
+            "body": "",
+            "date": "2025-10-04T20:02:44Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/d9aa268c3cf44ed71b7be60cec0cad289db8ebd4"
+        },
+        {
+            "sha": "6198925",
+            "title": "Update channelicons.css",
+            "body": "",
+            "date": "2025-01-04T07:24:38Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/6198925ed0c25e1eb957c76eff49ea0e8a9fbf09"
+        },
+        {
+            "sha": "0d20423",
+            "title": "add: GUI installer link",
+            "body": "",
+            "date": "2024-11-11T13:46:49Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/0d20423e0426b17d8a0e8cd91e2e01089884b25e"
+        },
+        {
+            "sha": "1cf1940",
+            "title": "update: cli link",
+            "body": "",
+            "date": "2024-11-11T13:36:26Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/1cf194049bfd95265ef544a577acdc0a28ff702d"
+        },
+        {
+            "sha": "9d0862a",
+            "title": "Update gradientusername.css",
+            "body": "",
+            "date": "2024-11-06T18:40:07Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/9d0862a10315ef57aef197ca9c1fe50a48d2d697"
+        },
+        {
+            "sha": "a0adb01",
+            "title": "fix: Source link",
+            "body": "",
+            "date": "2024-10-24T19:39:35Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/a0adb01731c7b82572d581ccb28c738be5a0f771"
+        },
+        {
+            "sha": "843d8d8",
+            "title": "Update README.md",
+            "body": "",
+            "date": "2024-10-24T18:03:40Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/843d8d899f14b429332696f6e6df68584260b35e"
+        },
+        {
+            "sha": "bb5a81c",
+            "title": "Update README.md",
+            "body": "",
+            "date": "2024-09-12T02:02:21Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/bb5a81ce5ad2a14a533bb58d4e3766d62cc8a59b"
+        },
+        {
+            "sha": "da9f1d6",
+            "title": "minify codeblocks",
+            "body": "",
+            "date": "2024-08-11T17:34:32Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/da9f1d6cdba48ddf50ea853e52ee54791ffcf772"
+        },
+        {
+            "sha": "8c171ba",
+            "title": "fix: Userpannel buttons & message controls",
+            "body": "",
+            "date": "2024-08-06T12:24:12Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/8c171bacd12f8766278b12069cf54e1f0868f5b1"
+        },
+        {
+            "sha": "28955c1",
+            "title": "Update gradientusername.css",
+            "body": "",
+            "date": "2024-07-30T10:05:28Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/28955c1abce822c58cc9d861a98202ac2c838fa8"
+        },
+        {
+            "sha": "1bd81e1",
+            "title": "Merge pull request #3 from SpaceTheme/templates",
+            "body": "fix: issue templates",
+            "date": "2024-07-22T15:42:31Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/1bd81e189fa6c2b96dd6fa4ea7a0063a38b12172"
+        },
+        {
+            "sha": "22c344c",
+            "title": "Update FEATURE-REQUEST.yml",
+            "body": "",
+            "date": "2024-07-22T15:41:45Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/22c344cf278c085fe3c1a5e6f653ca990101a9dd"
+        },
+        {
+            "sha": "087a8fa",
+            "title": "fix: issue templates",
+            "body": "",
+            "date": "2024-07-22T15:40:35Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/087a8fa017559e1f82de2b0fe4b894eb22dd7243"
+        },
+        {
+            "sha": "a8d78aa",
+            "title": "Merge pull request #2 from SpaceTheme/templates",
+            "body": "add: issue templates",
+            "date": "2024-07-22T15:35:55Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/a8d78aa93269d45b4e335fa446be06bff3076c77"
+        },
+        {
+            "sha": "c15f0b2",
+            "title": "add: issue templates",
+            "body": "",
+            "date": "2024-07-22T15:34:14Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/c15f0b20cc72c0293c82dacf36c501c42817f011"
+        },
+        {
+            "sha": "cbc5b9e",
+            "title": "remove: test issue templates",
+            "body": "",
+            "date": "2024-07-22T15:10:04Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/cbc5b9ed7abb456559fe77fb5d81befc4f488790"
+        },
+        {
+            "sha": "69d0903",
+            "title": "add: test issue templates",
+            "body": "",
+            "date": "2024-07-22T15:05:55Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Discord/commit/69d090315a158a88d8088c2d741a3699d1bf2f42"
+        }
+    ]
+}

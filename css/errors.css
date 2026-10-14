@@ -1,0 +1,84 @@
+/* Error pages (components/errors/<code>.html), served by nginx via error_page */
+
+.error-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    padding: 32px 16px;
+    background: radial-gradient(ellipse at 50% 40%, rgba(var(--st-accent-1), .14), transparent 60%);
+}
+
+.error-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    max-width: 560px;
+    text-align: center;
+}
+
+/* Big code, bold and in one color */
+.error-card .error-code {
+    font-size: clamp(96px, 20vw, 180px);
+    font-weight: 900;
+    line-height: 0.9;
+    letter-spacing: -0.03em;
+    color: rgb(var(--st-accent-1));
+}
+
+.error-card .section-label {
+    justify-content: center;
+    margin: 4px 0 0;
+    color: var(--muted);
+}
+.error-card h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+}
+.error-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-2);
+}
+
+.error-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+.error-actions .btn {
+    white-space: nowrap;
+    min-width: 150px;
+    height: 46px;
+    padding: 0 20px;
+}
+.error-actions .icon {
+    width: 18px;
+    height: 18px;
+}
+
+.error-hint {
+    font-size: 13px;
+    color: var(--faint);
+}
+.error-hint a {
+    color: rgb(var(--st-blue));
+    transition: color var(--ease);
+}
+.error-hint a:hover {
+    color: rgb(var(--st-blue-hover));
+}
+
+@media screen and (max-width: 576px) {
+    .error-card h1 {
+        font-size: 24px;
+    }
+    .error-actions .btn {
+        flex: 1;
+        min-width: 0;
+    }
+}

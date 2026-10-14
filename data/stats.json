@@ -1,0 +1,136 @@
+{
+    "updated": "2026-10-14T16:08:42.623Z",
+    "total_downloads": 426767,
+    "total_stars": 355,
+    "themes": {
+        "steam-custom-artworks": {
+            "repo": "SpaceTheme/Steam-Custom-Artworks",
+            "image": "https://raw.githubusercontent.com/SpaceTheme/Steam-Custom-Artworks/main/.github/assets/banner.png",
+            "socialImage": "https://repository-images.githubusercontent.com/908138433/e9566f6e-839c-4b33-be65-9eef37d1cd1d",
+            "changelog": "releases",
+            "version": "v20261011",
+            "versionDate": "2026-10-11T05:54:49Z",
+            "updated": "2026-10-11T14:22:17Z",
+            "description": "Custom covers, banners, heroes and logos for your Steam library in one consistent style.",
+            "license": "MIT",
+            "stars": 32,
+            "forks": 4,
+            "issues": 24,
+            "downloads": 1616,
+            "sources": {
+                "releases": 1616,
+                "clones": 0
+            }
+        },
+        "steam": {
+            "repo": "SpaceTheme/Steam",
+            "image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.webp",
+            "socialImage": "https://repository-images.githubusercontent.com/640600509/55a42db8-d905-4d75-8c10-beab128984c0",
+            "changelog": "commits",
+            "version": "14f6c46",
+            "versionDate": "2026-10-13T13:29:44Z",
+            "updated": "2026-10-13T13:29:46Z",
+            "description": "A dark, modular theme for Steam with lots of options to customize the library, store and friends list.",
+            "license": "MIT",
+            "stars": 288,
+            "forks": 29,
+            "issues": 13,
+            "downloads": 417487,
+            "sources": {
+                "releases": 13147,
+                "clones": 0,
+                "steambrew": 404340
+            }
+        },
+        "discord": {
+            "repo": "SpaceTheme/Discord",
+            "image": "https://raw.githubusercontent.com/SpaceTheme/Discord/main/.github/assets/placeholder.png",
+            "socialImage": "https://repository-images.githubusercontent.com/540572301/b78df77d-30f4-4984-97cc-a756e3681d25",
+            "changelog": "releases",
+            "version": "v1.4.0-alpha",
+            "versionDate": "2024-07-19T03:05:21Z",
+            "updated": "2026-05-05T10:19:06Z",
+            "description": "A dark, modular theme for Discord. Currently broken.",
+            "license": "MIT",
+            "stars": 20,
+            "forks": 3,
+            "issues": 4,
+            "downloads": 2453,
+            "sources": {
+                "releases": 2453,
+                "clones": 0
+            }
+        },
+        "userstyles": {
+            "repo": "SpaceTheme/Userstyles",
+            "image": "https://raw.githubusercontent.com/SpaceTheme/Userstyles/main/.github/assets/preview.webp",
+            "socialImage": "https://repository-images.githubusercontent.com/830758177/e38fa489-5be4-4176-965f-8185ff12d2c3",
+            "changelog": "commits",
+            "version": "755dd96",
+            "versionDate": "2026-01-04T21:12:29Z",
+            "updated": "2026-01-04T21:12:30Z",
+            "description": "Userstyles for different websites in the SpaceTheme style.",
+            "license": "MIT",
+            "stars": 2,
+            "forks": 0,
+            "issues": 0,
+            "downloads": 0,
+            "sources": {
+                "releases": 0,
+                "clones": 0
+            },
+            "styles": 1
+        },
+        "grub": {
+            "repo": "SpaceTheme/Grub",
+            "image": "https://raw.githubusercontent.com/SpaceTheme/Grub/main/.github/assets/preview.png",
+            "socialImage": "https://repository-images.githubusercontent.com/1083764683/fdf3b48e-bc5f-464b-9765-34a09c6da5dd",
+            "changelog": "releases",
+            "version": "v1.0.1",
+            "versionDate": "2025-10-26T21:02:34Z",
+            "updated": "2026-01-04T21:09:46Z",
+            "description": "SpaceTheme for Grub",
+            "license": "MIT",
+            "stars": 4,
+            "forks": 0,
+            "issues": 0,
+            "downloads": 0,
+            "sources": {
+                "releases": 0,
+                "clones": 0
+            }
+        },
+        "plymouth": {
+            "repo": "SpaceTheme/Plymouth",
+            "image": null,
+            "version": null,
+            "versionDate": null,
+            "updated": null,
+            "license": null,
+            "stars": 0,
+            "forks": 0,
+            "issues": 0,
+            "downloads": 0,
+            "sources": {}
+        },
+        "installer": {
+            "repo": "SpaceTheme/Installer",
+            "image": "https://raw.githubusercontent.com/SpaceTheme/Installer/main/_assets/img/preview.png",
+            "socialImage": "https://repository-images.githubusercontent.com/830238147/1bc46027-e395-4dcd-92c7-7ad1a2c2134a",
+            "changelog": "releases",
+            "version": "v1.0.4",
+            "versionDate": "2024-11-24T19:35:01Z",
+            "updated": "2026-01-04T21:10:11Z",
+            "description": "GUI/CLI tool that installs, updates and removes SpaceTheme themes.",
+            "license": "MIT",
+            "stars": 9,
+            "forks": 2,
+            "issues": 0,
+            "downloads": 5211,
+            "sources": {
+                "releases": 5211,
+                "clones": 0
+            }
+        }
+    }
+}

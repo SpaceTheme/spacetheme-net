@@ -1,0 +1,676 @@
+/* Steam-Custom-Artworks downloader (/artworks/), panels/play bar come from details.css */
+
+.artworks {
+    max-width: 1440px;
+}
+
+code {
+    padding: 2px 6px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 85%;
+    border-radius: var(--radius);
+    background-color: var(--inner);
+}
+
+.summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.step-number {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: var(--radius);
+    color: #fff;
+    background-color: var(--accent);
+}
+
+.form-hint {
+    padding: 0 2px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--muted);
+}
+.form-error {
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    border-left: 3px solid rgb(var(--st-red));
+    border-radius: var(--radius);
+    color: #fff;
+    background-color: rgba(var(--st-red), .2);
+}
+
+input[type="text"],
+input[type="search"],
+select {
+    min-width: 0;
+    font: inherit;
+    border: 2px solid transparent;
+    border-radius: var(--radius);
+    outline: none;
+    color: var(--text);
+    background-color: var(--panel-item);
+    transition: border-color var(--ease), background-color var(--ease);
+}
+input[type="text"]:hover,
+input[type="search"]:hover,
+select:hover {
+    background-color: var(--panel-item-hover);
+}
+input[type="text"]:focus,
+input[type="search"]:focus,
+select:focus-visible {
+    border-color: var(--accent);
+}
+input::placeholder {
+    color: var(--faint);
+}
+
+
+
+
+/* Start view: text + profile input left, preview right, steps below */
+.start-view {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 24px;
+}
+
+/* Desktop: the start view sits in the middle of the screen (only while it is shown) */
+@media screen and (min-width: 901px) {
+    .artworks:has(> .start-view:not([hidden])) {
+        display: flex;
+        flex-direction: column;
+        min-height: 100%;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .artworks > .start-view:not([hidden]) {
+        margin: auto 0;
+        padding-top: 0;
+    }
+}
+.start-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+    align-items: center;
+    gap: clamp(24px, 4vw, 64px);
+}
+.start-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.start-text .eyebrow {
+    margin: 0;
+    color: var(--accent-light);
+}
+.start-text h1 {
+    font-size: clamp(34px, 4.4vw, 58px);
+    font-weight: 800;
+    line-height: 1.05;
+}
+.start-text h1 .accent {
+    color: var(--accent);
+}
+.start-description {
+    max-width: 560px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-2);
+}
+
+.steam-form .panel-title {
+    font-size: 15px;
+}
+.steam-input-row {
+    display: flex;
+    gap: 6px;
+}
+.steam-input-row input {
+    flex: 1;
+    padding: 12px 14px;
+    font-size: 15px;
+}
+.steam-input-row .btn {
+    min-width: 140px;
+    white-space: nowrap;
+}
+.steam-input-row .btn:disabled {
+    cursor: wait;
+    opacity: 0.7;
+}
+
+.start-preview img {
+    display: block;
+    width: 100%;
+    box-shadow: var(--shadow);
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+}
+.step {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px;
+    border-radius: var(--radius);
+    background-color: var(--panel);
+}
+.step h3 {
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.step p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--muted);
+}
+
+.full-pack {
+    font-size: 13px;
+    text-align: center;
+    color: var(--faint);
+}
+.full-pack a {
+    color: rgb(var(--st-blue));
+    transition: color var(--ease);
+}
+.full-pack a:hover {
+    color: rgb(var(--st-blue-hover));
+}
+
+
+
+
+/* Library view */
+.library-view {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.back-button {
+    cursor: pointer;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    border: none;
+    border-radius: var(--radius);
+    color: var(--text);
+    background-color: var(--panel-item);
+    transition: background-color var(--ease);
+}
+.back-button:hover {
+    background-color: var(--panel-item-hover);
+}
+.profile-bar .profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
+    margin-right: auto;
+}
+.profile-avatar {
+    width: 46px;
+    height: 46px;
+    background-color: var(--panel-item);
+}
+.profile-name {
+    overflow: hidden;
+    font-size: 17px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: color var(--ease);
+}
+.profile:hover .profile-name {
+    color: var(--accent-light);
+}
+.profile-bar .play-button {
+    white-space: nowrap;
+}
+.profile-bar .play-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.progress-text {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 0 2px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.progress-text span:last-child {
+    color: var(--muted);
+}
+.progress-bar {
+    overflow: hidden;
+    height: 10px;
+    border-radius: var(--radius);
+    background-color: var(--panel-item);
+}
+.progress-bar span {
+    display: block;
+    width: 0;
+    height: 100%;
+    border-radius: var(--radius);
+    background-color: rgb(var(--st-blue));
+    transition: width 0.2s linear;
+}
+
+/* Collection header like the Steam library: "All Games (948) ▾  SORT BY Size on Disk ▾ ────" */
+.collection {
+    gap: 12px;
+}
+.collection-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 10px;
+}
+.select-wrap {
+    position: relative;
+}
+.select-wrap::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    width: 7px;
+    height: 7px;
+    border-right: 2px solid var(--text-2);
+    border-bottom: 2px solid var(--text-2);
+    pointer-events: none;
+    transform: translateY(-70%) rotate(45deg);
+}
+select {
+    cursor: pointer;
+    padding: 8px 34px 8px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    appearance: none;
+}
+.collection-filter select {
+    font-size: 17px;
+    font-weight: 600;
+}
+option {
+    color: var(--text);
+    background-color: var(--panel);
+}
+.sort-label {
+    margin-left: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--faint);
+}
+.collection-line {
+    flex: 1;
+    min-width: 24px;
+    height: 3px;
+    border-radius: var(--radius);
+    background-color: #111111;
+}
+#search {
+    width: 220px;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.collection-tools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6px;
+}
+.type-toggles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.type-toggle {
+    cursor: pointer;
+}
+.type-toggle input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+.type-toggle span {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: var(--radius);
+    color: var(--muted);
+    background-color: var(--panel-item);
+    transition: background-color var(--ease), color var(--ease);
+}
+.type-toggle span::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--faint);
+    border-radius: 3px;
+    transition: all var(--ease);
+}
+.type-toggle:hover span {
+    background-color: var(--panel-item-hover);
+}
+.type-toggle input:checked + span {
+    color: var(--text);
+}
+.type-toggle input:checked + span::before {
+    border-color: var(--accent);
+    background-color: var(--accent);
+}
+.type-toggle input:focus-visible + span {
+    outline: 2px solid var(--accent);
+}
+.select-buttons {
+    display: flex;
+    gap: 6px;
+}
+.select-buttons .btn.small {
+    padding: 6px 12px;
+    font-size: 13px;
+    background-color: var(--panel-item);
+}
+.select-buttons .btn.small:hover {
+    background-color: var(--panel-item-hover);
+}
+
+
+
+
+/* Game cards: Steam capsule, check in the corner, artwork size as pill at the bottom */
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 14px;
+}
+
+.game {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 2 / 3;
+    padding: 0;
+    font: inherit;
+    border: none;
+    border-radius: var(--radius);
+    color: var(--text);
+    background-color: var(--panel-item);
+}
+/* Frame as overlay, the cover image would hide a border/outline */
+.game::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    border: 3px solid transparent;
+    border-radius: var(--radius);
+    pointer-events: none;
+    transition: border-color var(--ease);
+}
+.game.available {
+    cursor: pointer;
+}
+.game.available:hover::after {
+    border-color: var(--panel-item-hover);
+}
+.game.selected::after,
+.game.selected:hover::after {
+    border-color: var(--accent);
+}
+.game-check,
+.game-size,
+.game-name {
+    z-index: 2;
+}
+
+.game img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
+    color: transparent;
+}
+.game.available:not(.selected) img {
+    filter: grayscale(0.6) brightness(0.6);
+}
+
+/* Only the landscape header (or no image) -> show the name */
+.game-name {
+    display: none;
+}
+.game.no-capsule img {
+    top: 0;
+    bottom: auto;
+    height: auto;
+}
+.game.no-capsule .game-name,
+.game.no-image .game-name {
+    display: -webkit-box;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    left: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.35;
+    text-align: center;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.game-check {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26px;
+    height: 26px;
+    border: 2px solid rgba(255, 255, 255, .7);
+    border-radius: var(--radius);
+    color: transparent;
+    background-color: rgba(var(--st-color-1), .6);
+    transition: all var(--ease);
+}
+.game-check .icon {
+    width: 16px;
+    height: 16px;
+    stroke-width: 3;
+}
+.game.selected .game-check {
+    border-color: var(--accent);
+    color: #fff;
+    background-color: var(--accent);
+}
+
+.game-size {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    left: 8px;
+    padding: 6px 4px;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: var(--radius);
+    color: #fff;
+    background-color: rgba(var(--st-color-2), .92);
+}
+
+.game.missing img {
+    filter: grayscale(1) brightness(0.4);
+}
+.game-request {
+    color: rgb(var(--st-blue-hover));
+    transition: background-color var(--ease);
+}
+.game-request:hover {
+    background-color: rgb(var(--st-color-6));
+}
+
+.empty-message {
+    padding: 24px;
+    text-align: center;
+    color: var(--muted);
+}
+
+
+
+
+/* Install steps in the library view (same cards as on the start view) */
+.step > div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+}
+.step h3 {
+    margin-bottom: 0;
+}
+.step b {
+    color: var(--text-2);
+}
+.path-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    min-width: 0;
+}
+.path-row code {
+    flex: 1;
+    min-width: 0;
+    overflow-x: auto;
+    padding: 8px 10px;
+    white-space: nowrap;
+    user-select: all;
+    scrollbar-width: none;
+}
+.path-row .icon-button {
+    flex-shrink: 0;
+    padding: 8px;
+    background-color: var(--panel-item);
+}
+.path-row .icon-button:hover {
+    background-color: var(--panel-item-hover);
+}
+.path-hint {
+    font-size: 12px;
+}
+
+
+
+
+@media screen and (max-width: 1100px) {
+    .profile-bar .profile {
+        flex-basis: calc(100% - 64px);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .start-hero {
+        grid-template-columns: minmax(0, 1fr);
+    }
+    .start-preview {
+        order: -1;
+    }
+    .steps {
+        grid-template-columns: minmax(0, 1fr);
+    }
+    #search {
+        width: 100%;
+    }
+    .collection-line {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .start-view {
+        gap: 20px;
+        padding-top: 4px;
+    }
+    .steam-input-row {
+        flex-direction: column;
+    }
+
+    .profile-bar.playbar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    .profile-bar .play-stat {
+        flex: 1 1 40%;
+    }
+    .profile-bar .play-button {
+        width: 100%;
+    }
+
+    .collection-header .select-wrap {
+        flex: 1;
+    }
+    .collection-header .collection-filter {
+        flex-basis: 100%;
+    }
+    .collection-header select {
+        width: 100%;
+    }
+    .sort-label {
+        display: none;
+    }
+    .collection-tools {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .select-buttons .btn {
+        flex: 1;
+    }
+
+    .game-grid {
+        grid-template-columns: repeat(auto-fill, minmax(104px, 1fr));
+        gap: 8px;
+    }
+    .game-size {
+        right: 6px;
+        bottom: 6px;
+        left: 6px;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,49 @@
+name: Ko-fi Supporter
+
+# Ko-fi webhook -> nginx/kofi-relay.mjs (on the NAS) -> repository_dispatch -> this workflow.
+# Adds the supporter (name + avatar only) to data/supporter.json.
+# Needs the secret KOFI_VERIFICATION_TOKEN (Ko-fi -> Settings -> API -> Webhooks -> Verification Token).
+
+on:
+  repository_dispatch:
+    types: [kofi-support]
+
+concurrency:
+  group: supporter-list
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  add-supporter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # The payload goes through env (not inline in the script) so names can't inject shell code
+      - name: Add supporter
+        run: node .github/scripts/add-supporter.mjs
+        env:
+          KOFI_PAYLOAD: ${{ toJson(github.event.client_payload) }}
+          KOFI_VERIFICATION_TOKEN: ${{ secrets.KOFI_VERIFICATION_TOKEN }}
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add data/supporter.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "update: supporter list"
+            for i in {1..10}; do
+              git pull --rebase origin main && git push && break || sleep 10
+            done
+          fi

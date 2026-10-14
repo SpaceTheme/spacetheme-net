@@ -1,0 +1,7 @@
+nginx/.env
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.log
+node_modules/

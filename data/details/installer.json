@@ -1,0 +1,362 @@
+{
+    "readme": "<div id=\"readme\" class=\"md\" data-path=\"README.md\"><article class=\"markdown-body entry-content container-lg\" itemprop=\"text\"><div align=\"center\" dir=\"auto\">\n<div class=\"markdown-heading\" dir=\"auto\"><h3 class=\"heading-element\" dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Installer/main/_assets/img/logo.png\"><img height=\"52px\" src=\"https://raw.githubusercontent.com/SpaceTheme/Installer/main/_assets/img/logo.png\" style=\"max-width: 100%; height: auto; max-height: 52px;\"></a></h3><a id=\"\" class=\"anchor\" aria-label=\"Permalink: \" href=\"#\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://camo.githubusercontent.com/675198b60149e4de1fe2e9a8c4e402d35462a56f155ea02ad8f5e430ca10234d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f53706163655468656d652f496e7374616c6c65722f746f74616c3f7374796c653d666f722d7468652d6261646765266c6162656c436f6c6f723d25323331313131313126636f6c6f723d253233316531653165\"><img src=\"https://camo.githubusercontent.com/675198b60149e4de1fe2e9a8c4e402d35462a56f155ea02ad8f5e430ca10234d/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f53706163655468656d652f496e7374616c6c65722f746f74616c3f7374796c653d666f722d7468652d6261646765266c6162656c436f6c6f723d25323331313131313126636f6c6f723d253233316531653165\" alt=\"Endpoint Badge\" data-canonical-src=\"https://img.shields.io/github/downloads/SpaceTheme/Installer/total?style=for-the-badge&amp;labelColor=%23111111&amp;color=%231e1e1e\" style=\"max-width: 100%;\"></a>\n<a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://camo.githubusercontent.com/e417c6d24812d26c11baf34c32f251815c512c5a109e468f5f1c7109bee6c177/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470732533412532462532466c6f632d636f756e7465722e6f6e72656e6465722e636f6d2532462533467265706f25334453706163655468656d65253246496e7374616c6c65722532366272616e63682533446d61696e267374796c653d666f722d7468652d6261646765266c6162656c3d4c696e65732532306f66253230436f6465266c6162656c436f6c6f723d25323331313131313126636f6c6f723d253233316531653165\"><img src=\"https://camo.githubusercontent.com/e417c6d24812d26c11baf34c32f251815c512c5a109e468f5f1c7109bee6c177/68747470733a2f2f696d672e736869656c64732e696f2f656e64706f696e743f75726c3d68747470732533412532462532466c6f632d636f756e7465722e6f6e72656e6465722e636f6d2532462533467265706f25334453706163655468656d65253246496e7374616c6c65722532366272616e63682533446d61696e267374796c653d666f722d7468652d6261646765266c6162656c3d4c696e65732532306f66253230436f6465266c6162656c436f6c6f723d25323331313131313126636f6c6f723d253233316531653165\" alt=\"Endpoint Badge\" data-canonical-src=\"https://img.shields.io/endpoint?url=https%3A%2F%2Floc-counter.onrender.com%2F%3Frepo%3DSpaceTheme%2FInstaller%26branch%3Dmain&amp;style=for-the-badge&amp;label=Lines%20of%20Code&amp;labelColor=%23111111&amp;color=%231e1e1e\" style=\"max-width: 100%;\"></a>\n<a href=\"https://discord.spacetheme.de\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/4c56e1b82f1aabd6120395cdddd0defabfb6e6a2143bcf4748351152ec699646/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646973636f72642d626c61636b3f7374796c653d666f722d7468652d6261646765266c6f676f3d646973636f7264266c6f676f436f6c6f723d253233666666666666266c6162656c436f6c6f723d25323335383635463226636f6c6f723d253233353836354632\" alt=\"Discord\" data-canonical-src=\"https://img.shields.io/badge/discord-black?style=for-the-badge&amp;logo=discord&amp;logoColor=%23ffffff&amp;labelColor=%235865F2&amp;color=%235865F2\" style=\"max-width: 100%;\"></a>\n<a href=\"https://kofi.spacetheme.de\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/140c5137021b05a90f1991093c5806ddb77ba0b17beea7e85818b23333fbe4d1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6b6f66692d6461726b3f7374796c653d666f722d7468652d6261646765266c6f676f3d6b6f6669266c6f676f436f6c6f723d253233666666266c6162656c436f6c6f723d25323366663565356226636f6c6f723d253233666635653562\" alt=\"KoFi\" data-canonical-src=\"https://img.shields.io/badge/kofi-dark?style=for-the-badge&amp;logo=kofi&amp;logoColor=%23fff&amp;labelColor=%23ff5e5b&amp;color=%23ff5e5b\" style=\"max-width: 100%;\"></a>\n<a href=\"https://spacetheme.de\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/c976902aa8d9f6181aac17c1eaa0d1d6b074363696b8773e999f1a01bd75f178/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f776562736974652d6261636b3f7374796c653d666f722d7468652d6261646765266c6f676f3d676f6f676c656368726f6d65266c6f676f436f6c6f723d253233666666666666266c6162656c436f6c6f723d25323331313131313126636f6c6f723d253233313131313131\" alt=\"Website\" data-canonical-src=\"https://img.shields.io/badge/website-back?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=%23ffffff&amp;labelColor=%23111111&amp;color=%23111111\" style=\"max-width: 100%;\"></a></p>\n<hr>\n</div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Installer/main/_assets/img/preview.png\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Installer/main/_assets/img/preview.png\" alt=\"Preview\" style=\"max-width: 100%;\"></a></p>\n<p dir=\"auto\">GUI/CLI installation tool that automates the installation, removal and maintenance of SpaceTheme themes.</p>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 class=\"heading-element\" dir=\"auto\">GUI Installer</h2><a id=\"user-content-gui-installer\" class=\"anchor\" aria-label=\"Permalink: GUI Installer\" href=\"#gui-installer\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 class=\"heading-element\" dir=\"auto\">CLI Installer</h2><a id=\"user-content-cli-installer\" class=\"anchor\" aria-label=\"Permalink: CLI Installer\" href=\"#cli-installer\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n</article></div>",
+    "releases": [
+        {
+            "tag": "v1.0.4",
+            "name": "v1.0.4",
+            "date": "2024-11-24T19:35:01Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Installer/releases/tag/v1.0.4",
+            "downloads": 4213,
+            "body": "<h2>What's Changed</h2>\n<ul>\n<li>fix: changed name of folder by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/noxygalaxy/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/noxygalaxy\">@noxygalaxy</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2673213132\" data-permission-text=\"Title is private\" data-url=\"https://github.com/SpaceTheme/Installer/issues/17\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/SpaceTheme/Installer/pull/17/hovercard\" href=\"https://github.com/SpaceTheme/Installer/pull/17\">#17</a></li>\n<li>update: style order by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/SpaceEnergy/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/SpaceEnergy\">@SpaceEnergy</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2674016095\" data-permission-text=\"Title is private\" data-url=\"https://github.com/SpaceTheme/Installer/issues/20\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/SpaceTheme/Installer/pull/20/hovercard\" href=\"https://github.com/SpaceTheme/Installer/pull/20\">#20</a></li>\n<li>update: replace current theme with SpaceTheme by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/noxygalaxy/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/noxygalaxy\">@noxygalaxy</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2673283190\" data-permission-text=\"Title is private\" data-url=\"https://github.com/SpaceTheme/Installer/issues/19\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/SpaceTheme/Installer/pull/19/hovercard\" href=\"https://github.com/SpaceTheme/Installer/pull/19\">#19</a></li>\n<li>Copy Logs button by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/SpaceEnergy/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/SpaceEnergy\">@SpaceEnergy</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2674057216\" data-permission-text=\"Title is private\" data-url=\"https://github.com/SpaceTheme/Installer/issues/21\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/SpaceTheme/Installer/pull/21/hovercard\" href=\"https://github.com/SpaceTheme/Installer/pull/21\">#21</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/SpaceTheme/Installer/compare/v1.0.3...v1.0.4\"><tt>v1.0.3...v1.0.4</tt></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-Installer.exe",
+                    "size": 76533957,
+                    "downloads": 4213,
+                    "url": "https://github.com/SpaceTheme/Installer/releases/download/v1.0.4/SpaceTheme-Installer.exe"
+                }
+            ]
+        },
+        {
+            "tag": "v1.0.3",
+            "name": "v1.0.3",
+            "date": "2024-11-19T01:34:35Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Installer/releases/tag/v1.0.3",
+            "downloads": 633,
+            "body": "<h2>What's Changed</h2>\n<ul>\n<li>add: install with client by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/SpaceEnergy/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/SpaceEnergy\">@SpaceEnergy</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2668261132\" data-permission-text=\"Title is private\" data-url=\"https://github.com/SpaceTheme/Installer/issues/12\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/SpaceTheme/Installer/pull/12/hovercard\" href=\"https://github.com/SpaceTheme/Installer/pull/12\">#12</a></li>\n<li>add: steam path auto-detect by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/noxygalaxy/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/noxygalaxy\">@noxygalaxy</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2670340933\" data-permission-text=\"Title is private\" data-url=\"https://github.com/SpaceTheme/Installer/issues/16\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/SpaceTheme/Installer/pull/16/hovercard\" href=\"https://github.com/SpaceTheme/Installer/pull/16\">#16</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/SpaceTheme/Installer/compare/v1.0.2...v1.0.3\"><tt>v1.0.2...v1.0.3</tt></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-Installer.exe",
+                    "size": 76533007,
+                    "downloads": 633,
+                    "url": "https://github.com/SpaceTheme/Installer/releases/download/v1.0.3/SpaceTheme-Installer.exe"
+                }
+            ]
+        },
+        {
+            "tag": "v1.0.2",
+            "name": "v1.0.2",
+            "date": "2024-11-13T21:24:59Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Installer/releases/tag/v1.0.2",
+            "downloads": 159,
+            "body": "<h2>What's Changed</h2>\n<ul>\n<li>fix: Steam path not found by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/noxygalaxy/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/noxygalaxy\">@noxygalaxy</a> &amp; <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/SpaceEnergy/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/SpaceEnergy\">@SpaceEnergy</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2655710381\" data-permission-text=\"Title is private\" data-url=\"https://github.com/SpaceTheme/Installer/issues/11\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/SpaceTheme/Installer/pull/11/hovercard\" href=\"https://github.com/SpaceTheme/Installer/pull/11\">#11</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/SpaceTheme/Installer/compare/v1.0.1...v1.0.2\"><tt>v1.0.1...v1.0.2</tt></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-Installer.exe",
+                    "size": 76523015,
+                    "downloads": 159,
+                    "url": "https://github.com/SpaceTheme/Installer/releases/download/v1.0.2/SpaceTheme-Installer.exe"
+                }
+            ]
+        },
+        {
+            "tag": "v1.0.1",
+            "name": "v1.0.1",
+            "date": "2024-11-11T19:47:13Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Installer/releases/tag/v1.0.1",
+            "downloads": 115,
+            "body": "<h2>What's Changed</h2>\n<ul>\n<li>add: .gitignore</li>\n<li>add: version next to SpaceTheme text by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/noxygalaxy/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/noxygalaxy\">@noxygalaxy</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2649663372\" data-permission-text=\"Title is private\" data-url=\"https://github.com/SpaceTheme/Installer/issues/7\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/SpaceTheme/Installer/pull/7/hovercard\" href=\"https://github.com/SpaceTheme/Installer/pull/7\">#7</a></li>\n<li>fix: log height</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a class=\"commit-link\" href=\"https://github.com/SpaceTheme/Installer/compare/v1.0.0...v1.0.1\"><tt>v1.0.0...v1.0.1</tt></a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme-Installer.exe",
+                    "size": 76522519,
+                    "downloads": 115,
+                    "url": "https://github.com/SpaceTheme/Installer/releases/download/v1.0.1/SpaceTheme-Installer.exe"
+                }
+            ]
+        },
+        {
+            "tag": "v1.0.0",
+            "name": "v1.0.0",
+            "date": "2024-11-11T14:28:45Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Installer/releases/tag/v1.0.0",
+            "downloads": 91,
+            "body": "<h2>What's Changed</h2>\n<ul>\n<li>Add discord.ps1 installer by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/noxygalaxy/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/noxygalaxy\">@noxygalaxy</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2612212548\" data-permission-text=\"Title is private\" data-url=\"https://github.com/SpaceTheme/Installer/issues/1\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/SpaceTheme/Installer/pull/1/hovercard\" href=\"https://github.com/SpaceTheme/Installer/pull/1\">#1</a></li>\n<li>Add steam.ps1 installer by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/noxygalaxy/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/noxygalaxy\">@noxygalaxy</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2613571328\" data-permission-text=\"Title is private\" data-url=\"https://github.com/SpaceTheme/Installer/issues/3\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/SpaceTheme/Installer/pull/3/hovercard\" href=\"https://github.com/SpaceTheme/Installer/pull/3\">#3</a></li>\n<li>v1.0.0 GUI Installer by <a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/noxygalaxy/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/noxygalaxy\">@noxygalaxy</a> in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2649324470\" data-permission-text=\"Title is private\" data-url=\"https://github.com/SpaceTheme/Installer/issues/6\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/SpaceTheme/Installer/pull/6/hovercard\" href=\"https://github.com/SpaceTheme/Installer/pull/6\">#6</a></li>\n</ul>\n<h2>New Contributors</h2>\n<ul>\n<li><a class=\"user-mention notranslate\" data-hovercard-type=\"user\" data-hovercard-url=\"/users/noxygalaxy/hovercard\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/noxygalaxy\">@noxygalaxy</a> made their first contribution in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"2612212548\" data-permission-text=\"Title is private\" data-url=\"https://github.com/SpaceTheme/Installer/issues/1\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/SpaceTheme/Installer/pull/1/hovercard\" href=\"https://github.com/SpaceTheme/Installer/pull/1\">#1</a></li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Installer/commits/v1.0.0\">https://github.com/SpaceTheme/Installer/commits/v1.0.0</a></p>",
+            "assets": [
+                {
+                    "name": "SpaceTheme.Installer.exe",
+                    "size": 76535124,
+                    "downloads": 91,
+                    "url": "https://github.com/SpaceTheme/Installer/releases/download/v1.0.0/SpaceTheme.Installer.exe"
+                }
+            ]
+        }
+    ],
+    "commits": [
+        {
+            "sha": "b7be41a",
+            "title": "Update LICENSE",
+            "body": "",
+            "date": "2026-01-04T21:10:10Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/b7be41a6cd9a34af7d2e269de3985d0eaad14c8d"
+        },
+        {
+            "sha": "6a10a8c",
+            "title": "update: version to 1.0.4",
+            "body": "",
+            "date": "2024-11-24T19:32:28Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/6a10a8c966a33ae23ee985a313f27d72f8515e34"
+        },
+        {
+            "sha": "5060473",
+            "title": "Merge pull request #22 from noxygalaxy/select-theme-popup-fix",
+            "body": "update: popup fix",
+            "date": "2024-11-24T19:14:19Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/5060473a1580ceed90f2d19b1bf8f7942bb8236a"
+        },
+        {
+            "sha": "31691ff",
+            "title": "update: popup fix [js]",
+            "body": "",
+            "date": "2024-11-24T19:04:18Z",
+            "author": "noxygalaxy",
+            "avatar": "https://avatars.githubusercontent.com/u/107372460?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/31691ffd9272d5aacfba33e55c392c39c75af09c"
+        },
+        {
+            "sha": "64b65e7",
+            "title": "Merge pull request #21 from SpaceTheme/copy-logs",
+            "body": "Copy Logs button",
+            "date": "2024-11-21T14:13:05Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/64b65e7e57d45be89145232ea575cad452372fad"
+        },
+        {
+            "sha": "b099eed",
+            "title": "update: popup fix",
+            "body": "",
+            "date": "2024-11-20T23:14:29Z",
+            "author": "noxygalaxy",
+            "avatar": "https://avatars.githubusercontent.com/u/107372460?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/b099eed91f8ee65aed721ef6af20716d7969b857"
+        },
+        {
+            "sha": "d10ecf0",
+            "title": "add: copy button function",
+            "body": "",
+            "date": "2024-11-20T23:10:54Z",
+            "author": "noxygalaxy",
+            "avatar": "https://avatars.githubusercontent.com/u/107372460?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/d10ecf0552c7023be00d6b11e57151723f8aa81b"
+        },
+        {
+            "sha": "a28f7fb",
+            "title": "Merge pull request #19 from noxygalaxy/auto-theme-change",
+            "body": "update: replace current theme with SpaceTheme",
+            "date": "2024-11-20T16:01:20Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/a28f7fb56a473b4d03f56f8e19f7799f86bb7c65"
+        },
+        {
+            "sha": "f0b73ab",
+            "title": "add: copy-logs button",
+            "body": "",
+            "date": "2024-11-20T01:41:49Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/f0b73ab8cebadf070bc72d85344ccd2678ac8665"
+        },
+        {
+            "sha": "bfb4f12",
+            "title": "Merge pull request #20 from SpaceTheme/style",
+            "body": "update: style order",
+            "date": "2024-11-20T01:12:18Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/bfb4f1209fb1a25e8bd71ea15df7fa0493149eeb"
+        },
+        {
+            "sha": "5b45572",
+            "title": "change: .popup bottom to 90px",
+            "body": "",
+            "date": "2024-11-20T01:10:22Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/5b455722d7bda670ad792199901140b24d1968c1"
+        },
+        {
+            "sha": "6c723bc",
+            "title": "update: style order",
+            "body": "",
+            "date": "2024-11-20T01:08:45Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/6c723bc4f162d11064e4aafe69fbca1a839a0e21"
+        },
+        {
+            "sha": "a027092",
+            "title": "Merge branch 'main' of https://github.com/SpaceTheme/Installer",
+            "body": "",
+            "date": "2024-11-20T00:48:34Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/a027092273e97849f60ba5c42dbb479f0b66f54a"
+        },
+        {
+            "sha": "a75ad12",
+            "title": "update: millennium installer",
+            "body": "",
+            "date": "2024-11-20T00:48:31Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/a75ad122219f590f9599dc08cfb54177e84035e1"
+        },
+        {
+            "sha": "6f94054",
+            "title": "Merge pull request #17 from noxygalaxy/change-folder-name",
+            "body": "fix: changed name of folder",
+            "date": "2024-11-19T23:10:49Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/6f94054f14773ac546e68d22c0df94c2747a7021"
+        },
+        {
+            "sha": "d460962",
+            "title": "update: replace current theme with SpaceTheme",
+            "body": "",
+            "date": "2024-11-19T19:23:52Z",
+            "author": "noxygalaxy",
+            "avatar": "https://avatars.githubusercontent.com/u/107372460?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/d4609622583b4f8fafb4cbe431d3a263bf4836e4"
+        },
+        {
+            "sha": "de77079",
+            "title": "fix: changed name of folder",
+            "body": "",
+            "date": "2024-11-19T18:58:01Z",
+            "author": "noxygalaxy",
+            "avatar": "https://avatars.githubusercontent.com/u/107372460?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/de770791f6bf366e2ceca80f48dc0b1dadab08ce"
+        },
+        {
+            "sha": "244e93a",
+            "title": "update: install.ps1",
+            "body": "",
+            "date": "2024-11-19T01:31:06Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/244e93aa1544da1376a0900b2b96529a03b6973f"
+        },
+        {
+            "sha": "219c4cb",
+            "title": "add: Millennium install file",
+            "body": "",
+            "date": "2024-11-19T00:42:26Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/219c4cbd1af36476c80631a7d447baa082646098"
+        },
+        {
+            "sha": "a38d0a0",
+            "title": "Merge branch 'main' of https://github.com/SpaceTheme/Installer",
+            "body": "",
+            "date": "2024-11-19T00:24:47Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/a38d0a081e188bbb691b91c8e19f2ec6d1c4bf41"
+        },
+        {
+            "sha": "740389a",
+            "title": "add: winreg to package.json",
+            "body": "",
+            "date": "2024-11-19T00:22:40Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/740389a1b2b2ee85e5d98aedde800151d494227e"
+        },
+        {
+            "sha": "630f92c",
+            "title": "Merge pull request #16 from noxygalaxy/steam-path",
+            "body": "add: steam path auto-detect",
+            "date": "2024-11-19T00:19:28Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/630f92c59ee7bf1ebf108c71c6f5430c1f15e334"
+        },
+        {
+            "sha": "6139971",
+            "title": "update: colors & checkbox width",
+            "body": "",
+            "date": "2024-11-18T23:51:58Z",
+            "author": "noxygalaxy",
+            "avatar": "https://avatars.githubusercontent.com/u/107372460?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/61399710791e47dc3c4ab7a3967bb82e69dfc372"
+        },
+        {
+            "sha": "4611b7b",
+            "title": "Merge pull request #12 from SpaceTheme/dev",
+            "body": "add: install with client",
+            "date": "2024-11-18T23:35:46Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/4611b7b60c030fbe4efb62ae161b440c824dffb1"
+        },
+        {
+            "sha": "1e7edaa",
+            "title": "update: colors & checkbox width",
+            "body": "",
+            "date": "2024-11-18T23:34:40Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/1e7edaa430036b1e1d23a294750db1e9b10aa80b"
+        },
+        {
+            "sha": "bb8fd9a",
+            "title": "add: steam path auto-detect",
+            "body": "",
+            "date": "2024-11-18T21:27:19Z",
+            "author": "noxygalaxy",
+            "avatar": "https://avatars.githubusercontent.com/u/107372460?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/bb8fd9af5e7839b9a77d3a7e4c2ef4dcfbc1c042"
+        },
+        {
+            "sha": "509e1e0",
+            "title": "add: checkbox function",
+            "body": "",
+            "date": "2024-11-18T21:04:37Z",
+            "author": "noxygalaxy",
+            "avatar": "https://avatars.githubusercontent.com/u/107372460?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/509e1e0eba8e5174402bbf0849e853dc6a8eed30"
+        },
+        {
+            "sha": "e2f13bc",
+            "title": "fix: padding for checkboxes",
+            "body": "",
+            "date": "2024-11-18T11:37:11Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/e2f13bc2988592d84c2680f8b5f22c59bee1c4bb"
+        },
+        {
+            "sha": "9535db9",
+            "title": "add: install with client",
+            "body": "",
+            "date": "2024-11-18T11:33:02Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/9535db94975bab99db8a44f44299ab76545daa1c"
+        },
+        {
+            "sha": "ba01158",
+            "title": "update: readme.md",
+            "body": "",
+            "date": "2024-11-13T22:05:32Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Installer/commit/ba01158dd29de1760be498cafca4c54be6930a3e"
+        }
+    ]
+}

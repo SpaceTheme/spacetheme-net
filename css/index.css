@@ -1,0 +1,484 @@
+/* Shared base for all subpages (navbar, buttons, pills, layout) */
+
+/* Colors and hover behaviour are taken from the SteamTheme (src/css/root.css) */
+:root {
+    --st-accent-1: 102, 108, 255;
+    --st-accent-2: 135, 140, 255;
+    --st-color-1: 17, 17, 17;
+    --st-color-2: 30, 30, 30;
+    --st-color-3: 20, 20, 20;
+    --st-color-4: 24, 24, 24;
+    --st-color-5: 38, 41, 44;
+    --st-color-6: 38, 38, 41;
+    --st-background: 10, 10, 10;
+    --st-red: 240, 74, 74;
+    --st-red-hover: 242, 99, 99;
+    --st-green: 36, 166, 90;
+    --st-green-hover: 39, 185, 100;
+    --st-blue: 75, 137, 239;
+    --st-blue-hover: 100, 154, 242;
+    --st-yellow: 239, 141, 75;
+    --st-yellow-hover: 239, 141, 75;
+    --st-border-radius: 8px;
+
+    --bg: rgb(var(--st-background));
+    --surface: rgb(var(--st-color-1));
+    --surface-hover: rgb(var(--st-color-3));
+    --card: rgb(var(--st-color-2));
+    --inner: rgb(var(--st-color-3));
+    --inner-hover: rgb(var(--st-color-4));
+    --border: rgb(var(--st-color-5));
+
+    /* Panels (sidebar, tabs, versions, ...) and the entries inside them */
+    --panel: rgb(var(--st-color-2));
+    --panel-item: rgb(var(--st-color-3));
+    --panel-item-hover: rgb(var(--st-color-4));
+
+    --accent: rgb(var(--st-accent-1));
+    --accent-light: rgb(var(--st-accent-2));
+    --accent-soft: rgba(var(--st-accent-1), .2);
+
+    --text: #fff;
+    --text-2: #dddddd;
+    --muted: #aaaaaa;
+    --faint: #666666;
+
+    --radius: var(--st-border-radius);
+    --ease: 0.2s ease-in-out;
+    --shadow: 0px 4px 8px 0px rgb(0 0 0 / 25%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: var(--text);
+    background-color: var(--bg);
+}
+body {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    padding: 0 16px 16px;
+}
+a {
+    text-decoration: none;
+    color: var(--text);
+}
+img {
+    border-radius: var(--radius);
+}
+h1 {
+    font-size: 46px;
+}
+[hidden] {
+    display: none !important;
+}
+
+/* Scrollbar like in the SteamTheme (Chrome, Edge, Safari, Opera) */
+*::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+}
+*::-webkit-scrollbar-track {
+    border-radius: var(--st-border-radius);
+    background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+    border: 5px solid transparent;
+    border-radius: var(--st-border-radius);
+    background-clip: content-box;
+    background-color: rgb(var(--st-accent-1));
+}
+*::-webkit-scrollbar-thumb:hover {
+    border: 4px solid transparent;
+    background-color: rgb(var(--st-accent-2));
+}
+*::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+/* Firefox only knows color + width (always rounded, no hover color).
+   Only for Firefox: in Chrome scrollbar-color would switch off the ::-webkit-scrollbar styles above */
+@supports not selector(::-webkit-scrollbar) {
+    * {
+        scrollbar-color: rgb(var(--st-accent-1)) transparent;
+    }
+}
+
+.icon {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+}
+
+
+
+
+.btn {
+    cursor: pointer;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    border: unset;
+    border-radius: var(--radius);
+    font: inherit;
+    font-weight: 600;
+    color: var(--text);
+    background-color: var(--card);
+    transition: all var(--ease);
+}
+/* Plain buttons keep their background, the text turns accent instead */
+.btn:not(.green):not(.blue):not(.accent):hover {
+    color: var(--accent-light);
+}
+
+/* Install/Play button of the SteamTheme */
+.btn.green {
+    background-color: rgb(var(--st-green));
+}
+.btn.green:hover {
+    background-color: rgb(var(--st-green-hover));
+}
+
+/* Downloads are blue, like the blue buttons of the SteamTheme */
+.btn.blue {
+    background-color: rgb(var(--st-blue));
+}
+.btn.blue:hover {
+    background-color: rgb(var(--st-blue-hover));
+}
+
+/* Icon only buttons (GitHub, website, ...) */
+.icon-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: var(--radius);
+    color: #8e8e8e;
+    background-color: rgb(var(--st-color-1));
+    transition: color var(--ease);
+}
+.icon-link:hover {
+    color: #fff;
+}
+.icon-link .icon {
+    width: 18px;
+    height: 18px;
+}
+
+/* Tabs/filters of the SteamTheme */
+.btn.accent {
+    color: var(--accent);
+    background-color: var(--accent-soft);
+}
+.btn.accent:hover {
+    color: var(--accent-light);
+}
+
+.btn.small {
+    padding: 6px 16px;
+    font-size: 14px;
+    background-color: var(--inner);
+}
+.btn.small:hover {
+    background-color: var(--surface);
+}
+
+.pill {
+    display: inline-flex;
+    gap: 6px;
+    align-items: center;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    border-radius: 100px;
+    color: var(--text);
+    background-color: var(--card);
+    transition: color var(--ease);
+}
+a.pill:hover {
+    color: var(--accent-light);
+}
+.pill b {
+    font-weight: 700;
+}
+
+/* Solid badges like "Native" / "Proton: Platinum" on the SteamTheme store page */
+.badge {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding: 2px 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    white-space: nowrap;
+    border-radius: var(--radius);
+    color: #fff;
+    background-color: rgb(var(--st-color-5));
+}
+.badge.accent,
+.badge.status-featured {
+    background-color: var(--accent);
+}
+.badge.status-finished {
+    background-color: rgb(var(--st-green));
+}
+.badge.status-wip {
+    background-color: rgb(var(--st-yellow));
+}
+.badge.status-broken {
+    background-color: rgb(var(--st-red));
+}
+
+/* Uppercase headers like the sections of the SteamTheme library ("01 | IN PROGRESS (19)") */
+.section-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 12px 2px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: var(--text-2);
+}
+.section-label .count {
+    color: var(--faint);
+}
+
+.tag {
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: var(--radius);
+    color: var(--muted);
+    background-color: var(--inner);
+}
+
+.section-desciption {
+    text-align: center;
+    margin: 0 0 16px 0;
+    font-size: 16px;
+    color: var(--muted);
+}
+
+
+
+
+#navbar {
+    position: relative;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 46px;
+}
+
+#navbar .home-link {
+    display: flex;
+    align-items: center;
+}
+#navbar .logo,
+#navbar .small-logo {
+    height: 20px;
+    border-radius: 0;
+}
+#navbar .small-logo {
+    display: none;
+}
+
+#navbar .nav-pages {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+#navbar .nav-pages a {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#navbar .nav-pages span {
+    font-weight: 600;
+    color: var(--text-2);
+    text-transform: uppercase;
+}
+#navbar .nav-pages span:hover {
+    color: var(--text);
+}
+#navbar .nav-pages a.active span {
+    color: var(--accent);
+}
+#navbar .nav-pages a.active::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    width: 100%;
+    height: 3px;
+    border-radius: 8px;
+    background-color: var(--accent);
+}
+
+.copyright {
+    font-size: 12px;
+    color: var(--faint);
+    font-weight: 500;
+}
+
+
+
+
+#page-content {
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    flex: 1;
+    width: 100%;
+    border-radius: var(--radius);
+    background-color: var(--surface);
+}
+
+.page {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 32px 32px 96px;
+}
+
+.status {
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    display: flex;
+    padding: 12px;
+    border-radius: 100px;
+    background-color: var(--card);
+}
+.status::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: var(--text-2);
+    mask: url("/assets/navStatus.svg") center / contain no-repeat;
+    transition: background-color var(--ease);
+}
+.status:hover::before {
+    background-color: var(--accent-light);
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .page {
+        padding: 24px 24px 96px;
+    }
+}
+
+/* Five nav items need the space on tablets */
+@media screen and (max-width: 900px) {
+    #navbar .copyright {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        padding: 0 8px max(8px, env(safe-area-inset-bottom));
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .section-desciption {
+        font-size: 13px;
+    }
+    .page {
+        padding: 16px 16px 96px;
+    }
+
+    #navbar .logo {
+        display: none;
+    }
+    #navbar .small-logo {
+        display: block;
+    }
+    #navbar .nav-pages span {
+        font-size: 0;
+    }
+    #navbar .nav-pages a::before {
+        content: "";
+        width: 20px;
+        height: 20px;
+        background-color: var(--text-2);
+        mask: var(--nav-icon) center / contain no-repeat;
+    }
+    #navbar .nav-pages a.active::before {
+        background-color: var(--accent);
+    }
+    #navbar .nav-pages a.navThemes { --nav-icon: url("/assets/navThemes.svg"); }
+    #navbar .nav-pages a.navHome { --nav-icon: url("/assets/navHome.svg"); }
+    #navbar .nav-pages a.navCommunity { --nav-icon: url("/assets/navCommunity.svg"); }
+    #navbar .nav-pages a.navArtworks { --nav-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect x='3' y='3' width='7.5' height='10' rx='2'/%3E%3Crect x='13.5' y='3' width='7.5' height='6' rx='2'/%3E%3Crect x='13.5' y='11' width='7.5' height='10' rx='2'/%3E%3Crect x='3' y='15' width='7.5' height='6' rx='2'/%3E%3C/svg%3E"); }
+    #navbar .nav-pages a.navGithub { --nav-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M8 0c4.42 0 8 3.58 8 8a8.01 8.01 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A8 8 0 0 1 0 8c0-4.42 3.58-8 8-8Z'/%3E%3C/svg%3E"); }
+
+    #navbar .nav-pages {
+        gap: 20px;
+    }
+    #navbar .copyright {
+        font-size: 8px;
+    }
+
+    .btn {
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+    .pill {
+        padding: 10px 16px;
+        font-size: 13px;
+    }
+
+    /* No scrollbars on phones, swiping is enough (scrolling itself still works) */
+    *::-webkit-scrollbar {
+        display: none;
+    }
+    * {
+        scrollbar-width: none;
+    }
+
+    /* On scrolling pages the floating button would cover the content */
+    body:not(.home) .status {
+        display: none;
+    }
+    .status {
+        right: 16px;
+        bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #navbar .copyright {
+        display: none;
+    }
+    #navbar .nav-pages {
+        position: static;
+        transform: none;
+        margin-left: auto;
+    }
+}

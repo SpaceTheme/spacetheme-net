@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="/assets/favicon.svg" type="image/x-icon">
+        <title>SpaceTheme - Steam-Custom-Artworks</title>
+
+        <meta name="theme-color" content="#666cff">
+        <meta name="description" content="Download Steam-Custom-Artworks only for the games you own. Enter your Steam profile, pick your games and get a small grid.zip.">
+        <meta name="hostname" content="spacetheme.de">
+
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://spacetheme.de/artworks/">
+        <meta property="og:title" content="SpaceTheme - Steam-Custom-Artworks">
+        <meta property="og:description" content="Download Steam-Custom-Artworks only for the games you own.">
+
+        <link rel="stylesheet" href="/css/index.css">
+        <link rel="stylesheet" href="/css/details.css">
+        <link rel="stylesheet" href="/css/artworks.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navbar" data-component="navbar"></div>
+
+        <main id="page-content">
+            <div class="page artworks">
+
+                <!-- Start: enter the Steam profile -->
+                <section id="start-view" class="start-view">
+                    <div class="start-hero">
+                        <div class="start-text">
+                            <p class="section-label eyebrow">Steam-Custom-Artworks</p>
+                            <h1>Your library,<br><span class="accent">one style.</span></h1>
+                            <p class="start-description">Enter your Steam profile and download the artworks only for the games you own, instead of the complete pack with every game.</p>
+
+                            <form id="steam-form" class="panel steam-form">
+                                <label class="panel-title" for="steam-input">Your Steam profile</label>
+                                <div class="steam-input-row">
+                                    <input id="steam-input" type="text" inputmode="url" autocomplete="off" spellcheck="false"
+                                           placeholder="SteamID64, profile link or custom URL name">
+                                    <button class="btn green" type="submit" id="steam-submit">Load games</button>
+                                </div>
+                                <p class="form-hint">
+                                    e.g. <code>76561198012345678</code>, <code>steamcommunity.com/id/name</code> or just <code>name</code>.
+                                    Your <b>game details</b> have to be public: Steam → Profile → Edit Profile → Privacy Settings.
+                                </p>
+                                <p class="form-error" id="form-error" role="alert" hidden></p>
+                            </form>
+
+                            <div class="summary">
+                                <span class="pill"><b id="artwork-count">–</b> Games with artworks</span>
+                                <span class="pill"><b id="artwork-version">–</b> Latest release</span>
+                            </div>
+                        </div>
+                        <div class="start-preview">
+                            <img src="/assets/steam-custom-artworks.webp" alt="Steam library with Steam-Custom-Artworks">
+                        </div>
+                    </div>
+
+                    <div class="steps">
+                        <div class="step">
+                            <span class="step-number">1</span>
+                            <div>
+                                <h3>Enter your profile</h3>
+                                <p>SteamID, profile link or custom URL. Your game list is only read, nothing gets stored.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">2</span>
+                            <div>
+                                <h3>Pick your games</h3>
+                                <p>All owned games with an artwork are selected, remove the ones you don't want.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">3</span>
+                            <div>
+                                <h3>Download &amp; extract</h3>
+                                <p>You get a small <code>grid.zip</code> with only your artworks, extract it into Steam's grid folder.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="full-pack">
+                        Prefer every artwork? <a href="https://github.com/SpaceTheme/Steam-Custom-Artworks/releases/latest">Download the complete pack</a>
+                        · Missing a game? <a href="https://github.com/SpaceTheme/Steam-Custom-Artworks/issues/new?template=ARTWORK.yml">Request an artwork</a>
+                    </p>
+                </section>
+
+                <!-- Library: pick the games -->
+                <section id="library-view" class="library-view" hidden>
+                    <div class="panel playbar profile-bar">
+                        <button class="back-button" type="button" id="change-profile" title="Change profile" aria-label="Change profile">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5m0 0 6-6m-6 6 6 6"/></svg>
+                        </button>
+                        <a class="profile" id="profile" target="_blank" rel="noopener">
+                            <img class="profile-avatar" id="profile-avatar" alt="">
+                            <div>
+                                <p class="profile-name" id="profile-name"></p>
+                                <p class="play-stat-value" id="profile-id"></p>
+                            </div>
+                        </a>
+                        <div class="play-stat"><div><p class="play-stat-label">Owned games</p><p class="play-stat-value" id="stat-owned">–</p></div></div>
+                        <div class="play-stat"><div><p class="play-stat-label">With artworks</p><p class="play-stat-value" id="stat-available">–</p></div></div>
+                        <div class="play-stat"><div><p class="play-stat-label">Selected</p><p class="play-stat-value" id="stat-selected">–</p></div></div>
+                        <button class="btn blue play-button" id="download-button" type="button" disabled>
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg>
+                            <span id="download-label">Download</span>
+                        </button>
+                    </div>
+
+                    <div class="panel progress-panel" id="progress" hidden>
+                        <div class="progress-text">
+                            <span id="progress-label">Downloading artworks…</span>
+                            <span id="progress-value"></span>
+                        </div>
+                        <div class="progress-bar"><span id="progress-fill"></span></div>
+                    </div>
+
+                    <!-- How to install, above the list so nobody has to scroll down for it -->
+                    <div class="steps install-steps">
+                        <div class="step">
+                            <span class="step-number">1</span>
+                            <div>
+                                <h3>Download</h3>
+                                <p>Pick your games below and click <b>Download</b>. You get a <code>grid.zip</code> with only these artworks.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">2</span>
+                            <div>
+                                <h3>Open your grid folder</h3>
+                                <div class="path-row">
+                                    <code id="grid-path">Steam/userdata/&lt;account-id&gt;/config/grid</code>
+                                    <button class="btn icon-button" type="button" id="copy-path" title="Copy path" aria-label="Copy path">
+                                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></svg>
+                                    </button>
+                                </div>
+                                <p class="path-hint">Inside your Steam folder, create <code>grid</code> if it doesn't exist.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <span class="step-number">3</span>
+                            <div>
+                                <h3>Extract &amp; restart</h3>
+                                <p>Extract <code>grid.zip</code> directly into that folder and restart Steam.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Collection like the Steam library: "All Games (948)  SORT BY Size on Disk" -->
+                    <div class="panel collection">
+                        <div class="collection-header">
+                            <div class="select-wrap collection-filter">
+                                <select id="filter" aria-label="Show games">
+                                    <option value="available">With artworks</option>
+                                    <option value="missing">Without artworks</option>
+                                    <option value="all">All games</option>
+                                </select>
+                            </div>
+                            <span class="sort-label">Sort by</span>
+                            <div class="select-wrap">
+                                <select id="sort" aria-label="Sort games">
+                                    <option value="name">Name</option>
+                                    <option value="size">Artwork size</option>
+                                    <option value="playtime">Play time</option>
+                                </select>
+                            </div>
+                            <span class="collection-line"></span>
+                            <input id="search" type="search" placeholder="Search" aria-label="Search your games">
+                        </div>
+                        <div class="collection-tools">
+                            <div class="type-toggles" id="type-toggles" aria-label="Artwork types"></div>
+                            <div class="select-buttons">
+                                <button class="btn small" type="button" id="select-all">Select all</button>
+                                <button class="btn small" type="button" id="select-none">Select none</button>
+                            </div>
+                        </div>
+                        <div class="game-grid" id="game-grid"></div>
+                        <p class="empty-message" id="empty-message" hidden>No games match your search.</p>
+                    </div>
+
+                </section>
+            </div>
+        </main>
+
+        <a href="https://status.spacetheme.net" class="status" aria-label="Status"></a>
+
+        <script src="/js/components.js"></script>
+        <script src="/js/artworks.js"></script>
+    </body>
+</html>

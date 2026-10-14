@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex">
+
+        <link rel="shortcut icon" href="/assets/favicon.svg" type="image/x-icon">
+        <title>503 Service unavailable - SpaceTheme</title>
+        <meta name="theme-color" content="#666cff">
+
+        <!-- Absolute paths: nginx shows this page for any url, e.g. /themes/foo/bar -->
+        <link rel="stylesheet" href="/css/index.css">
+        <link rel="stylesheet" href="/css/errors.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navbar">
+            <a class="home-link" href="/" aria-label="SpaceTheme Home">
+                <img class="logo" src="/assets/textLogo.svg" alt="SpaceTheme">
+                <img class="small-logo" src="/assets/favicon.svg" alt="SpaceTheme">
+            </a>
+            <div class="nav-pages">
+                <a class="navThemes" href="/themes/"><span>Themes</span></a>
+                <a class="navHome" href="/"><span>Home</span></a>
+                <a class="navArtworks" href="/artworks/"><span>Artworks</span></a>
+                <a class="navCommunity" href="https://discord.spacetheme.net"><span>Community</span></a>
+                <a class="navGithub" href="https://github.com/SpaceTheme"><span>GitHub</span></a>
+            </div>
+            <p class="copyright">© 2024-<span id="year">2026</span> SpaceTheme</p>
+        </div>
+
+        <main id="page-content">
+            <div class="error-page">
+                <div class="error-card server">
+                    <p class="error-code" aria-hidden="true"><span class="bold">503</span></p>
+                    <p class="section-label">Error 503</p>
+                    <h1>Service unavailable</h1>
+                    <p>SpaceTheme is under maintenance or overloaded right now. Please check back soon.</p>
+                    <div class="error-actions">
+                        <a class="btn accent" href="/"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11 12 3l9 8M5 9.5V21h5v-6h4v6h5V9.5"/></svg><span>Home</span></a>
+                        <button class="btn" type="button" data-action="reload"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 4v7h-7"/></svg><span>Try again</span></button>
+                    </div>
+                    <p class="error-hint">Still not working? Check the <a href="https://status.spacetheme.net">status page</a> or let us know on <a href="https://discord.spacetheme.net">Discord</a>.</p>
+                </div>
+            </div>
+        </main>
+
+        <a href="https://status.spacetheme.net" class="status" aria-label="Status"></a>
+
+        <script src="/js/errors.js"></script>
+    </body>
+</html>

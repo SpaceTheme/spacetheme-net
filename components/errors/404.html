@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex">
+
+        <link rel="shortcut icon" href="/assets/favicon.svg" type="image/x-icon">
+        <title>404 Page not found - SpaceTheme</title>
+        <meta name="theme-color" content="#666cff">
+
+        <!-- Absolute paths: nginx shows this page for any url, e.g. /themes/foo/bar -->
+        <link rel="stylesheet" href="/css/index.css">
+        <link rel="stylesheet" href="/css/errors.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navbar">
+            <a class="home-link" href="/" aria-label="SpaceTheme Home">
+                <img class="logo" src="/assets/textLogo.svg" alt="SpaceTheme">
+                <img class="small-logo" src="/assets/favicon.svg" alt="SpaceTheme">
+            </a>
+            <div class="nav-pages">
+                <a class="navThemes" href="/themes/"><span>Themes</span></a>
+                <a class="navHome" href="/"><span>Home</span></a>
+                <a class="navArtworks" href="/artworks/"><span>Artworks</span></a>
+                <a class="navCommunity" href="https://discord.spacetheme.net"><span>Community</span></a>
+                <a class="navGithub" href="https://github.com/SpaceTheme"><span>GitHub</span></a>
+            </div>
+            <p class="copyright">© 2024-<span id="year">2026</span> SpaceTheme</p>
+        </div>
+
+        <main id="page-content">
+            <div class="error-page">
+                <div class="error-card">
+                    <p class="error-code" aria-hidden="true"><span class="bold">404</span></p>
+                    <p class="section-label">Error 404</p>
+                    <h1>Page not found</h1>
+                    <p>This page drifted off into space. It may have been moved, renamed or never existed.</p>
+                    <div class="error-actions">
+                        <a class="btn accent" href="/"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11 12 3l9 8M5 9.5V21h5v-6h4v6h5V9.5"/></svg><span>Home</span></a>
+                        <button class="btn" type="button" data-action="back"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5m0 0 6-6m-6 6 6 6"/></svg><span>Go back</span></button>
+                    </div>
+                    <p class="error-hint">Looking for a theme? <a href="/themes/">Browse all themes</a> or get your <a href="/artworks/">Steam artworks</a>.</p>
+                </div>
+            </div>
+        </main>
+
+        <a href="https://status.spacetheme.net" class="status" aria-label="Status"></a>
+
+        <script src="/js/errors.js"></script>
+    </body>
+</html>

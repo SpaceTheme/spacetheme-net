@@ -1,164 +1,140 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const pageContent = document.getElementById('page-content');
-    const sections = Array.from(document.querySelectorAll('.section'));
-    const navigatorPages = Array.from(document.querySelectorAll('.navigator-page'));
-    const navLinks = Array.from(document.querySelectorAll('.nav-pages a'));
-    let targetIndex = 0;
-    let scrollBlocked = false;
+    const track = document.getElementById('sections');
+    const sections = Array.from(track.querySelectorAll('.section'));
+    const navigator = document.getElementById('navigator');
+    const SCROLL_LOCK = 800; // ms, a bit longer than the slide transition
+    let current = 0;
+    let locked = false;
 
-    function resizeSections() {
-        const width = pageContent.offsetWidth;
-        sections.forEach(section => {
-            section.style.minWidth = width + 'px';
-            section.style.width = width + 'px';
-        });
-    }
-    window.addEventListener('resize', resizeSections);
-    resizeSections();
+    const dots = sections.map((section, i) => {
+        const dot = document.createElement('button');
+        dot.setAttribute('aria-label', section.querySelector('h1')?.textContent.trim() || 'Home');
+        dot.addEventListener('click', () => goTo(i));
+        navigator.appendChild(dot);
+        return dot;
+    });
 
-    function scrollToSection(index) {
-        pageContent.scrollTo({
-            left: index * pageContent.offsetWidth,
-            behavior: 'smooth'
-        });
-        setActiveNavigator(index);
-    }
+    // Only the content slides, the background video stays in place
+    function goTo(index, animate = true) {
+        index = Math.max(0, Math.min(sections.length - 1, index));
+        if (index === current && animate) return;
+        current = index;
 
-    function setActiveNavigator(index) {
-        navigatorPages.forEach((el, i) => {
-            el.classList.toggle('active', i === index);
-        });
-    }
-
-    pageContent.addEventListener('wheel', function(e) {
-        if (scrollBlocked) return;
-        if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
-            e.preventDefault();
-
-            const sectionWidth = pageContent.offsetWidth;
-            const scrollLeft = pageContent.scrollLeft;
-            const currentIndex = Math.round(scrollLeft / sectionWidth);
-
-            let nextIndex = currentIndex;
-            if (e.deltaY > 0 && currentIndex < sections.length - 1) {
-                nextIndex++;
-            } else if (e.deltaY < 0 && currentIndex > 0) {
-                nextIndex--;
-            }
-
-            if (nextIndex !== currentIndex) {
-                targetIndex = nextIndex;
-                scrollToSection(targetIndex);
-                scrollBlocked = true;
-                setTimeout(() => {
-                    scrollBlocked = false;
-                }, 700); // Timeout in ms
-            }
+        track.style.transition = animate ? '' : 'none';
+        track.style.transform = `translateX(-${index * 100}%)`;
+        if (!animate) {
+            void track.offsetWidth; // apply the position before the transition comes back
+            track.style.transition = '';
         }
+        dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
+        sections.forEach((section, i) => section.inert = i !== index);
+        history.replaceState(null, '', index ? `#${sections[index].id}` : location.pathname);
+
+        if (animate) {
+            locked = true;
+            setTimeout(() => locked = false, SCROLL_LOCK);
+        }
+    }
+
+    // A section (or the supporter list) with its own scrollbar scrolls first
+    function canScroll(target, deltaY) {
+        for (let el = target; el && el !== track; el = el.parentElement) {
+            const style = getComputedStyle(el);
+            if (!/(auto|scroll)/.test(style.overflowY) || el.scrollHeight <= el.clientHeight) continue;
+            if (deltaY > 0 && Math.ceil(el.scrollTop + el.clientHeight) < el.scrollHeight) return true;
+            if (deltaY < 0 && el.scrollTop > 0) return true;
+        }
+        return false;
+    }
+
+    track.addEventListener('wheel', e => {
+        const delta = Math.abs(e.deltaY) > Math.abs(e.deltaX) ? e.deltaY : e.deltaX;
+        if (canScroll(e.target, e.deltaY) && Math.abs(e.deltaY) > Math.abs(e.deltaX)) return;
+        e.preventDefault();
+        if (locked || Math.abs(delta) < 4) return;
+        goTo(current + (delta > 0 ? 1 : -1));
     }, { passive: false });
 
-    setActiveNavigator(0);
-
-    pageContent.addEventListener('scroll', function() {
-        if (scrollBlocked) return;
-        const sectionWidth = pageContent.offsetWidth;
-        const scrollLeft = pageContent.scrollLeft;
-        const currentIndex = Math.round(scrollLeft / sectionWidth);
-        setActiveNavigator(currentIndex);
+    let touchStart = null;
+    track.addEventListener('touchstart', e => {
+        if (e.touches.length === 1) touchStart = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+    }, { passive: true });
+    track.addEventListener('touchend', e => {
+        if (!touchStart || locked) return;
+        const dx = e.changedTouches[0].clientX - touchStart.x;
+        const dy = e.changedTouches[0].clientY - touchStart.y;
+        touchStart = null;
+        // Horizontal swipes only, vertical swipes scroll inside the section
+        if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.2) goTo(current + (dx < 0 ? 1 : -1));
     });
 
-    navigatorPages.forEach((el, i) => {
-        el.addEventListener('click', () => {
-            if (scrollBlocked) return;
-            targetIndex = i;
-            scrollToSection(targetIndex);
-            scrollBlocked = true;
-            setTimeout(() => {
-                scrollBlocked = false;
-            }, 700);
-        });
+    document.addEventListener('keydown', e => {
+        if (locked || e.target.closest('input, textarea')) return;
+        if (e.key === 'ArrowRight' || e.key === 'PageDown') goTo(current + 1);
+        else if (e.key === 'ArrowLeft' || e.key === 'PageUp') goTo(current - 1);
     });
 
-    fetch('assets/data/supporter.json')
+    // Older browsers without overflow: clip scroll the container on #hash links
+    const pageContent = document.getElementById('page-content');
+    pageContent.addEventListener('scroll', () => pageContent.scrollLeft = pageContent.scrollTop = 0);
+
+    const fromHash = sections.findIndex(section => `#${section.id}` === location.hash);
+    current = -1;
+    goTo(Math.max(fromHash, 0), false);
+
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        document.querySelector('.page-background')?.pause();
+    }
+
+
+
+
+    function escapeHtml(value) {
+        return String(value).replace(/[&<>"']/g, char => `&#${char.charCodeAt(0)};`);
+    }
+
+    // One row like in the friends list of the SteamTheme, the newest supporter is highlighted
+    function renderUser(user, index, users) {
+        const name = escapeHtml(user.name);
+        const latest = index === users.length - 1;
+        return `
+            <div class="user${latest ? ' latest' : ''}" title="${name}">
+                <img src="${escapeHtml(user.image)}" alt="" loading="lazy">
+                <div class="user-text">
+                    <span class="name">${name}</span>
+                    <span class="user-meta">${latest ? 'Newest supporter' : `Supporter #${index + 1}`}</span>
+                </div>
+            </div>`;
+    }
+
+    // The list keeps the order of supporter.json, the Ko-fi workflow appends new supporters at the end
+    fetch('data/supporter.json', { cache: 'no-cache' })
         .then(response => response.json())
         .then(data => {
-            const supporterList = document.getElementById('supporter-list');
-            data.users.forEach(user => {
-                const userDiv = document.createElement('div');
-                userDiv.className = 'user' + (user.member ? ' member' : '');
-                userDiv.innerHTML = `
-                    <img src="${user.image}" alt="${user.name}">
-                    <span class="name">${user.name}</span>
-                `;
-                supporterList.appendChild(userDiv);
-            });
+            const users = data.users;
+            document.getElementById('supporter-list').innerHTML = users.map(renderUser).join('');
+            document.getElementById('supporter-count').textContent = users.length;
+            document.getElementById('wall-count').textContent = users.length;
+            document.getElementById('supporter-group').hidden = !users.length;
+
+            const latest = users[users.length - 1];
+            if (latest) {
+                document.getElementById('latest-avatar').src = latest.image;
+                document.getElementById('latest-name').textContent = latest.name;
+                document.getElementById('latest-supporter').hidden = false;
+            }
         });
 
-    fetch('assets/data/downloads.json')
-        .then(response => response.json())
-        .then(data => {
-            const values = {};
-            data.themes.forEach(theme => {
-                const val = parseInt(theme.value) || 0;
-                values[theme.name] = val;
-            });
-
-            function formatNumber(n) {
-                const num = Number(n);
-                return Number.isFinite(num) ? num.toLocaleString('en-US') : String(n);
-            }
-
-            const replacements = {
-                '${downloads}': formatNumber(data.total_downloads || '0')
-            };
-            Object.keys(values).forEach(name => {
-                replacements[`$\{downloads_${name}\}`] = values[name].toString();
-            });
-
-            function replaceTextNodes(node) {
-                if (node.nodeType === Node.TEXT_NODE) {
-                    let txt = node.textContent;
-                    Object.entries(replacements).forEach(([key, value]) => {
-                        txt = txt.replaceAll(key, value);
-                    });
-                    node.textContent = txt;
-                } else {
-                    node.childNodes.forEach(replaceTextNodes);
-                }
-            }
-            replaceTextNodes(document.body);
+    // <b data-stat="total_downloads">, data-stat="themes.installer.version", ... (numbers get formatted)
+    Promise.all([
+        fetch('data/stats.json', { cache: 'no-cache' }).then(response => response.json()),
+        fetch('data/themes.json', { cache: 'no-cache' }).then(response => response.json()).catch(() => [])
+    ]).then(([data, themes]) => {
+        data.theme_count = themes.filter(theme => !theme.hidden).length || null;
+        document.querySelectorAll('[data-stat]').forEach(el => {
+            const value = el.dataset.stat.split('.').reduce((obj, key) => obj?.[key], data);
+            const num = typeof value === 'number' ? value : Number.NaN;
+            el.textContent = Number.isFinite(num) ? num.toLocaleString('en-US') : value || '–';
         });
-
-    let touchStartX = null;
-    pageContent.addEventListener('touchstart', function(e) {
-        if (e.touches.length === 1) {
-            touchStartX = e.touches[0].clientX;
-        }
-    });
-
-    pageContent.addEventListener('touchend', function(e) {
-        if (touchStartX === null || scrollBlocked) return;
-        const touchEndX = e.changedTouches[0].clientX;
-        const deltaX = touchEndX - touchStartX;
-        const sectionWidth = pageContent.offsetWidth;
-        const scrollLeft = pageContent.scrollLeft;
-        const currentIndex = Math.round(scrollLeft / sectionWidth);
-
-        let nextIndex = currentIndex;
-        if (deltaX < -50 && currentIndex < sections.length - 1) {
-            nextIndex++;
-        } else if (deltaX > 50 && currentIndex > 0) {
-            nextIndex--;
-        }
-
-        if (nextIndex !== currentIndex) {
-            targetIndex = nextIndex;
-            scrollToSection(targetIndex);
-            scrollBlocked = true;
-            setTimeout(() => {
-                scrollBlocked = false;
-            }, 700);
-        }
-        touchStartX = null;
     });
 });

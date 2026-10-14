@@ -6,93 +6,153 @@
 
         <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
         <title>SpaceTheme</title>
-        
+
         <meta name="theme-color" content="#666cff">
-        <meta name='description' content="Themes with a dark aesthetic and modular-inspired look, offering clarity, flexibility, and an enhanced user experience.">
+        <meta name="description" content="Themes with a dark, modular design for Steam, Discord, Grub and more, plus matching Steam artworks and an installer that sets everything up for you.">
         <meta name="hostname" content="spacetheme.de">
-        
-        <meta name='og:url' content="https://spacetheme.de">
-        <meta name='og:title' content="SpaceTheme - Home">
-        <meta name='og:description' content="Themes with a dark aesthetic and modular-inspired look, offering clarity, flexibility, and an enhanced user experience.">
-        
+
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://spacetheme.de">
+        <meta property="og:title" content="SpaceTheme - Home">
+        <meta property="og:description" content="Themes with a dark, modular design for Steam, Discord, Grub and more, plus matching Steam artworks and an installer that sets everything up for you.">
+
+        <link rel="stylesheet" href="/css/index.css">
         <link rel="stylesheet" href="index.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
-    <body>
+    <body class="home">
         <div id="navbar">
-            <img class="logo" src="assets/textLogo.svg" alt="Logo">
-            <img class="small-logo" src="assets/favicon.svg" alt="Logo">
+            <a class="home-link" href="/" aria-label="SpaceTheme Home">
+                <img class="logo" src="assets/textLogo.svg" alt="SpaceTheme">
+                <img class="small-logo" src="assets/favicon.svg" alt="SpaceTheme">
+            </a>
             <div class="nav-pages">
-                <a class="navThemes" href="/themes"><span>Themes</span></a>
+                <a class="navThemes" href="/themes/"><span>Themes</span></a>
                 <a class="navHome active" href="/"><span>Home</span></a>
+                <a class="navArtworks" href="/artworks/"><span>Artworks</span></a>
                 <a class="navCommunity" href="https://discord.spacetheme.net"><span>Community</span></a>
                 <a class="navGithub" href="https://github.com/SpaceTheme"><span>GitHub</span></a>
             </div>
             <p class="copyright">© 2024-2026 SpaceTheme</p>
         </div>
 
-        <div id="page-content">
-            <div id="landing" class="section">
-                <div class="title">
-                    <img src="assets/textLogo.svg" alt="">
-                    <span>made by <a href="https://spaceenergy.github.io"><span class="author-space">Space<span class="author-energy">Energy</span></span></a></span>
-                    <span class="downloads"><b>${downloads}</b> Downloads</span>
-                </div>
-                <video class="landing-background" src="assets/intro.webm" muted autoplay loop></video>
-            </div>
-            <div id="themes" class="section">
-                <img src="assets/themes.webp" alt="">
-                <div class="info">
-                    <h1>Themes</h1>
-                    <p class="section-desciption">Themes with a modern dark aesthetic and modular design. The clean layout improves clarity and navigation, while flexible customization ensures a personalized look that enhances both style and usability.</p>
-                </div>
-                <a href="/themes" class="btn">
-                    <span>Show Themes</span>
-                </a>
-            </div>
-            <div id="steam-custom-artworks" class="section">
-                <img src="assets/steam-custom-artworks.webp" alt="">
-                <div class="info">
-                    <h1>Steam-Custom-Artworks</h1>
-                    <p class="section-desciption">Steam-Custom-Artworks is a set of custom game covers for your Steam library, all in one unified style. Unlike SteamGridDB’s varied designs, this project ensures clean, polished, and consistent artwork across your entire collection.</p>
-                </div>
-                <a href="https://github.com/SpaceTheme/Steam-Custom-Artworks" class="btn">
-                    <span>Get Artworks</span>
-                </a>
-            </div>
-            <div id="installer" class="section">
-                <img src="assets/installer.svg" alt="">
-                <div class="info">
-                    <h1>Installer</h1>
-                    <p class="section-desciption">GUI/CLI installation tool that automates the installation, removal and maintenance of SpaceTheme themes.</p>
-                </div>
-                <a href="https://github.com/SpaceTheme/Installer" class="btn">
-                    <span>Get Installer</span>
-                </a>
-            </div>
-            <div id="supporter" class="section">
-                <h1>Project Supporter ❤️</h1>
-                <p class="section-desciption">These are the users who supported this project via ko-fi.</p>
-                <div id="supporter-list"></div>
-                <a href="https://kofi.spacetheme.net" class="btn">
-                    <img src="assets/kofi.svg" alt="">
-                    <span>Support on Kofi</span>
-                </a>
-            </div>
-        </div>
-        
-        <div id="navigator">
-            <div class="navigator-page"></div>
-            <div class="navigator-page"></div>
-            <div class="navigator-page"></div>
-            <div class="navigator-page"></div>
-            <div class="navigator-page"></div>
-        </div>
+        <main id="page-content">
+            <video class="page-background" src="assets/intro.webm" muted autoplay loop playsinline></video>
+            <div class="page-shade"></div>
 
-        <a href="https://status.spacetheme.net" class="status"></a>
+            <div id="sections">
+                <section id="landing" class="section">
+                    <div class="section-inner title">
+                        <img class="title-logo" src="assets/textLogo.svg" alt="SpaceTheme">
+                        <span class="author">made by <a href="https://spaceenergy.github.io"><span class="author-space">Space<span class="author-energy">Energy</span></span></a></span>
+                        <div class="summary">
+                            <span class="pill"><b data-stat="total_downloads">–</b> Downloads</span>
+                            <span class="pill"><b data-stat="total_stars">–</b> Stars</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="themes" class="section feature">
+                    <div class="section-inner">
+                        <div class="feature-media">
+                            <img src="assets/themes.webp" alt="Preview of the SpaceTheme themes">
+                        </div>
+                        <div class="info">
+                            <p class="section-label eyebrow">01 | Themes</p>
+                            <h1>Themes</h1>
+                            <p class="section-desciption">Themes with a dark, modular design for Steam, Discord, Grub and more. The clean layout makes everything easier to navigate, and most themes can be customized to fit your setup.</p>
+                            <div class="home-bar">
+                                <a href="/themes/" class="btn accent feature-button"><span>Browse Themes</span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></a>
+                                <div class="bar-stat"><b data-stat="theme_count">–</b><span>Themes</span></div>
+                                <div class="bar-stat"><b data-stat="total_downloads">–</b><span>Downloads</span></div>
+                                <div class="bar-stat"><b data-stat="total_stars">–</b><span>Stars</span></div>
+                                <a class="icon-link bar-link" href="https://github.com/SpaceTheme" title="View on GitHub" aria-label="View on GitHub"><svg class="icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0c4.42 0 8 3.58 8 8a8.01 8.01 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A8 8 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="steam-custom-artworks" class="section feature reverse">
+                    <div class="section-inner">
+                        <div class="feature-media">
+                            <img src="assets/steam-custom-artworks.webp" alt="Preview of the Steam-Custom-Artworks">
+                        </div>
+                        <div class="info">
+                            <p class="section-label eyebrow">02 | Artworks</p>
+                            <h1>Steam-Custom-Artworks</h1>
+                            <p class="section-desciption">A collection of custom covers, banners, heroes and logos for your Steam library, all made in the same style. Unlike SteamGridDB, where every artwork looks different, this keeps your whole library clean and consistent.</p>
+                            <div class="home-bar">
+                                <a href="/artworks/" class="btn green feature-button"><span>Get Artworks</span><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></a>
+                                <div class="bar-stat"><b data-stat="themes.steam-custom-artworks.version">–</b><span>Latest release</span></div>
+                                <div class="bar-stat"><b data-stat="themes.steam-custom-artworks.downloads">–</b><span>Downloads</span></div>
+                                <div class="bar-stat"><b data-stat="themes.steam-custom-artworks.stars">–</b><span>Stars</span></div>
+                                <a class="icon-link bar-link" href="https://github.com/SpaceTheme/Steam-Custom-Artworks" title="View on GitHub" aria-label="View on GitHub"><svg class="icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0c4.42 0 8 3.58 8 8a8.01 8.01 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A8 8 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="installer" class="section feature">
+                    <div class="section-inner">
+                        <div class="feature-media">
+                            <img src="assets/installer.svg" alt="Preview of the SpaceTheme installer">
+                        </div>
+                        <div class="info">
+                            <p class="section-label eyebrow">03 | Installer</p>
+                            <h1>Installer</h1>
+                            <p class="section-desciption">GUI/CLI tool that installs, updates and removes SpaceTheme themes for you, without having to find the right folders yourself.</p>
+                            <div class="home-bar">
+                                <a href="https://github.com/SpaceTheme/Installer/releases/latest" class="btn blue feature-button"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0-5-5m5 5 5-5M5 21h14"/></svg><span>Download</span></a>
+                                <div class="bar-stat"><b data-stat="themes.installer.version">–</b><span>Version</span></div>
+                                <div class="bar-stat"><b data-stat="themes.installer.downloads">–</b><span>Downloads</span></div>
+                                <div class="bar-stat"><b data-stat="themes.installer.stars">–</b><span>Stars</span></div>
+                                <a class="icon-link bar-link" href="https://github.com/SpaceTheme/Installer" title="View on GitHub" aria-label="View on GitHub"><svg class="icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0c4.42 0 8 3.58 8 8a8.01 8.01 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A8 8 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="supporter" class="section">
+                    <div class="section-inner supporter-inner">
+                        <div class="supporter-intro">
+                            <p class="section-label eyebrow">04 | Supporter</p>
+                            <h1>Made possible<br>by <span class="accent">you</span> ❤️</h1>
+                            <p class="section-desciption">SpaceTheme is free and open source. These people keep it alive by supporting the project on Ko-fi - thank you!</p>
+
+                            <div class="home-bar">
+                                <div class="bar-stat"><b id="supporter-count">–</b><span>Supporters</span></div>
+                                <div class="bar-stat latest" id="latest-supporter" hidden>
+                                    <img id="latest-avatar" alt="">
+                                    <div><b id="latest-name"></b><span>Latest supporter</span></div>
+                                </div>
+                            </div>
+
+                            <a href="https://kofi.spacetheme.net" class="kofi-cta">
+                                <span class="kofi-icon"><img src="assets/kofi.svg" alt=""></span>
+                                <span class="kofi-text">
+                                    <b>Support SpaceTheme on Ko-fi</b>
+                                    <small>Every support helps to keep the themes free and updated</small>
+                                </span>
+                                <svg class="kofi-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>
+                            </a>
+                        </div>
+
+                        <!-- Like the friends list of the SteamTheme: "SUPPORTERS — 21" -->
+                        <div class="supporter-wall" id="supporter-group" hidden>
+                            <p class="wall-title">Supporters <span class="wall-count" id="wall-count"></span></p>
+                            <div id="supporter-list" class="supporter-list"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <nav id="navigator" aria-label="Sections"></nav>
+        </main>
+
+        <a href="https://status.spacetheme.net" class="status" aria-label="Status"></a>
 
         <script src="index.js"></script>
     </body>

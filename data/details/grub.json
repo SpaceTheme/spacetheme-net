@@ -1,0 +1,198 @@
+{
+    "readme": "<div id=\"readme\" class=\"md\" data-path=\"README.md\"><article class=\"markdown-body entry-content container-lg\" itemprop=\"text\"><div align=\"center\" dir=\"auto\">\n<div class=\"markdown-heading\" dir=\"auto\"><h3 class=\"heading-element\" dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Grub/main/.github/assets/logo.png\"><img height=\"52px\" src=\"https://raw.githubusercontent.com/SpaceTheme/Grub/main/.github/assets/logo.png\" style=\"max-width: 100%; height: auto; max-height: 52px;\"></a></h3><a id=\"\" class=\"anchor\" aria-label=\"Permalink: \" href=\"#\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://camo.githubusercontent.com/8065b68d8813253a3fec5fac9ccb2652a0c9fd29ac7041d56ad702f2ee90b904/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f53706163655468656d653f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6162656c436f6c6f723d25323331313131313126636f6c6f723d253233316531653165\"><img src=\"https://camo.githubusercontent.com/8065b68d8813253a3fec5fac9ccb2652a0c9fd29ac7041d56ad702f2ee90b904/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f53706163655468656d653f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6162656c436f6c6f723d25323331313131313126636f6c6f723d253233316531653165\" alt=\"GitHub Org's stars\" data-canonical-src=\"https://img.shields.io/github/stars/SpaceTheme?style=for-the-badge&amp;logo=github&amp;labelColor=%23111111&amp;color=%231e1e1e\" style=\"max-width: 100%;\"></a>\n<a href=\"https://discord.spacetheme.net\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/875703d58fe863bac2bc0fdfe8033ac2f691fd5290177560a861198dc2657e48/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f313130343531363035303533373638353134343f7374796c653d666f722d7468652d6261646765266c6f676f3d646973636f7264266c6f676f436f6c6f723d253233666666266c6162656c436f6c6f723d25323335383635663226636f6c6f723d253233353836356632\" alt=\"Discord\" data-canonical-src=\"https://img.shields.io/discord/1104516050537685144?style=for-the-badge&amp;logo=discord&amp;logoColor=%23fff&amp;labelColor=%235865f2&amp;color=%235865f2\" style=\"max-width: 100%;\"></a>\n<a href=\"https://kofi.spacetheme.net\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/140c5137021b05a90f1991093c5806ddb77ba0b17beea7e85818b23333fbe4d1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6b6f66692d6461726b3f7374796c653d666f722d7468652d6261646765266c6f676f3d6b6f6669266c6f676f436f6c6f723d253233666666266c6162656c436f6c6f723d25323366663565356226636f6c6f723d253233666635653562\" alt=\"KoFi\" data-canonical-src=\"https://img.shields.io/badge/kofi-dark?style=for-the-badge&amp;logo=kofi&amp;logoColor=%23fff&amp;labelColor=%23ff5e5b&amp;color=%23ff5e5b\" style=\"max-width: 100%;\"></a>\n<a href=\"https://spacetheme.net\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/c976902aa8d9f6181aac17c1eaa0d1d6b074363696b8773e999f1a01bd75f178/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f776562736974652d6261636b3f7374796c653d666f722d7468652d6261646765266c6f676f3d676f6f676c656368726f6d65266c6f676f436f6c6f723d253233666666666666266c6162656c436f6c6f723d25323331313131313126636f6c6f723d253233313131313131\" alt=\"Website\" data-canonical-src=\"https://img.shields.io/badge/website-back?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=%23ffffff&amp;labelColor=%23111111&amp;color=%23111111\" style=\"max-width: 100%;\"></a></p>\n<hr>\n</div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Grub/main/.github/assets/preview.png\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Grub/main/.github/assets/preview.png\" alt=\"Preview\" style=\"max-width: 100%;\"></a></p>\n<div class=\"markdown-heading\" dir=\"auto\"><h2 class=\"heading-element\" dir=\"auto\">Installation</h2><a id=\"user-content-installation\" class=\"anchor\" aria-label=\"Permalink: Installation\" href=\"#installation\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<ol dir=\"auto\">\n<li>Install the source code of the repo</li>\n<li>Run the <code>install.sh</code> script.</li>\n</ol>\n<p dir=\"auto\"><strong>Voilà! Enjoy the new look of your Grub!</strong></p>\n</article></div>",
+    "releases": [
+        {
+            "tag": "v1.0.1",
+            "name": "v1.0.1",
+            "date": "2025-10-26T21:02:34Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Grub/releases/tag/v1.0.1",
+            "downloads": 0,
+            "body": "<h2>Added distro icons</h2>\n<ul>\n<li>Arch/Archlinux</li>\n<li>Linux Mint</li>\n<li>Redhat</li>\n<li>Tails</li>\n<li>uefi</li>\n</ul>",
+            "assets": []
+        },
+        {
+            "tag": "v1.0.0",
+            "name": "v1.0.0",
+            "date": "2025-10-26T20:58:02Z",
+            "prerelease": false,
+            "url": "https://github.com/SpaceTheme/Grub/releases/tag/v1.0.0",
+            "downloads": 0,
+            "body": "<p>Create theme</p>",
+            "assets": []
+        }
+    ],
+    "commits": [
+        {
+            "sha": "607bfde",
+            "title": "Update LICENSE",
+            "body": "",
+            "date": "2026-01-04T21:09:44Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/607bfdeef9f7ffb39a814089cfceba8a685a934a"
+        },
+        {
+            "sha": "e68f84e",
+            "title": "change: theme.txt version",
+            "body": "",
+            "date": "2025-10-26T21:02:19Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/e68f84ef1ceaaa61eeee1d42850ad95494c5f70e"
+        },
+        {
+            "sha": "d4a0c3e",
+            "title": "fix: spacing in theme.txt",
+            "body": "",
+            "date": "2025-10-26T21:02:14Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/d4a0c3e9da58aba9bc17136e5447d7be4e976213"
+        },
+        {
+            "sha": "4113b4a",
+            "title": "add: uefi",
+            "body": "",
+            "date": "2025-10-26T21:01:35Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/4113b4a2d1d55a0053a676865a1285ebaff59a0a"
+        },
+        {
+            "sha": "f3e4dbc",
+            "title": "add: tails",
+            "body": "",
+            "date": "2025-10-26T21:01:27Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/f3e4dbcf9f73d5474ed4a390854abab5fa1d5f9e"
+        },
+        {
+            "sha": "6991f1e",
+            "title": "add: redhat",
+            "body": "",
+            "date": "2025-10-26T21:01:22Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/6991f1ecbbd2723c67a43bd57145ec1783bd3ab9"
+        },
+        {
+            "sha": "d5355a2",
+            "title": "remove: poweroff",
+            "body": "",
+            "date": "2025-10-26T21:01:15Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/d5355a22441626db95b45de53d6acaba76c1a575"
+        },
+        {
+            "sha": "dbe677a",
+            "title": "add: linux mint",
+            "body": "",
+            "date": "2025-10-26T21:01:02Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/dbe677ae2c348db5ad2466d4332665deb139761b"
+        },
+        {
+            "sha": "08f5cf7",
+            "title": "add: arch linux icons",
+            "body": "",
+            "date": "2025-10-26T21:00:38Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/08f5cf7df1bcde95ddb9b4064309a1cccc40d503"
+        },
+        {
+            "sha": "4cbb0f4",
+            "title": "readme: fix typo",
+            "body": "",
+            "date": "2025-10-26T20:20:59Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/4cbb0f4f456e7abb6f474c79baf0b92555022a0f"
+        },
+        {
+            "sha": "9c3be5c",
+            "title": "readme: installation guide",
+            "body": "",
+            "date": "2025-10-26T20:19:55Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/9c3be5ce4da3b78b379b7a071ec2262d393bcb7a"
+        },
+        {
+            "sha": "bb5689d",
+            "title": "readme: rename file",
+            "body": "",
+            "date": "2025-10-26T20:07:15Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/bb5689d10113935adb4b396e9e20d73de9d3863e"
+        },
+        {
+            "sha": "11ac1aa",
+            "title": "add: install script",
+            "body": "",
+            "date": "2025-10-26T20:04:01Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/11ac1aa7fc6c44fd54662a53022bb28fdf3f524e"
+        },
+        {
+            "sha": "86f9223",
+            "title": "Update readme.md",
+            "body": "",
+            "date": "2025-10-26T17:21:56Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/86f9223a4506982b1e6cd356ab5ff69c7567af81"
+        },
+        {
+            "sha": "67c77f0",
+            "title": "add: theme files",
+            "body": "",
+            "date": "2025-10-26T17:17:57Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/67c77f0f9e0aec8167eee3314a3fb06ca87ad028"
+        },
+        {
+            "sha": "78ab6c0",
+            "title": "add: issue_template",
+            "body": "",
+            "date": "2025-10-26T17:17:46Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/78ab6c01f6d56bd2e382ab9903dd932fb6b3e2e8"
+        },
+        {
+            "sha": "480eb45",
+            "title": "readme: added images",
+            "body": "",
+            "date": "2025-10-26T17:17:24Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/480eb452af476d197efe0818714b5ca2976127b5"
+        },
+        {
+            "sha": "c89b8e3",
+            "title": "Create readme.md",
+            "body": "",
+            "date": "2025-10-26T17:16:02Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/c89b8e356149ec86865aecdd5e2e018c18b7ae38"
+        },
+        {
+            "sha": "84c1d88",
+            "title": "Create LICENSE",
+            "body": "",
+            "date": "2025-10-26T17:15:50Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Grub/commit/84c1d883106ad777f6c2f70bcb4a52200b881b8e"
+        }
+    ]
+}

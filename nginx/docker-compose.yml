@@ -1,0 +1,59 @@
+# SpaceTheme website on nginx + API proxy + Ko-fi relay + automatic updates from GitHub.
+#
+# Keys go into nginx/.env (ignored by git):
+#   STEAM_API_KEY=...            https://steamcommunity.com/dev/apikey
+#   KOFI_GITHUB_TOKEN=...        fine-grained token, repo spacetheme-net, "Contents: Read and write"
+#   KOFI_VERIFICATION_TOKEN=...  Ko-fi -> Settings -> API -> Webhooks (same as the GitHub secret, required)
+#   SPACETHEME_PORT=8090         optional, port of the website
+#   PUID=1000 / PGID=1000        optional, owner of the repo files on the NAS (id -u / id -g)
+#
+# Local test:   docker compose -f nginx/docker-compose.yml up -d
+# NAS (pulls every push from GitHub automatically):
+#               docker compose -f nginx/docker-compose.yml --profile auto-update up -d
+# Ko-fi webhook URL: https://<your-domain>/api/kofi/webhook
+#
+# Everything is read from the repo folder, so after an update new pages, data and even
+# nginx/site.conf + api.conf changes are live without restarting anything.
+
+services:
+  spacetheme:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    ports:
+      - "${SPACETHEME_PORT:-8090}:80"
+    environment:
+      STEAM_API_KEY: ${STEAM_API_KEY:?Set STEAM_API_KEY in nginx/.env}
+    command: ["sh", "/usr/share/nginx/html/nginx/start.sh"]
+    security_opt: ["no-new-privileges:true"]
+    volumes:
+      - ..:/usr/share/nginx/html:ro
+
+  # Ko-fi webhook -> GitHub workflow that adds new supporters (restarts itself when the script changes)
+  kofi-relay:
+    image: node:22-alpine
+    restart: unless-stopped
+    command: ["node", "--watch", "/repo/nginx/kofi-relay.mjs"]
+    user: node
+    security_opt: ["no-new-privileges:true"]
+    environment:
+      GITHUB_TOKEN: ${KOFI_GITHUB_TOKEN:-}
+      KOFI_VERIFICATION_TOKEN: ${KOFI_VERIFICATION_TOKEN:-}
+      GITHUB_REPO: SpaceTheme/spacetheme-net
+    volumes:
+      - ..:/repo:ro
+
+  # git pull every 2 minutes - only with --profile auto-update (on the NAS, not on your dev machine)
+  updater:
+    image: alpine:3.20
+    restart: unless-stopped
+    profiles: ["auto-update"]
+    security_opt: ["no-new-privileges:true"]
+    environment:
+      UPDATE_INTERVAL: 120
+      HOME: /tmp
+    # git runs as the owner of the repo, so the files on the NAS keep the right owner
+    command: >
+      sh -c "apk add --no-cache git su-exec >/dev/null
+      && exec su-exec ${PUID:-1000}:${PGID:-1000} sh /repo/nginx/update.sh --loop"
+    volumes:
+      - ..:/repo

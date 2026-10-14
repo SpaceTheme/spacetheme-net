@@ -1,0 +1,91 @@
+{
+    "readme": "<div id=\"readme\" class=\"md\" data-path=\"README.md\"><article class=\"markdown-body entry-content container-lg\" itemprop=\"text\"><div align=\"center\" dir=\"auto\">\n<div class=\"markdown-heading\" dir=\"auto\"><h3 class=\"heading-element\" dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Userstyles/main/.github/assets/logo.webp\"><img height=\"52px\" src=\"https://raw.githubusercontent.com/SpaceTheme/Userstyles/main/.github/assets/logo.webp\" style=\"max-width: 100%; height: auto; max-height: 52px;\"></a></h3><a id=\"\" class=\"anchor\" aria-label=\"Permalink: \" href=\"#\"><svg data-component=\"Octicon\" class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a></div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://camo.githubusercontent.com/8065b68d8813253a3fec5fac9ccb2652a0c9fd29ac7041d56ad702f2ee90b904/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f53706163655468656d653f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6162656c436f6c6f723d25323331313131313126636f6c6f723d253233316531653165\"><img src=\"https://camo.githubusercontent.com/8065b68d8813253a3fec5fac9ccb2652a0c9fd29ac7041d56ad702f2ee90b904/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f53706163655468656d653f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6162656c436f6c6f723d25323331313131313126636f6c6f723d253233316531653165\" alt=\"GitHub Org's stars\" data-canonical-src=\"https://img.shields.io/github/stars/SpaceTheme?style=for-the-badge&amp;logo=github&amp;labelColor=%23111111&amp;color=%231e1e1e\" style=\"max-width: 100%;\"></a>\n<a href=\"https://discord.spacetheme.net\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/875703d58fe863bac2bc0fdfe8033ac2f691fd5290177560a861198dc2657e48/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f313130343531363035303533373638353134343f7374796c653d666f722d7468652d6261646765266c6f676f3d646973636f7264266c6f676f436f6c6f723d253233666666266c6162656c436f6c6f723d25323335383635663226636f6c6f723d253233353836356632\" alt=\"Discord\" data-canonical-src=\"https://img.shields.io/discord/1104516050537685144?style=for-the-badge&amp;logo=discord&amp;logoColor=%23fff&amp;labelColor=%235865f2&amp;color=%235865f2\" style=\"max-width: 100%;\"></a>\n<a href=\"https://kofi.spacetheme.net\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/140c5137021b05a90f1991093c5806ddb77ba0b17beea7e85818b23333fbe4d1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6b6f66692d6461726b3f7374796c653d666f722d7468652d6261646765266c6f676f3d6b6f6669266c6f676f436f6c6f723d253233666666266c6162656c436f6c6f723d25323366663565356226636f6c6f723d253233666635653562\" alt=\"KoFi\" data-canonical-src=\"https://img.shields.io/badge/kofi-dark?style=for-the-badge&amp;logo=kofi&amp;logoColor=%23fff&amp;labelColor=%23ff5e5b&amp;color=%23ff5e5b\" style=\"max-width: 100%;\"></a>\n<a href=\"https://spacetheme.net\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/c976902aa8d9f6181aac17c1eaa0d1d6b074363696b8773e999f1a01bd75f178/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f776562736974652d6261636b3f7374796c653d666f722d7468652d6261646765266c6f676f3d676f6f676c656368726f6d65266c6f676f436f6c6f723d253233666666666666266c6162656c436f6c6f723d25323331313131313126636f6c6f723d253233313131313131\" alt=\"Website\" data-canonical-src=\"https://img.shields.io/badge/website-back?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=%23ffffff&amp;labelColor=%23111111&amp;color=%23111111\" style=\"max-width: 100%;\"></a></p>\n<hr>\n</div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://raw.githubusercontent.com/SpaceTheme/Userstyles/main/.github/assets/preview.webp\"><img src=\"https://raw.githubusercontent.com/SpaceTheme/Userstyles/main/.github/assets/preview.webp\" alt=\"Preview\" style=\"max-width: 100%;\"></a></p>\n</article></div>",
+    "releases": [],
+    "commits": [
+        {
+            "sha": "755dd96",
+            "title": "Update LICENSE",
+            "body": "",
+            "date": "2026-01-04T21:12:29Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Userstyles/commit/755dd962325160610fbfcf907566c32ef2a09fd4"
+        },
+        {
+            "sha": "50239db",
+            "title": "update: readme",
+            "body": "",
+            "date": "2025-10-05T08:20:00Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Userstyles/commit/50239db45cceb4bbe42f700832de124e8631550f"
+        },
+        {
+            "sha": "1a7a7d6",
+            "title": "add: Star Citizen Wiki",
+            "body": "",
+            "date": "2024-07-19T02:22:02Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Userstyles/commit/1a7a7d6b7e4f183d73f1c21e246ef8b10744e8b3"
+        },
+        {
+            "sha": "aaf35e1",
+            "title": "Create theme.css",
+            "body": "",
+            "date": "2024-07-19T00:23:21Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Userstyles/commit/aaf35e1330fb0f4a1cbe0e10f8e2c0c794d17d7f"
+        },
+        {
+            "sha": "6264149",
+            "title": "Initial commit",
+            "body": "",
+            "date": "2024-07-18T23:54:30Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Userstyles/commit/62641496f00d34c38a01e7fafe885e070bf141d6"
+        }
+    ],
+    "styles": [
+        {
+            "id": "sc-wiki-api",
+            "name": "Star Citizen Wiki API",
+            "url": "https://api.star-citizen.wiki",
+            "folder": "https://github.com/SpaceTheme/Userstyles/tree/main/styles/sc-wiki-api",
+            "image": null,
+            "images": [],
+            "files": [
+                {
+                    "name": "SpaceTheme.css",
+                    "size": 805,
+                    "url": "https://raw.githubusercontent.com/SpaceTheme/Userstyles/main/styles/sc-wiki-api/SpaceTheme.css",
+                    "html": "https://github.com/SpaceTheme/Userstyles/blob/main/styles/sc-wiki-api/SpaceTheme.css"
+                }
+            ],
+            "readme": null,
+            "commits": [
+                {
+                    "sha": "1a7a7d6",
+                    "title": "add: Star Citizen Wiki",
+                    "body": "",
+                    "date": "2024-07-19T02:22:02Z",
+                    "author": "SpaceEnergy",
+                    "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+                    "url": "https://github.com/SpaceTheme/Userstyles/commit/1a7a7d6b7e4f183d73f1c21e246ef8b10744e8b3"
+                },
+                {
+                    "sha": "aaf35e1",
+                    "title": "Create theme.css",
+                    "body": "",
+                    "date": "2024-07-19T00:23:21Z",
+                    "author": "SpaceEnergy",
+                    "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+                    "url": "https://github.com/SpaceTheme/Userstyles/commit/aaf35e1330fb0f4a1cbe0e10f8e2c0c794d17d7f"
+                }
+            ],
+            "updated": "2024-07-19T02:22:02Z"
+        }
+    ]
+}

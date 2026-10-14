@@ -1,0 +1,82 @@
+[
+    {
+        "id": "steam-custom-artworks",
+        "name": "Steam-Custom-Artworks",
+        "description": "Custom artworks for Steam with a space-inspired design.",
+        "tags": ["steam", "custom artworks", "dark", "space"],
+        "repo": "https://github.com/SpaceTheme/Steam-Custom-Artworks",
+        "download": "/artworks/",
+        "downloadLabel": "Get",
+        "artworksIndex": "grid.zip"
+    },
+    {
+        "id": "steam",
+        "name": "SteamTheme",
+        "description": "A modern theme for Steam with a space-inspired design.",
+        "tags": ["platform"],
+        "featured": true,
+        "status": "WIP",
+        "changelog": "commits",
+        "repo": "https://github.com/SpaceTheme/Steam",
+        "download": "https://github.com/SpaceTheme/Steam/releases",
+        "downloadSources": [
+            {
+                "name": "steambrew",
+                "url": "https://steambrew.app/api/v2/extern/download_count/zQndv1rI0FXLh3QTRgOL",
+                "path": "download_count"
+            }
+        ]
+    },
+    {
+        "id": "discord",
+        "name": "DiscordTheme",
+        "description": "A modern theme for Discord with a space-inspired design.",
+        "tags": ["platform"],
+        "status": "Broken",
+        "repo": "https://github.com/SpaceTheme/Discord",
+        "download": "https://github.com/SpaceTheme/Discord/releases"
+    },
+    {
+        "id": "userstyles",
+        "name": "Userstyles",
+        "description": "Userstyles for various websites with a space-inspired design.",
+        "tags": ["websites"],
+        "status": "WIP",
+        "styles": {
+            "path": "styles",
+            "sites": {
+                "sc-wiki-api": {
+                    "name": "Star Citizen Wiki API",
+                    "url": "https://api.star-citizen.wiki"
+                }
+            }
+        },
+        "repo": "https://github.com/SpaceTheme/Userstyles",
+        "download": "https://github.com/SpaceTheme/Userstyles/releases"
+    },
+    {
+        "id": "grub",
+        "name": "GrubTheme",
+        "description": "A modern theme for Grub with a space-inspired design.",
+        "tags": ["os", "linux"],
+        "repo": "https://github.com/SpaceTheme/Grub",
+        "download": "https://github.com/SpaceTheme/Grub/releases"
+    },
+    {
+        "id": "plymouth",
+        "name": "PlymouthTheme",
+        "description": "A modern theme for Plymouth with a space-inspired design.",
+        "hidden": true,
+        "tags": ["os", "linux"],
+        "status": "WIP",
+        "repo": "https://github.com/SpaceTheme/Plymouth",
+        "download": "https://github.com/SpaceTheme/Plymouth/releases"
+    },
+    {
+        "id": "installer",
+        "name": "Installer",
+        "description": "GUI/CLI installation tool that automates the installation, removal and maintenance of SpaceTheme themes.",
+        "repo": "https://github.com/SpaceTheme/Installer",
+        "download": "https://github.com/SpaceTheme/Installer/releases"
+    }
+]

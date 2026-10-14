@@ -1,0 +1,39 @@
+<div class="details">
+    <a class="back" href="{{backHref}}">{{{iconBack}}}<span>{{backLabel}}</span></a>
+
+    <header class="details-header">
+        <div class="title-row">
+            <h1 class="theme-title"><span class="light">{{titleLight}}</span><span class="bold">{{titleBold}}</span></h1>
+            <div class="badges">{{{badges}}}</div>
+        </div>
+        <div class="header-actions">{{{headerActions}}}</div>
+    </header>
+
+    <div class="details-grid">
+        <div class="details-top">
+            {{{media}}}
+            <div class="panel playbar">{{{playbar}}}</div>
+        </div>
+
+        <aside class="side">
+            <div class="panel about">
+                {{{aboutImage}}}
+                <p class="about-description">{{description}}</p>
+                <div class="info-divider" role="separator"></div>
+                <dl class="info-list">{{{infoRows}}}</dl>
+                <div class="tags">{{{tags}}}</div>
+            </div>
+            {{{bigStats}}}
+            <div class="panel links">{{{links}}}</div>
+            <div class="panel" {{hideMore}}>
+                <h3 class="panel-title">{{moreTitle}}</h3>
+                {{{more}}}
+            </div>
+        </aside>
+
+        <div class="details-content">
+            <div class="tabs" role="tablist">{{{tabs}}}</div>
+            <div class="tab-panel" id="tab-panel"></div>
+        </div>
+    </div>
+</div>
