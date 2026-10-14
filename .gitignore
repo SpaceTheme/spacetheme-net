@@ -5,3 +5,4 @@ nginx/.env
 Thumbs.db
 *.log
 node_modules/
+nginx/docker-compose.nas.yml
