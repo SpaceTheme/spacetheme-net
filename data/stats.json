@@ -1,6 +1,6 @@
 {
-    "updated": "2026-10-14T16:08:42.623Z",
-    "total_downloads": 426767,
+    "updated": "2026-10-14T18:36:26.059Z",
+    "total_downloads": 427259,
     "total_stars": 355,
     "themes": {
         "steam-custom-artworks": {
@@ -35,11 +35,11 @@
             "stars": 288,
             "forks": 29,
             "issues": 13,
-            "downloads": 417487,
+            "downloads": 417979,
             "sources": {
                 "releases": 13147,
                 "clones": 0,
-                "steambrew": 404340
+                "steambrew": 404832
             }
         },
         "discord": {
@@ -102,16 +102,22 @@
         },
         "plymouth": {
             "repo": "SpaceTheme/Plymouth",
-            "image": null,
+            "image": "https://opengraph.githubassets.com/1/SpaceTheme/Plymouth",
+            "socialImage": null,
+            "changelog": "commits",
             "version": null,
             "versionDate": null,
-            "updated": null,
-            "license": null,
+            "updated": "2026-01-04T21:10:31Z",
+            "description": "SpaceTheme for Plymouth",
+            "license": "MIT",
             "stars": 0,
             "forks": 0,
             "issues": 0,
             "downloads": 0,
-            "sources": {}
+            "sources": {
+                "releases": 0,
+                "clones": 0
+            }
         },
         "installer": {
             "repo": "SpaceTheme/Installer",
