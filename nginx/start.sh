@@ -2,12 +2,16 @@
 # Start command of the nginx container (docker-compose.yml).
 #
 # Reads site.conf + api.conf straight from the repo (no single file mounts, those keep pointing
-# to the old file after a git pull), fills in ${STEAM_API_KEY} and reloads nginx automatically
-# when a pull changed the config. Website files themselves are served directly, no reload needed.
+# to the old file after a git pull), fills in ${STEAM_API_KEY} + ${SITE_ROOT} and reloads nginx
+# automatically when a pull changed the config. Website files are served directly, no reload needed.
+#
+# SITE_ROOT: folder of the repo inside the container, e.g. the link git-sync keeps up to date
+#            (/usr/share/nginx/html/spacetheme-net.git). Default: /usr/share/nginx/html
 
 set -eu
 
-SRC=/usr/share/nginx/html/nginx
+export SITE_ROOT="${SITE_ROOT:-/usr/share/nginx/html}"
+SRC="$SITE_ROOT/nginx"
 OUT=/etc/nginx/spacetheme
 CHECK_INTERVAL=${CONFIG_CHECK_INTERVAL:-30}
 
@@ -15,7 +19,7 @@ render() {
     mkdir -p "$OUT"
     # Only this variable, nginx variables like $arg_steamid have to stay as they are
     envsubst '${STEAM_API_KEY}' < "$SRC/api.conf" > "$OUT/api.conf"
-    cp "$SRC/site.conf" /etc/nginx/conf.d/default.conf
+    envsubst '${SITE_ROOT}' < "$SRC/site.conf" > /etc/nginx/conf.d/default.conf
 }
 
 checksum() {
