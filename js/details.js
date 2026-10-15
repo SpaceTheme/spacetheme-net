@@ -502,6 +502,31 @@ async function loadDetails(id) {
         .catch(() => ({ readme: null, releases: [], commits: [] }));
 }
 
+// Title, description, canonical url and preview image of the theme page for search engines
+// and link previews. The canonical url keeps only id/project/style, so each page has one url.
+function setPageMeta(page) {
+    const params = new URLSearchParams(location.search);
+    const canonical = new URL('/themes/', location.origin);
+    for (const key of ['id', 'project', 'style']) {
+        if (params.get(key)) canonical.searchParams.set(key, params.get(key));
+    }
+    const image = page.metaImage && new URL(page.metaImage, location.origin).href;
+    const set = (selector, attr, value) => value && document.querySelector(selector)?.setAttribute(attr, value);
+    set('meta[name="description"]', 'content', page.description || '');
+    set('meta[property="og:title"]', 'content', document.title);
+    set('meta[property="og:description"]', 'content', page.description);
+    set('meta[property="og:url"]', 'content', canonical.href);
+    set('meta[property="og:image"]', 'content', image);
+    // Not in themes/index.html: a fixed /themes/ there would mark every theme page as a copy of the overview
+    let link = document.querySelector('link[rel="canonical"]');
+    if (!link) {
+        link = document.createElement('link');
+        link.rel = 'canonical';
+        document.head.append(link);
+    }
+    link.href = canonical.href;
+}
+
 // Renders the shared layout (components/details.html) and wires media, tabs and buttons
 async function renderPage(root, page) {
     root.innerHTML = `<div class="page">${await ST.render('details', {
@@ -515,7 +540,7 @@ async function renderPage(root, page) {
     })}</div>`;
 
     document.title = `${page.documentTitle} - SpaceTheme`;
-    document.querySelector('meta[name="description"]')?.setAttribute('content', page.description || '');
+    setPageMeta(page);
 
     bindMedia(root, page.gallery);
     bindFileActions(root.querySelector('.playbar'));
@@ -591,6 +616,7 @@ async function renderDetails(root, theme, themes, stats, parent = null) {
     await renderPage(root, {
         documentTitle: theme.name,
         projectSwitch: projectSwitch(owner, theme.projectId || ''),
+        metaImage: stat.socialImage || view.image,
         backHref: '/themes/',
         backLabel: 'All Themes',
         titleLight: view.titleLight,

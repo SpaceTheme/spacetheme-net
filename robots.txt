@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /api/steam/
+Disallow: /api/artworks/
+Disallow: /api/kofi/
+
+Sitemap: https://spacetheme.net/sitemap.xml

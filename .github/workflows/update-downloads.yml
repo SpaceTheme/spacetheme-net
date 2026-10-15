@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
-          git add data/stats.json data/details data/artworks.json
+          git add data/stats.json data/details data/artworks.json sitemap.xml
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else

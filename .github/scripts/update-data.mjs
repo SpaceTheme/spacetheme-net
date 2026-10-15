@@ -1,5 +1,6 @@
 // Fetches all repo data for the themes in data/themes.json and writes
 //   data/stats.json           -> summary for every theme (downloads, stars, version, image, ...)
+//   sitemap.xml               -> all pages (themes, projects, userstyle websites) for search engines
 //   data/details/<id>.json    -> readme, roadmap (ROADMAP.md), releases, latest commits and sub styles (see fetchStyles)
 //
 // "projects": [{ "id": "plugin", "repo": ... }] in themes.json: extra repos shown on the page of that
@@ -418,6 +419,37 @@ async function updateTheme(theme, previous) {
     };
 }
 
+// Static pages + one url per theme page, same urls as the links on the website (js/themes.js)
+const SITE = 'https://spacetheme.net';
+
+async function writeSitemap(themes, stats) {
+    const day = value => value ? value.slice(0, 10) : null;
+    const urls = [
+        { loc: '/' }, { loc: '/themes/' }, { loc: '/artworks/', lastmod: day(stats['steam-custom-artworks']?.versionDate) }
+    ];
+    for (const theme of themes.filter(t => !t.hidden)) {
+        const page = `/themes/?id=${encodeURIComponent(theme.id)}`;
+        urls.push({ loc: page, lastmod: day(stats[theme.id]?.updated) });
+        for (const project of theme.projects || []) {
+            urls.push({ loc: `${page}&project=${encodeURIComponent(project.id)}`, lastmod: day(stats[`${theme.id}-${project.id}`]?.updated) });
+        }
+        if (theme.styles) {
+            const details = await readJson(new URL(`${theme.id}.json`, DETAILS), {});
+            for (const style of details.styles || []) {
+                urls.push({ loc: `${page}&style=${encodeURIComponent(style.id)}`, lastmod: day(style.updated) });
+            }
+        }
+    }
+    const xml = s => s.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+    await writeFile(new URL('sitemap.xml', ROOT), [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+        ...urls.map(u => `    <url><loc>${xml(SITE + u.loc)}</loc>${u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ''}</url>`),
+        '</urlset>',
+        ''
+    ].join('\n'));
+}
+
 async function main() {
     const themes = await readJson(new URL('themes.json', DATA), []);
     const statsUrl = new URL('stats.json', DATA);
@@ -452,6 +484,7 @@ async function main() {
     const changed = JSON.stringify({ ...result, updated: null }) !== JSON.stringify({ ...prevStats, updated: null });
     if (changed || !result.updated) result.updated = new Date().toISOString();
     await writeJson(statsUrl, result);
+    await writeSitemap(themes, stats);
 
     console.log(`Total downloads: ${result.total_downloads}, stars: ${result.total_stars}`);
 }
