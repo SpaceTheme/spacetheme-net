@@ -1114,6 +1114,15 @@
     ],
     "commits": [
         {
+            "sha": "fa692ad",
+            "title": "change: userpanel settings button opens now the theme options",
+            "body": "",
+            "date": "2026-10-15T15:25:34Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/fa692ad58f52f85f94739a900ddf3f20dc3f2386"
+        },
+        {
             "sha": "6b92662",
             "title": "fix: steam settings",
             "body": "",
@@ -1373,15 +1382,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/0adf5473ffc3c773d8dc1dd014a22a48b5bc073b"
-        },
-        {
-            "sha": "60ecd59",
-            "title": "Keep hover sidebar open over the user panel and download bar.",
-            "body": "Fixes #219 by expanding the open state when those overlays are hovered or focused, with a short close delay to bridge the gap.\n\nCo-authored-by: Cursor <cursoragent@cursor.com>",
-            "date": "2026-09-26T08:31:35Z",
-            "author": "ForgottenHero",
-            "avatar": "https://avatars.githubusercontent.com/u/4233945?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/60ecd59553b5c224b893b6ccdcbcee62be205d87"
         }
     ]
 }

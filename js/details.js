@@ -521,8 +521,8 @@ async function renderPage(root, page) {
     bindFileActions(root.querySelector('.playbar'));
 
     const panel = root.querySelector('#tab-panel');
-    const tabButtons = [...root.querySelectorAll('.tab')];
-    root.querySelector('.tabs').hidden = !page.tabs.length;
+    const tabButtons = [...root.querySelectorAll('.tab[data-tab]')];
+    root.querySelector('.details-content .tabs').hidden = !page.tabs.length;
 
     function openTab(id) {
         panel.dataset.tab = id || '';
@@ -551,7 +551,23 @@ async function renderPage(root, page) {
     openTab((fromHash || page.tabs[0])?.id);
 }
 
-async function renderDetails(root, theme, themes, stats) {
+// "Artworks | Plugin": switches between a theme and its extra repos ("projects" in themes.json)
+function projectSwitch(owner, activeId) {
+    if (!owner.projects?.length) return '';
+    const base = `/themes/?id=${encodeURIComponent(owner.id)}`;
+    const items = [
+        { id: '', label: owner.projectLabel || owner.name, icon: owner.projectIcon || 'book', href: base },
+        ...owner.projects.map(p => ({ id: p.id, label: p.label || p.name, icon: p.icon || 'book', href: `${base}&project=${encodeURIComponent(p.id)}` }))
+    ];
+    return `<nav class="tabs project-switch" aria-label="Projects">${items.map(item => `
+        <a class="tab${item.id === activeId ? ' active' : ''}" href="${esc(item.href)}"${item.id === activeId ? ' aria-current="page"' : ''}>
+            ${ST.icon(item.icon)}<span>${esc(item.label)}</span>
+        </a>`).join('')}</nav>`;
+}
+
+// parent: the theme a project belongs to (/themes/?id=...&project=...), null for a normal theme
+async function renderDetails(root, theme, themes, stats, parent = null) {
+    const owner = parent || theme;
     const stat = stats.themes?.[theme.id] || {};
     const details = await loadDetails(theme.id);
     const styles = details.styles || [];
@@ -574,12 +590,13 @@ async function renderDetails(root, theme, themes, stats) {
 
     await renderPage(root, {
         documentTitle: theme.name,
+        projectSwitch: projectSwitch(owner, theme.projectId || ''),
         backHref: '/themes/',
         backLabel: 'All Themes',
         titleLight: view.titleLight,
         titleBold: view.titleBold,
         badges: view.badges,
-        description: theme.description,
+        description: view.description,   // GitHub repo description, themes.json as fallback
         tags: view.tags,
         headerActions: iconLink('github', 'View on GitHub', repoUrl),
         gallery,
@@ -608,7 +625,7 @@ async function renderDetails(root, theme, themes, stats) {
         ].join(''),
         moreTitle: 'More Themes',
         more: otherList(themes
-            .filter(t => t.id !== theme.id && !t.hidden)
+            .filter(t => t.id !== owner.id && !t.hidden)
             .map(t => {
                 const other = ST.themeView(t, stats.themes?.[t.id]);
                 const otherStat = stats.themes?.[t.id] || {};
@@ -663,7 +680,8 @@ async function renderStylePage(root, theme, styleId, stats) {
         backLabel: theme.name,
         ...title,
         badges: `<span class="badge accent">${esc(theme.name)}</span>`,
-        description: `SpaceTheme for ${host || style.name}, part of the ${theme.name}.`,
+        // A folder has no description of its own, so it shows the one of the repo (GitHub)
+        description: stat.description || theme.description || `SpaceTheme for ${host || style.name}, part of the ${theme.name}.`,
         tags: host ? `<span class="tag">${esc(host)}</span>` : '',
         headerActions: [
             style.url ? iconLink('globe', 'Open website', style.url) : '',

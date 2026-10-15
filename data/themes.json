@@ -7,7 +7,21 @@
         "repo": "https://github.com/SpaceTheme/Steam-Custom-Artworks",
         "download": "/artworks/",
         "downloadLabel": "Get",
-        "artworksIndex": "grid.zip"
+        "artworksIndex": "grid.zip",
+        "projectLabel": "Artworks",
+        "projectIcon": "artworks",
+        "projects": [
+            {
+                "id": "plugin",
+                "label": "Plugin",
+                "icon": "plugin",
+                "name": "Steam-Custom-Artworks Plugin",
+                "description": "Millennium plugin for the Steam-Custom-Artworks.",
+                "tags": ["steam", "plugin", "millennium"],
+                "repo": "https://github.com/SpaceTheme/Steam-Custom-Artworks-Plugin",
+                "download": "https://github.com/SpaceTheme/Steam-Custom-Artworks-Plugin"
+            }
+        ]
     },
     {
         "id": "steam",

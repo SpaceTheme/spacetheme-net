@@ -27,6 +27,7 @@ const ST = (() => {
         chevronLeft: '<path d="m15 6-6 6 6 6"/>',
         chevronRight: '<path d="m9 6 6 6-6 6"/>',
         flag: '<path d="M5 21V4m0 0h12l-2.5 4.5L17 13H5"/>',
+        plugin: '<path d="M9 2v6m6-6v6M6 8h12v4a6 6 0 0 1-12 0zm6 10v4"/>',
         heart: '<path d="M12 20s-7-4.35-7-10a4 4 0 0 1 7-2.65A4 4 0 0 1 19 10c0 5.65-7 10-7 10z"/>',
         artworks: '<rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/>'
     };

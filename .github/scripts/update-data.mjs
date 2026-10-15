@@ -2,6 +2,9 @@
 //   data/stats.json           -> summary for every theme (downloads, stars, version, image, ...)
 //   data/details/<id>.json    -> readme, roadmap (ROADMAP.md), releases, latest commits and sub styles (see fetchStyles)
 //
+// "projects": [{ "id": "plugin", "repo": ... }] in themes.json: extra repos shown on the page of that
+// theme (no card of their own), stored like a theme under the id <theme id>-<project id>.
+//
 // Runs without dependencies on Node >= 18:  GH_TOKEN=... node .github/scripts/update-data.mjs
 // If a request fails, the previous value is kept so the site never drops to 0.
 
@@ -299,6 +302,22 @@ async function fetchRoadmap(rootFiles, repo, branch, previous) {
     return typeof markdown === 'string' ? parseRoadmap(markdown) : previous || null;
 }
 
+// GitHub only keeps the clones of the last 14 days, so every finished day is added up once:
+// clonesCounted = { total, until: last counted day }. Today is skipped, its count is not final yet.
+// Needs a GH_TOKEN with access to the traffic of the repo, without it the old total is kept.
+function countClones(clones, previous) {
+    const counted = { total: previous?.clonesCounted?.total ?? previous?.sources?.clones ?? 0, until: previous?.clonesCounted?.until || null };
+    if (!clones?.clones) return counted;
+    const today = new Date().toISOString().slice(0, 10);
+    for (const { timestamp, count } of [...clones.clones].sort((a, b) => a.timestamp.localeCompare(b.timestamp))) {
+        const day = timestamp.slice(0, 10);
+        if (day >= today || (counted.until && day <= counted.until)) continue;
+        counted.total += count;
+        counted.until = day;
+    }
+    return counted;
+}
+
 async function updateTheme(theme, previous) {
     const repo = parseRepo(theme.repo);
     const detailsUrl = new URL(`${theme.id}.json`, DETAILS);
@@ -328,7 +347,8 @@ async function updateTheme(theme, previous) {
         const readme = readmeHtml ? absolutizeUrls(readmeHtml, repo, branch) : prevDetails?.readme || null;
 
         sources.releases = releaseList ? releases.reduce((sum, r) => sum + r.downloads, 0) : prevSources.releases || 0;
-        sources.clones = clones ? clones.count || 0 : prevSources.clones || 0;
+        const clonesCounted = countClones(clones, previous);
+        sources.clones = clonesCounted.total;
 
         for (const source of theme.downloadSources || []) {
             const res = await tryRequest(source.url, 'application/json');
@@ -374,6 +394,7 @@ async function updateTheme(theme, previous) {
             issues: info.open_issues_count,
             downloads: Object.values(sources).reduce((sum, value) => sum + value, 0),
             sources,
+            clonesCounted,
             styles: styles?.length
         };
     }
@@ -409,6 +430,10 @@ async function main() {
     const stats = {};
     for (const theme of themes) {
         stats[theme.id] = await updateTheme(theme, prevThemes[theme.id]);
+        for (const project of theme.projects || []) {
+            const id = `${theme.id}-${project.id}`;   // same id as projectTheme() in js/themes.js
+            stats[id] = await updateTheme({ ...project, id }, prevThemes[id]);
+        }
     }
 
     // Remove detail files of themes that were deleted from themes.json

@@ -1,6 +1,7 @@
 // /themes/          -> overview of all themes
 // /themes/?id=steam -> details of one theme (see details.js)
 // /themes/?id=userstyles&style=sc-wiki-api -> page of one sub style (one website of the userstyles)
+// /themes/?id=steam-custom-artworks&project=plugin -> extra repo of a theme ("projects" in themes.json)
 // Query parameters instead of /themes/steam so nginx needs no rewrite rules.
 
 async function renderOverview(root, themes, stats) {
@@ -29,6 +30,11 @@ async function renderOverview(root, themes, stats) {
         </div>`;
 }
 
+// A project is shown like a theme, its data is stored under <theme id>-<project id> (see update-data.mjs)
+function projectTheme(theme, project) {
+    return { ...project, id: `${theme.id}-${project.id}`, projectId: project.id };
+}
+
 function renderMessage(root, title, text) {
     root.innerHTML = `
         <div class="page message">
@@ -43,6 +49,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const params = new URLSearchParams(location.search);
     const id = params.get('id');
     const styleId = params.get('style');
+    const projectId = params.get('project');
 
     ST.mountNavbar();
 
@@ -55,7 +62,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (id) {
             const theme = themes.find(t => t.id === id);
             if (!theme) return renderMessage(root, 'Theme not found', `There is no theme with the id "${id}".`);
-            if (styleId) await renderStylePage(root, theme, styleId, stats);
+            const project = projectId && theme.projects?.find(p => p.id === projectId);
+            if (projectId && !project) return renderMessage(root, 'Project not found', `${theme.name} has no project "${projectId}".`);
+            if (project) await renderDetails(root, projectTheme(theme, project), themes, stats, theme);
+            else if (styleId) await renderStylePage(root, theme, styleId, stats);
             else await renderDetails(root, theme, themes, stats);
         } else {
             await renderOverview(root, themes, stats);

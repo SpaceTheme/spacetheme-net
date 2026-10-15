@@ -526,6 +526,14 @@
 .tab-panel {
     min-width: 0;
 }
+/* Switch between a theme and its extra repos (e.g. Artworks | Plugin), same look as the tabs */
+.project-switch {
+    width: fit-content;
+    max-width: 100%;
+}
+.project-switch .tab {
+    flex: 0 0 auto;
+}
 /* Roadmap: tasks like the settings entries, sub tasks indented */
 .roadmap {
     display: flex;
