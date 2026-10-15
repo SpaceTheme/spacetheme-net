@@ -464,17 +464,17 @@
                         },
                         {
                             "text": "Notifications",
-                            "done": false,
+                            "done": true,
                             "tasks": []
                         },
                         {
                             "text": "Library",
-                            "done": false,
+                            "done": true,
                             "tasks": []
                         },
                         {
                             "text": "Download",
-                            "done": false,
+                            "done": true,
                             "tasks": []
                         },
                         {
@@ -484,42 +484,42 @@
                         },
                         {
                             "text": "In Game",
-                            "done": false,
+                            "done": true,
                             "tasks": []
                         },
                         {
                             "text": "Compatibility",
-                            "done": false,
+                            "done": true,
                             "tasks": []
                         },
                         {
                             "text": "Accessibility",
-                            "done": false,
+                            "done": true,
                             "tasks": []
                         },
                         {
                             "text": "Controller",
-                            "done": false,
+                            "done": true,
                             "tasks": []
                         },
                         {
                             "text": "Game Recording",
-                            "done": false,
+                            "done": true,
                             "tasks": []
                         },
                         {
                             "text": "Voice",
-                            "done": false,
+                            "done": true,
                             "tasks": []
                         },
                         {
                             "text": "Remote Play",
-                            "done": false,
+                            "done": true,
                             "tasks": []
                         },
                         {
                             "text": "Music",
-                            "done": false,
+                            "done": true,
                             "tasks": []
                         }
                     ]
@@ -1114,6 +1114,15 @@
     ],
     "commits": [
         {
+            "sha": "6b92662",
+            "title": "fix: steam settings",
+            "body": "",
+            "date": "2026-10-15T00:09:03Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/6b9266222749c487be8a5783b40a2a426f71fd18"
+        },
+        {
             "sha": "14f6c46",
             "title": "change: move roadmap to ROADMAP.md",
             "body": "",
@@ -1373,15 +1382,6 @@
             "author": "ForgottenHero",
             "avatar": "https://avatars.githubusercontent.com/u/4233945?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/60ecd59553b5c224b893b6ccdcbcee62be205d87"
-        },
-        {
-            "sha": "55d9b3c",
-            "title": "fix: rounded corners for dropdown",
-            "body": "",
-            "date": "2026-09-24T20:43:26Z",
-            "author": "EldinBegano",
-            "avatar": "https://avatars.githubusercontent.com/u/114646273?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/55d9b3c121a25bffa09331dfc615f506c242b96d"
         }
     ]
 }
