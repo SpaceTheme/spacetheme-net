@@ -1114,6 +1114,15 @@
     ],
     "commits": [
         {
+            "sha": "ac7c64e",
+            "title": "fix: sidebar in download page",
+            "body": "",
+            "date": "2026-10-15T21:35:27Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/ac7c64e72b2317356f4d52d23c142d7c759a9778"
+        },
+        {
             "sha": "fa692ad",
             "title": "change: userpanel settings button opens now the theme options",
             "body": "",
@@ -1373,15 +1382,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/5af2c8b92771d58c244bbdf387794d6d8be063e0"
-        },
-        {
-            "sha": "0adf547",
-            "title": "change: webkit new&trending list preview image contain mature content",
-            "body": "",
-            "date": "2026-09-26T19:06:24Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/0adf5473ffc3c773d8dc1dd014a22a48b5bc073b"
         }
     ]
 }
