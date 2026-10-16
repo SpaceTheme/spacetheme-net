@@ -7,13 +7,13 @@
             "date": "2026-10-15T18:37:15Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks-Plugin/releases/tag/plugin",
-            "downloads": 3,
+            "downloads": 4,
             "body": "<p>The plugin file itself</p>",
             "assets": [
                 {
                     "name": "spacetheme.steam-custom-artworks.star",
                     "size": 35612,
-                    "downloads": 3,
+                    "downloads": 4,
                     "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks-Plugin/releases/download/plugin/spacetheme.steam-custom-artworks.star"
                 }
             ]

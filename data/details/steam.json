@@ -1114,6 +1114,42 @@
     ],
     "commits": [
         {
+            "sha": "9e571af",
+            "title": "improve: libhome date info in shelf",
+            "body": "",
+            "date": "2026-10-16T11:46:33Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/9e571af18a1502815ecf87d8872d9b1e39f93dc9"
+        },
+        {
+            "sha": "1331807",
+            "title": "improve: libhome shelfs",
+            "body": "",
+            "date": "2026-10-16T11:38:05Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/13318077312b8107d3df01c5f2ef7d45c4f7cdae"
+        },
+        {
+            "sha": "df1548b",
+            "title": "improve: libhome add shelf button",
+            "body": "",
+            "date": "2026-10-16T11:37:19Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/df1548ba3dcd0f168fadeaeb8e0a4e3982de67b0"
+        },
+        {
+            "sha": "1e01124",
+            "title": "skin/fix: plugin settings pages",
+            "body": "",
+            "date": "2026-10-16T10:30:20Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/1e01124087cca6cb7b945dc59a56520aa89410f3"
+        },
+        {
             "sha": "ac7c64e",
             "title": "fix: sidebar in download page",
             "body": "",
@@ -1346,42 +1382,6 @@
             "author": "S0rax",
             "avatar": "https://avatars.githubusercontent.com/u/36013570?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/d62c0d780a4120e4c6c3102a0202b9c1f9c723f4"
-        },
-        {
-            "sha": "0dc343b",
-            "title": "improve: sidebar game update indicator",
-            "body": "",
-            "date": "2026-09-26T20:16:29Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/0dc343b1a4088816e8181eb2a276d7bb3b789e9b"
-        },
-        {
-            "sha": "76817d2",
-            "title": "Merge pull request #216 from EldinBegano/main",
-            "body": "fix: update Millennium installation link in README",
-            "date": "2026-09-26T19:56:00Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/76817d29298fad9ed50b698cf0f3e9e3e2a0f714"
-        },
-        {
-            "sha": "4a331ae",
-            "title": "Merge pull request #214 from S0rax/fix/gamepage-achievement-card",
-            "body": "fix achievement card on gamepage",
-            "date": "2026-09-26T19:55:38Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/4a331ae48783d8d20f402ebb9a501885e95b8ac3"
-        },
-        {
-            "sha": "5af2c8b",
-            "title": "update/change: style of the cards",
-            "body": "",
-            "date": "2026-09-26T19:54:46Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/5af2c8b92771d58c244bbdf387794d6d8be063e0"
         }
     ]
 }
