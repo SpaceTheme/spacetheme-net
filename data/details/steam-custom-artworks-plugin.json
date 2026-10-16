@@ -7,13 +7,13 @@
             "date": "2026-10-15T18:37:15Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks-Plugin/releases/tag/v1.0.0",
-            "downloads": 5,
+            "downloads": 6,
             "body": "<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam-Custom-Artworks-Plugin/commits/v1.0.0\">https://github.com/SpaceTheme/Steam-Custom-Artworks-Plugin/commits/v1.0.0</a></p>",
             "assets": [
                 {
                     "name": "spacetheme.steam-custom-artworks.star",
                     "size": 35612,
-                    "downloads": 5,
+                    "downloads": 6,
                     "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks-Plugin/releases/download/v1.0.0/spacetheme.steam-custom-artworks.star"
                 }
             ]
