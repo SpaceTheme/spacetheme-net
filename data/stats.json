@@ -1,6 +1,6 @@
 {
-    "updated": "2026-10-16T21:15:20.911Z",
-    "total_downloads": 437043,
+    "updated": "2026-10-16T23:40:47.453Z",
+    "total_downloads": 437474,
     "total_stars": 357,
     "themes": {
         "steam-custom-artworks": {
@@ -10,7 +10,7 @@
             "changelog": "releases",
             "version": "v20261014",
             "versionDate": "2026-10-14T22:07:27Z",
-            "updated": "2026-10-16T14:27:44Z",
+            "updated": "2026-10-16T21:38:10Z",
             "description": "Custom covers, banners, heroes and logos for your Steam library in one consistent style.",
             "license": "MIT",
             "stars": 32,
@@ -62,11 +62,11 @@
             "stars": 289,
             "forks": 29,
             "issues": 13,
-            "downloads": 427734,
+            "downloads": 428165,
             "sources": {
                 "releases": 13148,
                 "clones": 0,
-                "steambrew": 414586
+                "steambrew": 415017
             },
             "clonesCounted": {
                 "total": 0,

@@ -514,6 +514,15 @@
     ],
     "commits": [
         {
+            "sha": "5495d4e",
+            "title": "Add artwork for app 1843090 (#2173)",
+            "body": "",
+            "date": "2026-10-16T21:38:07Z",
+            "author": "actions-user",
+            "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/5495d4eeb961e3dadc5eada30f30672f20eefda0"
+        },
+        {
             "sha": "a64c207",
             "title": "Add artwork for app 637650 (#2172)",
             "body": "",
@@ -773,15 +782,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/33dbf05fc412c7c7d864a04b857fd71a4b505c53"
-        },
-        {
-            "sha": "3475fba",
-            "title": "Add artwork for app 958260 (#2148)",
-            "body": "",
-            "date": "2026-10-15T09:36:33Z",
-            "author": "actions-user",
-            "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/3475fbae3a5b7b6f04919067bd55c28c51f135b2"
         }
     ]
 }
