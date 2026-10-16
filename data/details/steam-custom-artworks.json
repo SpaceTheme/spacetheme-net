@@ -514,6 +514,15 @@
     ],
     "commits": [
         {
+            "sha": "a64c207",
+            "title": "Add artwork for app 637650 (#2172)",
+            "body": "",
+            "date": "2026-10-16T14:27:41Z",
+            "author": "actions-user",
+            "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/a64c207448f83470e04b28585598fd8a1338a04f"
+        },
+        {
             "sha": "c0468a5",
             "title": "Add artwork for app 405640 (#2171)",
             "body": "",
@@ -773,15 +782,6 @@
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
             "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/3475fbae3a5b7b6f04919067bd55c28c51f135b2"
-        },
-        {
-            "sha": "ca24720",
-            "title": "update: workflows & issue template",
-            "body": "",
-            "date": "2026-10-15T09:32:44Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/ca2472050abc3494c474267228d5b21482daaabc"
         }
     ]
 }

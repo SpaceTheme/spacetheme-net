@@ -1,6 +1,6 @@
 {
-    "updated": "2026-10-16T12:31:53.767Z",
-    "total_downloads": 434724,
+    "updated": "2026-10-16T14:46:23.671Z",
+    "total_downloads": 435437,
     "total_stars": 357,
     "themes": {
         "steam-custom-artworks": {
@@ -10,7 +10,7 @@
             "changelog": "releases",
             "version": "v20261014",
             "versionDate": "2026-10-14T22:07:27Z",
-            "updated": "2026-10-16T10:23:47Z",
+            "updated": "2026-10-16T14:27:44Z",
             "description": "Custom covers, banners, heroes and logos for your Steam library in one consistent style.",
             "license": "MIT",
             "stars": 32,
@@ -31,17 +31,17 @@
             "image": "https://raw.githubusercontent.com/SpaceTheme/Steam-Custom-Artworks/main/.github/assets/banner.webp",
             "socialImage": "https://repository-images.githubusercontent.com/1420983344/28953151-8e00-4b14-b259-8bcc77a26a03",
             "changelog": "releases",
-            "version": "plugin",
+            "version": "v1.0.0",
             "versionDate": "2026-10-15T18:37:15Z",
-            "updated": "2026-10-15T18:37:15Z",
+            "updated": "2026-10-16T14:44:52Z",
             "description": "Custom covers, banners, heroes and logos for your Steam library in one consistent style.",
             "license": "MIT",
             "stars": 1,
             "forks": 0,
             "issues": 0,
-            "downloads": 4,
+            "downloads": 5,
             "sources": {
-                "releases": 4,
+                "releases": 5,
                 "clones": 0
             },
             "clonesCounted": {
@@ -54,19 +54,19 @@
             "image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.webp",
             "socialImage": "https://repository-images.githubusercontent.com/640600509/55a42db8-d905-4d75-8c10-beab128984c0",
             "changelog": "commits",
-            "version": "9e571af",
-            "versionDate": "2026-10-16T11:46:33Z",
-            "updated": "2026-10-16T11:46:36Z",
+            "version": "5af4cd6",
+            "versionDate": "2026-10-16T12:35:14Z",
+            "updated": "2026-10-16T12:35:16Z",
             "description": "Theme with a dark aesthetic and modular-inspired look, offering clarity, flexibility, and an enhanced user experience.",
             "license": "MIT",
             "stars": 289,
             "forks": 29,
             "issues": 13,
-            "downloads": 425419,
+            "downloads": 426131,
             "sources": {
                 "releases": 13148,
                 "clones": 0,
-                "steambrew": 412271
+                "steambrew": 412983
             },
             "clonesCounted": {
                 "total": 0,

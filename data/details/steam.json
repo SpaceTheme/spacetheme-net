@@ -1114,6 +1114,24 @@
     ],
     "commits": [
         {
+            "sha": "5af4cd6",
+            "title": "update: account pages, hide account header",
+            "body": "",
+            "date": "2026-10-16T12:35:14Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/5af4cd6f380409fa80d8a22672c32c8510d98c57"
+        },
+        {
+            "sha": "32ec6a5",
+            "title": "skin: account licences page",
+            "body": "",
+            "date": "2026-10-16T12:34:43Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/32ec6a5fd5a3281dc5c96dcb03ae756fcfb1ebef"
+        },
+        {
             "sha": "9e571af",
             "title": "improve: libhome date info in shelf",
             "body": "",
@@ -1364,24 +1382,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/96828b2860d3fa43a3df62c4528897c575abefea"
-        },
-        {
-            "sha": "5d84f66",
-            "title": "improve/fix: store carousel navigation",
-            "body": "",
-            "date": "2026-09-26T20:57:21Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/5d84f669636fcd619451c0b3d0765e3105562576"
-        },
-        {
-            "sha": "d62c0d7",
-            "title": "fix panel resize on right side",
-            "body": "",
-            "date": "2026-09-26T20:18:03Z",
-            "author": "S0rax",
-            "avatar": "https://avatars.githubusercontent.com/u/36013570?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/d62c0d780a4120e4c6c3102a0202b9c1f9c723f4"
         }
     ]
 }
