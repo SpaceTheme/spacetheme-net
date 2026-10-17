@@ -1212,6 +1212,15 @@
     ],
     "commits": [
         {
+            "sha": "7708696",
+            "title": "improve: library gamepage playbar panel",
+            "body": "",
+            "date": "2026-10-17T16:48:37Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/77086961b03d41451a222375daa6f3045ef77b3f"
+        },
+        {
             "sha": "ffb79a7",
             "title": "Update ROADMAP.md",
             "body": "",
@@ -1471,15 +1480,6 @@
             "author": "S0rax",
             "avatar": "https://avatars.githubusercontent.com/u/36013570?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/54a23856bbf178724f0887ef2912cb14dc45009e"
-        },
-        {
-            "sha": "98aa5cb",
-            "title": "skin: store home \"your personal calendar\" section",
-            "body": "",
-            "date": "2026-09-26T21:11:21Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/98aa5cbc905c4beb1be4a49ce2feb0f663d51e2d"
         }
     ]
 }
