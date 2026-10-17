@@ -181,9 +181,102 @@
                     "tasks": []
                 },
                 {
-                    "text": "Gamepage rework",
+                    "text": "(WIP) Gamepage rework/improvements",
                     "done": false,
-                    "tasks": []
+                    "tasks": [
+                        {
+                            "text": "Playbar panel",
+                            "done": true,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Info panel",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Links panel",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Check out the full game panel",
+                            "done": false,
+                            "tasks": []
+                        },
+                        {
+                            "text": "Activity",
+                            "done": false,
+                            "tasks": [
+                                {
+                                    "text": "Input",
+                                    "done": false,
+                                    "tasks": []
+                                },
+                                {
+                                    "text": "(WIP) Feed",
+                                    "done": false,
+                                    "tasks": []
+                                }
+                            ]
+                        },
+                        {
+                            "text": "Side content",
+                            "done": false,
+                            "tasks": [
+                                {
+                                    "text": "Friends who play",
+                                    "done": false,
+                                    "tasks": []
+                                },
+                                {
+                                    "text": "Additional content",
+                                    "done": false,
+                                    "tasks": []
+                                },
+                                {
+                                    "text": "Achievements",
+                                    "done": false,
+                                    "tasks": []
+                                },
+                                {
+                                    "text": "Notes",
+                                    "done": false,
+                                    "tasks": []
+                                },
+                                {
+                                    "text": "Steam workshop",
+                                    "done": false,
+                                    "tasks": []
+                                },
+                                {
+                                    "text": "Trading cards",
+                                    "done": false,
+                                    "tasks": []
+                                },
+                                {
+                                    "text": "DLC",
+                                    "done": false,
+                                    "tasks": []
+                                },
+                                {
+                                    "text": "Recordings and screenshots",
+                                    "done": false,
+                                    "tasks": []
+                                },
+                                {
+                                    "text": "My review",
+                                    "done": false,
+                                    "tasks": []
+                                }
+                            ]
+                        },
+                        {
+                            "text": "Community content section",
+                            "done": false,
+                            "tasks": []
+                        }
+                    ]
                 }
             ]
         },
@@ -587,8 +680,13 @@
                     "tasks": []
                 },
                 {
-                    "text": "Special Offers",
-                    "done": true,
+                    "text": "(WIP) Special Offers",
+                    "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Change preferred copy window",
+                    "done": false,
                     "tasks": []
                 },
                 {
@@ -1114,6 +1212,15 @@
     ],
     "commits": [
         {
+            "sha": "ffb79a7",
+            "title": "Update ROADMAP.md",
+            "body": "",
+            "date": "2026-10-17T16:38:21Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/ffb79a7e55e2b739b7490af078eb1436b74ef233"
+        },
+        {
             "sha": "5af4cd6",
             "title": "update: account pages, hide account header",
             "body": "",
@@ -1373,15 +1480,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/98aa5cbc905c4beb1be4a49ce2feb0f663d51e2d"
-        },
-        {
-            "sha": "96828b2",
-            "title": "fix: store star in wishlist game pill",
-            "body": "",
-            "date": "2026-09-26T20:57:46Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/96828b2860d3fa43a3df62c4528897c575abefea"
         }
     ]
 }
