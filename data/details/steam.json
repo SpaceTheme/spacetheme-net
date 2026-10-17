@@ -225,6 +225,11 @@
                             "done": false,
                             "tasks": [
                                 {
+                                    "text": "Controller",
+                                    "done": false,
+                                    "tasks": []
+                                },
+                                {
                                     "text": "Friends who play",
                                     "done": false,
                                     "tasks": []
@@ -687,6 +692,11 @@
                 {
                     "text": "Change preferred copy window",
                     "done": false,
+                    "tasks": []
+                },
+                {
+                    "text": "Play on another device with Remote Play window",
+                    "done": true,
                     "tasks": []
                 },
                 {
@@ -1212,6 +1222,42 @@
     ],
     "commits": [
         {
+            "sha": "7f1d2a8",
+            "title": "skin: play on another device with remote play window",
+            "body": "",
+            "date": "2026-10-17T22:07:19Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/7f1d2a82187e4774475ad75b8f78917dd05b694a"
+        },
+        {
+            "sha": "e49aa50",
+            "title": "fix: library gamepage play panel",
+            "body": "",
+            "date": "2026-10-17T21:53:37Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/e49aa50c2f6a51340aeed04dcddfacd5e16749db"
+        },
+        {
+            "sha": "4c6d81e",
+            "title": "Update ROADMAP.md",
+            "body": "",
+            "date": "2026-10-17T21:53:13Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/4c6d81e2b51dc9d1082541dba23d641db3d8706c"
+        },
+        {
+            "sha": "eba0bc0",
+            "title": "Update ROADMAP.md",
+            "body": "",
+            "date": "2026-10-17T20:52:57Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/eba0bc0e9075a7011c2473140cbb12610e4e21cd"
+        },
+        {
             "sha": "80b86c3",
             "title": "improve: library gamepage links panel & new option",
             "body": "",
@@ -1444,42 +1490,6 @@
             "author": "ForgottenHero",
             "avatar": "https://avatars.githubusercontent.com/u/4233945?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/215247c0807ee054120cadf39f3203b5ce0af617"
-        },
-        {
-            "sha": "44f8db2",
-            "title": "Remove the extra 0.12s hover sidebar collapse delay.",
-            "body": "Co-authored-by: Cursor <cursoragent@cursor.com>",
-            "date": "2026-10-01T10:12:06Z",
-            "author": "ForgottenHero",
-            "avatar": "https://avatars.githubusercontent.com/u/4233945?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/44f8db24e6c4dd47a190013f04786918e35410b3"
-        },
-        {
-            "sha": "ed560f2",
-            "title": "Merge pull request #221 from S0rax/fix/side-panel-resize",
-            "body": "fix panel resize on right side",
-            "date": "2026-09-27T10:56:45Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/ed560f2bd9aae88f1194b9b12e170231cff84640"
-        },
-        {
-            "sha": "849a6b4",
-            "title": "change: sidebar game logo update circle color",
-            "body": "",
-            "date": "2026-09-27T08:45:12Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/849a6b406c49c7003c4665a241be4ed7f9d2b892"
-        },
-        {
-            "sha": "a3e46f5",
-            "title": "add max 50% width to resize logic",
-            "body": "",
-            "date": "2026-09-26T23:03:06Z",
-            "author": "S0rax",
-            "avatar": "https://avatars.githubusercontent.com/u/36013570?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/a3e46f51a9f9ae5cdcbf743a7bee53f20e00affb"
         }
     ]
 }
