@@ -1222,6 +1222,15 @@
     ],
     "commits": [
         {
+            "sha": "af2a36c",
+            "title": "fix: dwmx library dropdown menu",
+            "body": "",
+            "date": "2026-10-18T14:18:31Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/af2a36c43d99cbd8134cc5fd16cd0fedbc4a06f3"
+        },
+        {
             "sha": "5b23b14",
             "title": "fix: #230",
             "body": "",
@@ -1481,15 +1490,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/66f1ddae59a974b2c7b297e6c6919c9bf62512d5"
-        },
-        {
-            "sha": "039dc6e",
-            "title": "skin: store home gift card button",
-            "body": "",
-            "date": "2026-10-04T11:09:25Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/039dc6ea398cf8661b77bd097a0b5051d9c6c6f6"
         }
     ]
 }
