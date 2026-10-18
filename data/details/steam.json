@@ -1222,6 +1222,15 @@
     ],
     "commits": [
         {
+            "sha": "650f396",
+            "title": "add: option for hiding settings button in userpanel",
+            "body": "",
+            "date": "2026-10-18T15:00:26Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/650f3961021720b8c1ee88fc9ca2cdf97f12ed0d"
+        },
+        {
             "sha": "af2a36c",
             "title": "fix: dwmx library dropdown menu",
             "body": "",
@@ -1481,15 +1490,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/a8e5880cfc1fa3b12ae4a432e853425a474b8467"
-        },
-        {
-            "sha": "66f1dda",
-            "title": "add: option to hide gift card button on store homepage",
-            "body": "",
-            "date": "2026-10-04T11:11:43Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/66f1ddae59a974b2c7b297e6c6919c9bf62512d5"
         }
     ]
 }
