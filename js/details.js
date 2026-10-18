@@ -413,31 +413,46 @@ function countTasks(tasks) {
 }
 
 function renderTasks(tasks) {
-    return tasks.map(task => `
-        <div class="task${task.done ? ' done' : ''}">
+    return tasks.map(task => {
+        const isWip = task.text.includes('(WIP)');
+        const isDone = task.done;
+        const textClean = task.text.replace(/\(WIP\)\s*/g, '');
+        return `
+        <div class="task${isDone ? ' done' : ''}${isWip && !isDone ? ' wip' : ''}">
             <div class="task-row">
-                <span class="task-check" aria-label="${task.done ? 'Done' : 'Open'}">${task.done ? ST.icon('check') : ''}</span>
-                <span class="task-text">${inlineMarkdown(task.text)}</span>
+                <span class="task-check" aria-label="${isDone ? 'Done' : isWip ? 'Work in progress' : 'Open'}">${isDone ? ST.icon('check') : (isWip ? '<span class="task-dot"></span>' : '')}</span>
+                <span class="task-text">${inlineMarkdown(textClean)}</span>
             </div>
             ${task.tasks.length ? `<div class="task-children">${renderTasks(task.tasks)}</div>` : ''}
-        </div>`).join('');
+        </div>`;
+    }).join('');
 }
 
-function roadmapProgress({ done, total }) {
+function roadmapProgress({ done, total }, hasWip = false) {
     const percent = total ? Math.round((done / total) * 100) : 0;
+    let key = '';
+    if (hasWip) {
+        key = `
+        <div class="roadmap-key">
+            <span><span class="key-check key-done">${ST.icon('check')}</span> Finished</span>
+            <span><span class="key-check key-wip"></span> Work in progress</span>
+        </div>`;
+    }
     return `
         <div class="roadmap-progress">
             <div class="progress-bar"><span style="width: ${percent}%"></span></div>
             <span>${done} / ${total} done · ${percent}%</span>
-        </div>`;
+        </div>${key}`;
 }
 
 function renderRoadmapTab(panel, roadmap) {
+    const allTasks = roadmap.flatMap(section => section.tasks);
+    const hasWip = allTasks.some(task => task.text.includes('(WIP)'));
     panel.innerHTML = `
         <div class="roadmap">
             <div class="panel">
                 <h3 class="panel-title">${ST.icon('flag')}Roadmap</h3>
-                ${roadmapProgress(countTasks(roadmap.flatMap(section => section.tasks)))}
+                ${roadmapProgress(countTasks(allTasks), hasWip)}
             </div>
             ${roadmap.map(section => {
                 const count = countTasks(section.tasks);
