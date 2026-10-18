@@ -428,38 +428,55 @@ function renderTasks(tasks) {
     }).join('');
 }
 
-function roadmapProgress({ done, total }, hasWip = false) {
+function roadmapProgress({ done, total }) {
     const percent = total ? Math.round((done / total) * 100) : 0;
-    let key = '';
-    if (hasWip) {
-        key = `
-        <div class="roadmap-key">
-            <span><span class="key-check key-done">${ST.icon('check')}</span> Finished</span>
-            <span><span class="key-check key-wip"></span> Work in progress</span>
-        </div>`;
-    }
     return `
         <div class="roadmap-progress">
             <div class="progress-bar"><span style="width: ${percent}%"></span></div>
             <span>${done} / ${total} done · ${percent}%</span>
-        </div>${key}`;
+        </div>`;
+}
+
+function renderRoadmapSidebar(roadmap) {
+    if (!roadmap || !roadmap.length) return '';
+    const allTasks = roadmap.flatMap(section => section.tasks);
+    const totals = countTasks(allTasks);
+    return `
+        <div class="panel roadmap-sidebar-panel">
+            <h3 class="panel-title" style="justify-content: space-between;">
+                <span style="display: flex; align-items: center; gap: 8px;">
+                    ${ST.icon('flag')}Roadmap
+                </span>
+                <div class="roadmap-key">
+                    <span><span class="key-check key-done">${ST.icon('check')}</span> Finished</span>
+                    <span><span class="key-check key-wip"></span> Work in progress</span>
+                </div>
+            </h3>
+            ${roadmapProgress(totals)}
+        </div>`;
 }
 
 function renderRoadmapTab(panel, roadmap) {
     const allTasks = roadmap.flatMap(section => section.tasks);
-    const hasWip = allTasks.some(task => task.text.includes('(WIP)'));
     panel.innerHTML = `
         <div class="roadmap">
             <div class="panel">
-                <h3 class="panel-title">${ST.icon('flag')}Roadmap</h3>
-                ${roadmapProgress(countTasks(allTasks), hasWip)}
+                <h3 class="panel-title" style="justify-content: space-between;">
+                    <span style="display: flex; align-items: center; gap: 8px;">
+                        ${ST.icon('flag')}Roadmap
+                    </span>
+                    <div class="roadmap-key">
+                        <span><span class="key-check key-done">${ST.icon('check')}</span> Finished</span>
+                        <span><span class="key-check key-wip"></span> Work in progress</span>
+                    </div>
+                </h3>
+                ${roadmapProgress(countTasks(allTasks))}
             </div>
             ${roadmap.map(section => {
                 const count = countTasks(section.tasks);
                 return `
                     <div class="panel">
-                        <h3 class="panel-title">${esc(section.title || 'Tasks')} <span class="count">${count.done} / ${count.total}</span></h3>
-                        ${renderTasks(section.tasks)}
+                        <h3 class="panel-title">${esc(section.title || 'Tasks')} <span class="count">${count.done} / ${count.total}</span></h3>${renderTasks(section.tasks)}
                     </div>`;
             }).join('')}
         </div>`;
