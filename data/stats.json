@@ -1,24 +1,24 @@
 {
-    "updated": "2026-10-18T01:07:28.559Z",
-    "total_downloads": 442628,
-    "total_stars": 357,
+    "updated": "2026-10-18T05:58:38.775Z",
+    "total_downloads": 443326,
+    "total_stars": 358,
     "themes": {
         "steam-custom-artworks": {
             "repo": "SpaceTheme/Steam-Custom-Artworks",
             "image": "https://raw.githubusercontent.com/SpaceTheme/Steam-Custom-Artworks/main/.github/assets/banner.webp",
             "socialImage": "https://repository-images.githubusercontent.com/908138433/e9566f6e-839c-4b33-be65-9eef37d1cd1d",
             "changelog": "releases",
-            "version": "v20261014",
-            "versionDate": "2026-10-14T22:07:27Z",
-            "updated": "2026-10-16T21:38:10Z",
+            "version": "v20261018",
+            "versionDate": "2026-10-18T04:41:50Z",
+            "updated": "2026-10-18T04:41:50Z",
             "description": "Custom covers, banners, heroes and logos for your Steam library in one consistent style.",
             "license": "MIT",
             "stars": 32,
             "forks": 4,
-            "issues": 0,
-            "downloads": 1636,
+            "issues": 8,
+            "downloads": 1638,
             "sources": {
-                "releases": 1636,
+                "releases": 1638,
                 "clones": 0
             },
             "clonesCounted": {
@@ -36,12 +36,12 @@
             "updated": "2026-10-16T14:44:52Z",
             "description": "Custom covers, banners, heroes and logos for your Steam library in one consistent style.",
             "license": "MIT",
-            "stars": 1,
+            "stars": 2,
             "forks": 0,
             "issues": 0,
-            "downloads": 8,
+            "downloads": 9,
             "sources": {
-                "releases": 8,
+                "releases": 9,
                 "clones": 0
             },
             "clonesCounted": {
@@ -61,12 +61,12 @@
             "license": "MIT",
             "stars": 289,
             "forks": 29,
-            "issues": 11,
-            "downloads": 433300,
+            "issues": 12,
+            "downloads": 433991,
             "sources": {
                 "releases": 13148,
                 "clones": 0,
-                "steambrew": 420152
+                "steambrew": 420843
             },
             "clonesCounted": {
                 "total": 0,
@@ -86,9 +86,9 @@
             "stars": 20,
             "forks": 3,
             "issues": 4,
-            "downloads": 2456,
+            "downloads": 2457,
             "sources": {
-                "releases": 2456,
+                "releases": 2457,
                 "clones": 0
             },
             "clonesCounted": {
@@ -179,9 +179,9 @@
             "stars": 9,
             "forks": 2,
             "issues": 0,
-            "downloads": 5228,
+            "downloads": 5231,
             "sources": {
-                "releases": 5228,
+                "releases": 5231,
                 "clones": 0
             },
             "clonesCounted": {
