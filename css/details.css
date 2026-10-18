@@ -563,6 +563,18 @@
     border-radius: var(--radius);
     background-color: rgb(var(--st-green));
 }
+.roadmap-key {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 12px;
+    color: var(--muted);
+}
+.roadmap-key span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
 
 .task {
     display: flex;
@@ -614,6 +626,50 @@
 }
 .task-text a:hover {
     color: rgb(var(--st-blue-hover));
+}
+
+.key-check {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+}
+.key-check.key-done {
+    border: 2px solid rgb(var(--st-green));
+    background-color: rgb(var(--st-green));
+}
+.key-check.key-done .icon {
+    width: 10px;
+    height: 10px;
+    stroke-width: 3;
+    color: #fff;
+}
+.key-check.key-wip {
+    border: 2px solid rgb(var(--st-yellow));
+    background-color: transparent;
+}
+.key-check.key-wip::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgb(var(--st-yellow));
+    display: block;
+}
+
+.task.wip > .task-row .task-check {
+    border-color: rgb(var(--st-yellow));
+    background-color: transparent;
+}
+.task.wip > .task-row .task-check::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(var(--st-yellow));
+    display: block;
 }
 .task-children {
     display: flex;
