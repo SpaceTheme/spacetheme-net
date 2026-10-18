@@ -1222,6 +1222,24 @@
     ],
     "commits": [
         {
+            "sha": "5b23b14",
+            "title": "fix: #230",
+            "body": "",
+            "date": "2026-10-17T23:51:17Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/5b23b14bf2d0edbfe1d2e44c2b3070d6efe27f55"
+        },
+        {
+            "sha": "a8257ab",
+            "title": "fix: #177",
+            "body": "",
+            "date": "2026-10-17T23:40:05Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/a8257abce13ea8f50e3607c36024832e3a097f6d"
+        },
+        {
             "sha": "7f1d2a8",
             "title": "skin: play on another device with remote play window",
             "body": "",
@@ -1472,24 +1490,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/039dc6ea398cf8661b77bd097a0b5051d9c6c6f6"
-        },
-        {
-            "sha": "12d723d",
-            "title": "fix: store home discovery section",
-            "body": "",
-            "date": "2026-10-04T10:52:30Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/12d723d4c12c467443dd7b317f487bee1b1e9768"
-        },
-        {
-            "sha": "215247c",
-            "title": "Merge branch 'SpaceTheme:main' into cursor/hover-sidebar-user-panel",
-            "body": "",
-            "date": "2026-10-01T10:12:34Z",
-            "author": "ForgottenHero",
-            "avatar": "https://avatars.githubusercontent.com/u/4233945?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/215247c0807ee054120cadf39f3203b5ce0af617"
         }
     ]
 }
