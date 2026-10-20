@@ -1,6 +1,6 @@
 {
-    "updated": "2026-10-20T01:52:06.036Z",
-    "total_downloads": 450682,
+    "updated": "2026-10-20T07:39:08.525Z",
+    "total_downloads": 451085,
     "total_stars": 360,
     "themes": {
         "steam-custom-artworks": {
@@ -16,9 +16,9 @@
             "stars": 32,
             "forks": 4,
             "issues": 41,
-            "downloads": 1643,
+            "downloads": 1644,
             "sources": {
-                "releases": 1643,
+                "releases": 1644,
                 "clones": 0
             },
             "clonesCounted": {
@@ -39,9 +39,9 @@
             "stars": 2,
             "forks": 0,
             "issues": 0,
-            "downloads": 12,
+            "downloads": 13,
             "sources": {
-                "releases": 12,
+                "releases": 13,
                 "clones": 0
             },
             "clonesCounted": {
@@ -62,11 +62,11 @@
             "stars": 291,
             "forks": 29,
             "issues": 12,
-            "downloads": 441333,
+            "downloads": 441733,
             "sources": {
                 "releases": 13149,
                 "clones": 0,
-                "steambrew": 428184
+                "steambrew": 428584
             },
             "clonesCounted": {
                 "total": 0,
@@ -179,9 +179,9 @@
             "stars": 9,
             "forks": 2,
             "issues": 0,
-            "downloads": 5234,
+            "downloads": 5235,
             "sources": {
-                "releases": 5234,
+                "releases": 5235,
                 "clones": 0
             },
             "clonesCounted": {
