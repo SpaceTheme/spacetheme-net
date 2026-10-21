@@ -800,13 +800,13 @@
             "date": "2025-08-12T03:38:24Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250812",
-            "downloads": 279,
+            "downloads": 280,
             "body": "<h2>v2025-08-12 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/7c337b2\"><code>7c337b2</code></a> - Added \"Banner position\" - <em>Change the position of the banner (applies to all banners)</em></li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/f6cdea8\"><code>f6cdea8</code></a> - Added \"Mica &amp; Acrylic plugin support\" - <em>Support for Mica and Acrylic plugin <a href=\"https://steambrew.app/plugin?id=b4c58634419b\" rel=\"nofollow\">https://steambrew.app/plugin?id=b4c58634419b</a> (Only works with the standard theme colors)</em></li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/2eb6175\"><code>2eb6175</code></a> - Added Montserrat to \"Font\" option</li>\n</ul>\n<h3>Skin</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/b35c572\"><code>b35c572</code></a> -  Soundtrack Page</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/35fdf35\"><code>35fdf35</code></a>  -  Store Gamepage Video Player (Steam Beta)</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/5075bcf\"><code>5075bcf</code></a>  -  Pointshop Header</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250727...v20250812\"><code>v20250727...v20250812</code></a></p>",
             "assets": [
                 {
                     "name": "SpaceTheme_for_Steam.zip",
                     "size": 98982,
-                    "downloads": 279,
+                    "downloads": 280,
                     "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250812/SpaceTheme_for_Steam.zip"
                 }
             ]
@@ -885,13 +885,13 @@
             "date": "2025-06-23T00:23:25Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250623",
-            "downloads": 229,
+            "downloads": 230,
             "body": "<h2>v2025-06-23 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/2809fd9\"><code>2809fd9</code></a> - Improve Structure - <strong>you have to redo your settings</strong></li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/6c6a447\"><code>6c6a447</code></a> - Added Custom Section Titels</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/475f7e4\"><code>475f7e4</code></a> - Added \"SteamDeck &amp; Giftcard\" - <em>Hide SteamDeck, Giftcard or both from the stores sidebar</em></li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/aaa72c3\"><code>aaa72c3</code></a> - Added \"Broadcast\" - <em>Hide broadcasts on the store gamepage</em> (<a href=\"https://github.com/SpaceTheme/Steam/issue/88\">#88</a>)</li>\n</ul>\n<h3>Skin</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/25afde2\"><code>25afde2</code></a> - Startup/Login Window</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/48b41c8\"><code>48b41c8</code></a> - Steam Settings (WIP)</li>\n</ul>\n<h3>Added</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/b785b99\"><code>b785b99</code></a> - Custom Background - <em>Only for <a href=\"https://ko-fi.com/spacetheme/tiers\" rel=\"nofollow\">Ko-Fi</a> Supporter+</em></li>\n</ul>\n<h3>Improve</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/6652033\"><code>6652033</code></a> - Structure</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250604...v20250623\"><code>v20250604...v20250623</code></a></p>",
             "assets": [
                 {
                     "name": "SpaceTheme_for_Steam.zip",
                     "size": 86030,
-                    "downloads": 229,
+                    "downloads": 230,
                     "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250623/SpaceTheme_for_Steam.zip"
                 }
             ]
