@@ -1222,6 +1222,33 @@
     ],
     "commits": [
         {
+            "sha": "13305ed",
+            "title": "add: options for show/hide library gamepage playbar info icons",
+            "body": "",
+            "date": "2026-10-21T17:59:30Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/13305edb86e8fc38400ca6bb725cf35fc092cba5"
+        },
+        {
+            "sha": "dd67f00",
+            "title": "fix: libraryHome game card friends avatars",
+            "body": "",
+            "date": "2026-10-21T17:41:26Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/dd67f007c11efe8743f2467045a2532eb4ff824f"
+        },
+        {
+            "sha": "0402599",
+            "title": "add: options to darken diffrent library artworks/banners",
+            "body": "",
+            "date": "2026-10-21T17:40:35Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/04025995333dffc41f6f8a7897ef0123e381566d"
+        },
+        {
             "sha": "650f396",
             "title": "add: option for hiding settings button in userpanel",
             "body": "",
@@ -1463,33 +1490,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/3e17b7fd2f2b95c3746bfc21a7da9660f7548759"
-        },
-        {
-            "sha": "4c2311b",
-            "title": "Update dropdown.css",
-            "body": "",
-            "date": "2026-10-04T12:45:31Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/4c2311bc0a835e7e8d2e5cc22264e7c9f64c76aa"
-        },
-        {
-            "sha": "aa7bb1d",
-            "title": "Merge pull request #220 from ForgottenHero/cursor/hover-sidebar-user-panel",
-            "body": "Keep hover sidebar open over the user panel and download bar.",
-            "date": "2026-10-04T11:46:53Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/aa7bb1d6395a044a5a163a37c16d5ee2bc25ab40"
-        },
-        {
-            "sha": "a8e5880",
-            "title": "add: option compact favorite friends area status background",
-            "body": "",
-            "date": "2026-10-04T11:43:53Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/a8e5880cfc1fa3b12ae4a432e853425a474b8467"
         }
     ]
 }
