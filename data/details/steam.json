@@ -749,13 +749,13 @@
             "date": "2025-09-01T04:36:27Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250901",
-            "downloads": 824,
+            "downloads": 825,
             "body": "<h2>v2025-09-01 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/2fecb03\"><code>2fecb03</code></a> - Improve \"Window Controls\" Option (Added \"Show only on hover\")</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/a25812e\"><code>a25812e</code></a> - Millennium Theme Settings Are Cut Off</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/41e5258\"><code>41e5258</code></a> - The Give an Award dialog is cut off and doesn't scroll (<a href=\"https://github.com/SpaceTheme/Steam/issues/98\" data-hovercard-type=\"issue\" data-hovercard-url=\"/SpaceTheme/Steam/issues/98/hovercard\">#98</a>)</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/7f267c2\"><code>7f267c2</code></a> - enabling acrylic background causes play button area to get transparent (<a href=\"https://github.com/SpaceTheme/Steam/issues/101\" data-hovercard-type=\"issue\" data-hovercard-url=\"/SpaceTheme/Steam/issues/101/hovercard\">#101</a>)</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250821...v20250901\"><code>v20250821...v20250901</code></a></p>",
             "assets": [
                 {
                     "name": "SpaceTheme_for_Steam.zip",
                     "size": 101379,
-                    "downloads": 824,
+                    "downloads": 825,
                     "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250901/SpaceTheme_for_Steam.zip"
                 }
             ]
