@@ -296,13 +296,13 @@
             "date": "2023-05-21T22:42:41Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.1.4-alpha",
-            "downloads": 62,
+            "downloads": 63,
             "body": "<ul>\n<li>Channel Icons (Only for this Server yet)</li>\n<li>Server Discover</li>\n</ul>",
             "assets": [
                 {
                     "name": "SpaceTheme.theme.css",
                     "size": 27464,
-                    "downloads": 62,
+                    "downloads": 63,
                     "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.1.4-alpha/SpaceTheme.theme.css"
                 }
             ]
