@@ -1222,6 +1222,15 @@
     ],
     "commits": [
         {
+            "sha": "fc55251",
+            "title": "fix: #236",
+            "body": "",
+            "date": "2026-10-24T14:47:50Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/fc552516e920c6168d43d5adb5aaeffdb7574cbb"
+        },
+        {
             "sha": "13305ed",
             "title": "add: options for show/hide library gamepage playbar info icons",
             "body": "",
@@ -1481,15 +1490,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/f58f13a016360a78101215fe564c4c4d9e5a6631"
-        },
-        {
-            "sha": "3e17b7f",
-            "title": "Update dropdown.css",
-            "body": "",
-            "date": "2026-10-04T12:48:50Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/3e17b7fd2f2b95c3746bfc21a7da9660f7548759"
         }
     ]
 }

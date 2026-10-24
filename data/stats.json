@@ -1,6 +1,6 @@
 {
-    "updated": "2026-10-24T14:36:10.391Z",
-    "total_downloads": 462178,
+    "updated": "2026-10-24T18:11:42.735Z",
+    "total_downloads": 463017,
     "total_stars": 360,
     "themes": {
         "steam-custom-artworks": {
@@ -54,19 +54,19 @@
             "image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.webp",
             "socialImage": "https://repository-images.githubusercontent.com/640600509/55a42db8-d905-4d75-8c10-beab128984c0",
             "changelog": "commits",
-            "version": "13305ed",
-            "versionDate": "2026-10-21T17:59:30Z",
-            "updated": "2026-10-21T17:59:32Z",
+            "version": "fc55251",
+            "versionDate": "2026-10-24T14:47:50Z",
+            "updated": "2026-10-24T14:47:52Z",
             "description": "Theme with a dark aesthetic and modular-inspired look, offering clarity, flexibility, and an enhanced user experience.",
             "license": "MIT",
             "stars": 291,
             "forks": 29,
-            "issues": 13,
-            "downloads": 452806,
+            "issues": 12,
+            "downloads": 453645,
             "sources": {
                 "releases": 13157,
                 "clones": 0,
-                "steambrew": 439649
+                "steambrew": 440488
             },
             "clonesCounted": {
                 "total": 0,
