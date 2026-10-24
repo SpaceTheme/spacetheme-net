@@ -7,13 +7,13 @@
             "date": "2026-10-18T04:41:50Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/releases/tag/v20261018",
-            "downloads": 12,
+            "downloads": 13,
             "body": "<p>New artworks for the following games:<br>\n<a href=\"https://steamdb.info/app/1124300\" rel=\"nofollow\"><code>1124300</code></a>, <a href=\"https://steamdb.info/app/1158160\" rel=\"nofollow\"><code>1158160</code></a>, <a href=\"https://steamdb.info/app/1190000\" rel=\"nofollow\"><code>1190000</code></a>, <a href=\"https://steamdb.info/app/1256230\" rel=\"nofollow\"><code>1256230</code></a>, <a href=\"https://steamdb.info/app/1497440\" rel=\"nofollow\"><code>1497440</code></a>, <a href=\"https://steamdb.info/app/1627570\" rel=\"nofollow\"><code>1627570</code></a>, <a href=\"https://steamdb.info/app/1843090\" rel=\"nofollow\"><code>1843090</code></a>, <a href=\"https://steamdb.info/app/203750\" rel=\"nofollow\"><code>203750</code></a>, <a href=\"https://steamdb.info/app/204450\" rel=\"nofollow\"><code>204450</code></a>, <a href=\"https://steamdb.info/app/216250\" rel=\"nofollow\"><code>216250</code></a>, <a href=\"https://steamdb.info/app/247430\" rel=\"nofollow\"><code>247430</code></a>, <a href=\"https://steamdb.info/app/2484180\" rel=\"nofollow\"><code>2484180</code></a>, <a href=\"https://steamdb.info/app/274520\" rel=\"nofollow\"><code>274520</code></a>, <a href=\"https://steamdb.info/app/3056840\" rel=\"nofollow\"><code>3056840</code></a>, <a href=\"https://steamdb.info/app/3476880\" rel=\"nofollow\"><code>3476880</code></a>, <a href=\"https://steamdb.info/app/3717340\" rel=\"nofollow\"><code>3717340</code></a>, <a href=\"https://steamdb.info/app/4001890\" rel=\"nofollow\"><code>4001890</code></a>, <a href=\"https://steamdb.info/app/405640\" rel=\"nofollow\"><code>405640</code></a>, <a href=\"https://steamdb.info/app/4197610\" rel=\"nofollow\"><code>4197610</code></a>, <a href=\"https://steamdb.info/app/448280\" rel=\"nofollow\"><code>448280</code></a>, <a href=\"https://steamdb.info/app/451340\" rel=\"nofollow\"><code>451340</code></a>, <a href=\"https://steamdb.info/app/457550\" rel=\"nofollow\"><code>457550</code></a>, <a href=\"https://steamdb.info/app/4705510\" rel=\"nofollow\"><code>4705510</code></a>, <a href=\"https://steamdb.info/app/5020310\" rel=\"nofollow\"><code>5020310</code></a>, <a href=\"https://steamdb.info/app/637650\" rel=\"nofollow\"><code>637650</code></a>, <a href=\"https://steamdb.info/app/6850\" rel=\"nofollow\"><code>6850</code></a>, <a href=\"https://steamdb.info/app/6900\" rel=\"nofollow\"><code>6900</code></a>, <a href=\"https://steamdb.info/app/787860\" rel=\"nofollow\"><code>787860</code></a>, <a href=\"https://steamdb.info/app/874260\" rel=\"nofollow\"><code>874260</code></a>, <a href=\"https://steamdb.info/app/958260\" rel=\"nofollow\"><code>958260</code></a></p>",
             "assets": [
                 {
                     "name": "grid.zip",
                     "size": 408916099,
-                    "downloads": 12,
+                    "downloads": 13,
                     "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/releases/download/v20261018/grid.zip"
                 }
             ]
@@ -514,274 +514,274 @@
     ],
     "commits": [
         {
-            "sha": "4447b5b",
-            "title": "Add artwork for app 1091500 (#2226)",
-            "body": "",
-            "date": "2026-10-24T11:00:36Z",
-            "author": "actions-user",
-            "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/4447b5b4c972f7256413d6dc37f2d31b196f68d2"
+            "sha": "fd4c4bb",
+            "title": "Merge pull request #2227 from SpaceTheme/dependabot/npm_and_yarn/follow-redirects-1.16.1",
+            "body": "Bump follow-redirects from 1.16.0 to 1.16.1",
+            "date": "2026-10-24T11:29:56Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/fd4c4bbfef7dc82d6da7e3597af35bc20c0fc43c"
         },
         {
-            "sha": "c6bda6b",
-            "title": "Add artwork for app 460950 (#2181)",
-            "body": "",
-            "date": "2026-10-18T10:49:22Z",
-            "author": "actions-user",
-            "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/c6bda6b6572f34bbb135db7728a9b9e016645102"
+            "sha": "f2d12af",
+            "title": "Bump follow-redirects from 1.16.0 to 1.16.1",
+            "body": "Bumps [follow-redirects](https://github.com/follow-redirects/follow-redirects) from 1.16.0 to 1.16.1.\n- [Release notes](https://github.com/follow-redirects/follow-redirects/releases)\n- [Commits](https://github.com/follow-redirects/follow-redirects/compare/v1.16.0...v1.16.1)\n\n---\nupdated-dependencies:\n- dependency-name: follow-redirects\n  dependency-version: 1.16.1\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>",
+            "date": "2026-10-24T11:29:27Z",
+            "author": "dependabot[bot]",
+            "avatar": "https://avatars.githubusercontent.com/in/29110?v=4",
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/f2d12af972d4cecdbd41348345e68def40840475"
         },
         {
-            "sha": "57c4430",
-            "title": "Add artwork for app 1579020 (#2180)",
+            "sha": "d9f40d3",
+            "title": "Add artwork for app 240720 (#2221)",
             "body": "",
-            "date": "2026-10-18T10:47:41Z",
+            "date": "2026-10-24T11:27:19Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/57c443051496b7997b0ffd34f900e5f2feba00eb"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/d9f40d3809445fe563eef4fea2301562d4c8296b"
         },
         {
-            "sha": "7606b89",
-            "title": "Add artwork for app 2442460 (#2179)",
+            "sha": "e301b13",
+            "title": "Add artwork for app 779290 (#2219)",
             "body": "",
-            "date": "2026-10-18T10:47:22Z",
+            "date": "2026-10-24T11:27:00Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/7606b8970ae044dfe1eb86980d23e2b91827d92c"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/e301b1375f661f428c93cae833b92f817e8cf254"
         },
         {
-            "sha": "2c5805e",
-            "title": "Add artwork for app 466300 (#2178)",
+            "sha": "fd7c0a7",
+            "title": "Add artwork for app 2067050 (#2220)",
             "body": "",
-            "date": "2026-10-18T10:46:48Z",
+            "date": "2026-10-24T11:27:06Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/2c5805ed28269526722ca52ccbb48653ea7d2881"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/fd7c0a7acb21fdfa81ebbc10f3121225d0050df2"
         },
         {
-            "sha": "51eebf5",
-            "title": "Add artwork for app 346940 (#2177)",
+            "sha": "a9f902e",
+            "title": "Add artwork for app 440650 (#2218)",
             "body": "",
-            "date": "2026-10-18T10:46:24Z",
+            "date": "2026-10-24T11:26:53Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/51eebf5a24dcb542cec34d274dfa5fde69c81295"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/a9f902ed7f55d6c5ec9aca9704c0ed22e59289c2"
         },
         {
-            "sha": "a6de04f",
-            "title": "Add artwork for app 692850 (#2176)",
+            "sha": "5199bee",
+            "title": "Add artwork for app 384310 (#2217)",
             "body": "",
-            "date": "2026-10-18T10:45:25Z",
+            "date": "2026-10-24T11:26:51Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/a6de04f004f2903d299b0870985d31533ff3d768"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/5199bee3fc7d1cfb06a4cec9bbf1a28265c7a6ec"
         },
         {
-            "sha": "4e67f49",
-            "title": "Add artwork for app 557340 (#2175)",
+            "sha": "89605f7",
+            "title": "Add artwork for app 596970 (#2216)",
             "body": "",
-            "date": "2026-10-18T10:45:08Z",
+            "date": "2026-10-24T11:26:27Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/4e67f49530d54e2138a571b45d9c011f3b520afc"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/89605f71f22d982955b0c6ffa17143d566418d9b"
         },
         {
-            "sha": "7400d15",
-            "title": "Add artwork for app 1368030 (#2174)",
+            "sha": "4cf3789",
+            "title": "Add artwork for app 304650 (#2215)",
             "body": "",
-            "date": "2026-10-18T10:45:00Z",
+            "date": "2026-10-24T11:26:10Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/7400d15d377b23560b02bbf6195c2d6f99be6766"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/4cf37895f3e08754a719a8f28c56c7faa43c1f8b"
         },
         {
-            "sha": "5495d4e",
-            "title": "Add artwork for app 1843090 (#2173)",
+            "sha": "13ca659",
+            "title": "Add artwork for app 239030 (#2214)",
             "body": "",
-            "date": "2026-10-16T21:38:07Z",
+            "date": "2026-10-24T11:25:35Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/5495d4eeb961e3dadc5eada30f30672f20eefda0"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/13ca6595114d6675218c22a2e475a2e69b3af046"
         },
         {
-            "sha": "a64c207",
-            "title": "Add artwork for app 637650 (#2172)",
+            "sha": "e2723ac",
+            "title": "Add artwork for app 1260520 (#2213)",
             "body": "",
-            "date": "2026-10-16T14:27:41Z",
+            "date": "2026-10-24T11:25:31Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/a64c207448f83470e04b28585598fd8a1338a04f"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/e2723ac02240b1860ac026cc08e141d977fefee8"
         },
         {
-            "sha": "c0468a5",
-            "title": "Add artwork for app 405640 (#2171)",
+            "sha": "77547be",
+            "title": "Add artwork for app 404410 (#2211)",
             "body": "",
-            "date": "2026-10-16T10:23:45Z",
+            "date": "2026-10-24T11:24:30Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/c0468a529e7e4ed8dda5e7dd6b9a17413a5c448b"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/77547be4967d7283749a97b9b1b37d62877896da"
         },
         {
-            "sha": "2e6e811",
-            "title": "Add artwork for app 203750 (#2170)",
+            "sha": "134cadc",
+            "title": "Add artwork for app 2400510 (#2210)",
             "body": "",
-            "date": "2026-10-16T10:22:48Z",
+            "date": "2026-10-24T11:24:26Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/2e6e811c1f49ae34d4dd4bef970d2420635b167e"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/134cadc2fe250794852754451a72248f0b4c70b7"
         },
         {
-            "sha": "fe357c3",
-            "title": "Add artwork for app 5020310 (#2169)",
+            "sha": "8a93d0f",
+            "title": "Add artwork for app 632470 (#2209)",
             "body": "",
-            "date": "2026-10-16T10:22:11Z",
+            "date": "2026-10-24T11:24:23Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/fe357c30fc3e51e770e3a34b45c119e687a4d935"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/8a93d0fcef25a5fe4d06ab0a8673513bb6fc40b2"
         },
         {
-            "sha": "2c310d4",
-            "title": "Add artwork for app 1627570 (#2168)",
+            "sha": "b9a6069",
+            "title": "Add artwork for app 588650 (#2208)",
             "body": "",
-            "date": "2026-10-16T10:21:18Z",
+            "date": "2026-10-24T11:24:01Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/2c310d41776185a63eb766c48d290fe98429657f"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/b9a60692ca0cb8aa175d867dfe4d832b1f131201"
         },
         {
-            "sha": "8de3e75",
-            "title": "Add artwork for app 3717340 (#2167)",
+            "sha": "96d12aa",
+            "title": "Add artwork for app 953490 (#2207)",
             "body": "",
-            "date": "2026-10-16T10:20:04Z",
+            "date": "2026-10-24T11:23:37Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/8de3e75dc5e60079576fefea205830b0e405045b"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/96d12aab0d7b7509ad1c7f1b0cfa830f69493230"
         },
         {
-            "sha": "7bc700f",
-            "title": "Add artwork for app 274520 (#2166)",
+            "sha": "fb192c8",
+            "title": "Add artwork for app 2608270 (#2205)",
             "body": "",
-            "date": "2026-10-16T10:19:08Z",
+            "date": "2026-10-24T11:22:38Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/7bc700f874c0527318dfb2461693ea2713cf0672"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/fb192c8d48dcdc3f77f2e59ae0aaef9682f9ad15"
         },
         {
-            "sha": "f5a7e2b",
-            "title": "Add artwork for app 3056840 (#2165)",
+            "sha": "ed34c7c",
+            "title": "Add artwork for app 2386720 (#2203)",
             "body": "",
-            "date": "2026-10-16T10:18:15Z",
+            "date": "2026-10-24T11:22:26Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/f5a7e2bb64cb531caa74f5519a2f46086cf00b91"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/ed34c7cec8a7a1fa0ceaf2955de5c8aa3c0e97f3"
         },
         {
-            "sha": "d05a89d",
-            "title": "Add artwork for app 1497440 (#2164)",
+            "sha": "10c4a0a",
+            "title": "Add artwork for app 252610 (#2202)",
             "body": "",
-            "date": "2026-10-16T10:17:16Z",
+            "date": "2026-10-24T11:22:19Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/d05a89df9b22b8adc3cb8de7bbf1eb5d89a3ff12"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/10c4a0a8a61fb2dfe9e12f4333ddfab92a9b7a93"
         },
         {
-            "sha": "7576089",
-            "title": "Add artwork for app 4197610 (#2163)",
+            "sha": "8b2f0c2",
+            "title": "Add artwork for app 1867240 (#2201)",
             "body": "",
-            "date": "2026-10-16T10:10:47Z",
+            "date": "2026-10-24T11:22:06Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/7576089e684095d9563d57196cf211ce57946164"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/8b2f0c272354dff51a1fd1419ccc798813380b19"
         },
         {
-            "sha": "0a4332f",
-            "title": "Add artwork for app 4705510 (#2162)",
+            "sha": "d0fcdc5",
+            "title": "Add artwork for app 1563180 (#2198)",
             "body": "",
-            "date": "2026-10-16T10:10:18Z",
+            "date": "2026-10-24T11:21:34Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/0a4332faeef38c1f26085bc93904ec3b372836bf"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/d0fcdc5c8afed22bad99db896e23e1f6b63991b1"
         },
         {
-            "sha": "10ebe88",
-            "title": "Add artwork for app 457550 (#2161)",
+            "sha": "79871f6",
+            "title": "Add artwork for app 2651280 (#2199)",
             "body": "",
-            "date": "2026-10-16T10:08:28Z",
+            "date": "2026-10-24T11:20:35Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/10ebe88533ef15f92912129097047e533f99b13b"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/79871f6325c8bef1ebb1478807f2d18d404fa010"
         },
         {
-            "sha": "97cd01e",
-            "title": "Add artwork for app 3476880 (#2160)",
+            "sha": "cbee60b",
+            "title": "Add artwork for app 243450 (#2197)",
             "body": "",
-            "date": "2026-10-16T10:08:04Z",
+            "date": "2026-10-24T11:20:15Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/97cd01e37102b2e7e2f1ab5af0850f81440c7b32"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/cbee60b98e573e4d3d3d92e29a01d27e37d6f830"
         },
         {
-            "sha": "c1fd560",
-            "title": "Add artwork for app 204450 (#2159)",
+            "sha": "d92f9be",
+            "title": "Add artwork for app 4078430 (#2196)",
             "body": "",
-            "date": "2026-10-16T10:03:48Z",
+            "date": "2026-10-24T11:20:12Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/c1fd56059721acd876fa89099e9ed654649d91ba"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/d92f9be83dc35c4cd4f0ae9f72e15f0c4ed3d223"
         },
         {
-            "sha": "74fa2bf",
-            "title": "Add artwork for app 1190000 (#2158)",
+            "sha": "f47a9c8",
+            "title": "Add artwork for app 2929250 (#2195)",
             "body": "",
-            "date": "2026-10-16T10:03:22Z",
+            "date": "2026-10-24T11:19:53Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/74fa2bf6b5424045ed9f7512e8ef7ba721085cd7"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/f47a9c865feee02466756b830fa0093cb092c097"
         },
         {
-            "sha": "685ce38",
-            "title": "Add artwork for app 1158160 (#2157)",
+            "sha": "5bf5a9f",
+            "title": "Add artwork for app 1912410 (#2193)",
             "body": "",
-            "date": "2026-10-16T10:02:42Z",
+            "date": "2026-10-24T11:19:43Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/685ce3809d373f81b429b91e7d8fad279d72ddab"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/5bf5a9f00b6abd4cb7fbc46e27e56ed50021924b"
         },
         {
-            "sha": "373dfbc",
-            "title": "Add artwork for app 787860 (#2156)",
+            "sha": "35f9ba5",
+            "title": "Add artwork for app 292000 (#2194)",
             "body": "",
-            "date": "2026-10-16T10:01:52Z",
+            "date": "2026-10-24T11:19:35Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/373dfbcecc57666131de43c10feeca15f923d3e7"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/35f9ba5d9614d815a1456d46d6804f1c256ae884"
         },
         {
-            "sha": "a4f016e",
-            "title": "Add artwork for app 451340 (#2155)",
+            "sha": "3eac841",
+            "title": "Add artwork for app 205930 (#2192)",
             "body": "",
-            "date": "2026-10-16T10:01:03Z",
+            "date": "2026-10-24T11:19:20Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/a4f016e1655bc35efb095eb96d62826b91340090"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/3eac841ed779f4e8bd452761f52ed2c8bfde0205"
         },
         {
-            "sha": "0e78dc5",
-            "title": "Add artwork for app 6900 (#2154)",
+            "sha": "eb1cd0b",
+            "title": "Add artwork for app 3669870 (#2190)",
             "body": "",
-            "date": "2026-10-16T10:00:10Z",
+            "date": "2026-10-24T11:18:59Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/0e78dc5cd7817c264aeb676833b19df53de2acb6"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/eb1cd0b32efed056a78d3ed5f09f1ce67231a7ce"
         },
         {
-            "sha": "bc4728c",
-            "title": "Add artwork for app 6850 (#2153)",
+            "sha": "816ed77",
+            "title": "Add artwork for app 2101960 (#2191)",
             "body": "",
-            "date": "2026-10-16T09:59:44Z",
+            "date": "2026-10-24T11:18:57Z",
             "author": "actions-user",
             "avatar": "https://avatars.githubusercontent.com/u/65916846?v=4",
-            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/bc4728c954f1fbadaff348d2bc01710f1618893e"
+            "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/commit/816ed77aa9e4488298d8525c34c70dd2fe17a968"
         }
     ]
 }
