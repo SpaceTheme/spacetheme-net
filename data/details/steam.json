@@ -1222,6 +1222,15 @@
     ],
     "commits": [
         {
+            "sha": "c462be4",
+            "title": "update: overlay experimental",
+            "body": "",
+            "date": "2026-10-25T12:56:43Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/c462be494e4987911883be4d5564bbe7660adeb5"
+        },
+        {
             "sha": "fc55251",
             "title": "fix: #236",
             "body": "",
@@ -1481,15 +1490,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/ce67165b14dc933bc21f84a51d87f9e020a1ba8d"
-        },
-        {
-            "sha": "f58f13a",
-            "title": "Merge pull request #218 from EldinBegano/fix/dropdown-popup-corners",
-            "body": "fix: rounded corners for dropdown",
-            "date": "2026-10-04T12:49:23Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/f58f13a016360a78101215fe564c4c4d9e5a6631"
         }
     ]
 }

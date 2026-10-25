@@ -1,6 +1,6 @@
 {
-    "updated": "2026-10-25T09:51:34.538Z",
-    "total_downloads": 465072,
+    "updated": "2026-10-25T14:25:07.000Z",
+    "total_downloads": 465923,
     "total_stars": 360,
     "themes": {
         "steam-custom-artworks": {
@@ -16,9 +16,9 @@
             "stars": 32,
             "forks": 4,
             "issues": 0,
-            "downloads": 1652,
+            "downloads": 1654,
             "sources": {
-                "releases": 1652,
+                "releases": 1654,
                 "clones": 0
             },
             "clonesCounted": {
@@ -54,19 +54,19 @@
             "image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.webp",
             "socialImage": "https://repository-images.githubusercontent.com/640600509/55a42db8-d905-4d75-8c10-beab128984c0",
             "changelog": "commits",
-            "version": "fc55251",
-            "versionDate": "2026-10-24T14:47:50Z",
-            "updated": "2026-10-24T14:47:52Z",
+            "version": "c462be4",
+            "versionDate": "2026-10-25T12:56:43Z",
+            "updated": "2026-10-25T12:56:46Z",
             "description": "Theme with a dark aesthetic and modular-inspired look, offering clarity, flexibility, and an enhanced user experience.",
             "license": "MIT",
             "stars": 291,
             "forks": 29,
             "issues": 12,
-            "downloads": 455697,
+            "downloads": 456544,
             "sources": {
                 "releases": 13157,
                 "clones": 0,
-                "steambrew": 442540
+                "steambrew": 443387
             },
             "clonesCounted": {
                 "total": 0,
@@ -86,9 +86,9 @@
             "stars": 20,
             "forks": 3,
             "issues": 4,
-            "downloads": 2463,
+            "downloads": 2465,
             "sources": {
-                "releases": 2463,
+                "releases": 2465,
                 "clones": 0
             },
             "clonesCounted": {
