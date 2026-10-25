@@ -9,7 +9,7 @@
 // so the page does not work with a plain static server like VS Code Live Server.
 
 const INDEX_URL = '/data/artworks.json';
-const zipUrl = release => `/api/artworks/${encodeURIComponent(release)}/grid.zip`;
+const zipUrl = release => `/api/artworks/${encodeURIComponent(release)}/grid`;
 const PROXY_MISSING = 'The API proxy is not set up on this server (see nginx/api.conf). '
     + 'It does not work with a plain static server like VS Code Live Server.';
 const STEAM_ID_OFFSET = 76561197960265728n;
