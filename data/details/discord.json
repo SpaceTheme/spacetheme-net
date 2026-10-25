@@ -7,13 +7,13 @@
             "date": "2024-07-19T03:05:21Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.4.0-alpha",
-            "downloads": 1177,
+            "downloads": 1178,
             "body": "<h2>v1.4.0-alpha is now out!</h2>\n<ul>\n<li>Add SpotifyControls plugin support</li>\n<li>Custom border-radius setting</li>\n<li>Change padding and margin from 5px-&gt;6px, 10px-&gt;12px and 15px-&gt;16px</li>\n<li>Many many source code improvements...</li>\n<li>Bug fixes\n<ul>\n<li>Channel headers</li>\n<li>Browse Channels tab (Channels &amp; Roles)</li>\n<li>And a few others</li>\n</ul>\n</li>\n</ul>",
             "assets": [
                 {
                     "name": "SpaceTheme.theme.css",
                     "size": 1271,
-                    "downloads": 1177,
+                    "downloads": 1178,
                     "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.4.0-alpha/SpaceTheme.theme.css"
                 }
             ]
