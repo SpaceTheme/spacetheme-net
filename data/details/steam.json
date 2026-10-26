@@ -1222,6 +1222,15 @@
     ],
     "commits": [
         {
+            "sha": "0676618",
+            "title": "Update gameOverview.css",
+            "body": "",
+            "date": "2026-10-26T16:03:09Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/067661870a7c6a088c807d1514b47f49cf2f0f4c"
+        },
+        {
             "sha": "c462be4",
             "title": "update: overlay experimental",
             "body": "",
@@ -1481,15 +1490,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/8e8fda51454b2607b5452a9a2ba236c8db21cae7"
-        },
-        {
-            "sha": "ce67165",
-            "title": "fix: #227",
-            "body": "",
-            "date": "2026-10-04T13:06:19Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/ce67165b14dc933bc21f84a51d87f9e020a1ba8d"
         }
     ]
 }
