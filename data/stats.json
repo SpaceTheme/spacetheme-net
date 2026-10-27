@@ -1,6 +1,6 @@
 {
-    "updated": "2026-10-27T13:16:42.772Z",
-    "total_downloads": 472148,
+    "updated": "2026-10-27T18:46:18.469Z",
+    "total_downloads": 473158,
     "total_stars": 360,
     "themes": {
         "steam-custom-artworks": {
@@ -16,9 +16,9 @@
             "stars": 32,
             "forks": 4,
             "issues": 0,
-            "downloads": 1660,
+            "downloads": 1661,
             "sources": {
-                "releases": 1660,
+                "releases": 1661,
                 "clones": 0
             },
             "clonesCounted": {
@@ -54,19 +54,19 @@
             "image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.webp",
             "socialImage": "https://repository-images.githubusercontent.com/640600509/55a42db8-d905-4d75-8c10-beab128984c0",
             "changelog": "commits",
-            "version": "0676618",
-            "versionDate": "2026-10-26T16:03:09Z",
-            "updated": "2026-10-26T16:03:12Z",
+            "version": "0809512",
+            "versionDate": "2026-10-27T17:01:06Z",
+            "updated": "2026-10-27T17:01:09Z",
             "description": "Theme with a dark aesthetic and modular-inspired look, offering clarity, flexibility, and an enhanced user experience.",
             "license": "MIT",
             "stars": 291,
             "forks": 30,
             "issues": 13,
-            "downloads": 462758,
+            "downloads": 463766,
             "sources": {
                 "releases": 13158,
                 "clones": 0,
-                "steambrew": 449600
+                "steambrew": 450608
             },
             "clonesCounted": {
                 "total": 0,
@@ -179,9 +179,9 @@
             "stars": 9,
             "forks": 2,
             "issues": 0,
-            "downloads": 5248,
+            "downloads": 5249,
             "sources": {
-                "releases": 5248,
+                "releases": 5249,
                 "clones": 0
             },
             "clonesCounted": {

@@ -1222,6 +1222,15 @@
     ],
     "commits": [
         {
+            "sha": "0809512",
+            "title": "fix: store cart page",
+            "body": "",
+            "date": "2026-10-27T17:01:06Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/08095125869f15d9b40cce4111a71672a471eee4"
+        },
+        {
             "sha": "0676618",
             "title": "Update gameOverview.css",
             "body": "",
@@ -1481,15 +1490,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/be1b33cd9224d1a471d932efdae7b69701b32b10"
-        },
-        {
-            "sha": "8e8fda5",
-            "title": "fix: #226",
-            "body": "",
-            "date": "2026-10-04T13:20:35Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/8e8fda51454b2607b5452a9a2ba236c8db21cae7"
         }
     ]
 }
