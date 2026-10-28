@@ -1222,6 +1222,15 @@
     ],
     "commits": [
         {
+            "sha": "91a3804",
+            "title": "Merge pull request #238 from gorlock777/fix/size-on-disk-icon",
+            "body": "fix(plugin): render size on disk icon",
+            "date": "2026-10-28T18:23:57Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/91a380421757233340e17040fae2b866c43c2f20"
+        },
+        {
             "sha": "0809512",
             "title": "fix: store cart page",
             "body": "",
@@ -1229,6 +1238,15 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/08095125869f15d9b40cce4111a71672a471eee4"
+        },
+        {
+            "sha": "0ad4c88",
+            "title": "fix(plugin): render size on disk icon",
+            "body": "Use the Fluent icon font explicitly and hide Steam's duplicate SVG to prevent the Size on Disk icon from rendering incorrectly.",
+            "date": "2026-10-27T09:48:55Z",
+            "author": "gorlock777",
+            "avatar": "https://avatars.githubusercontent.com/u/178408288?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/0ad4c8873131681b9e6a7204131419ed2d1b2874"
         },
         {
             "sha": "0676618",
@@ -1472,24 +1490,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/14f6c469e1f8cf7aef2978e5dc7ac3b4c2bdddea"
-        },
-        {
-            "sha": "17f93c5",
-            "title": "change: store home send a gift card button hover shadow",
-            "body": "",
-            "date": "2026-10-04T18:05:36Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/17f93c585fe18056386ccf5a1cb1d47001be29d1"
-        },
-        {
-            "sha": "be1b33c",
-            "title": "fix: #228",
-            "body": "",
-            "date": "2026-10-04T13:25:21Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/be1b33cd9224d1a471d932efdae7b69701b32b10"
         }
     ]
 }
