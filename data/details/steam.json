@@ -1222,6 +1222,15 @@
     ],
     "commits": [
         {
+            "sha": "c9098c2",
+            "title": "update: list",
+            "body": "",
+            "date": "2026-10-30T21:25:22Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/c9098c21946ae5b69740550b224e18cf8c559e7c"
+        },
+        {
             "sha": "0eb5d7f",
             "title": "Create classnames.py",
             "body": "",
@@ -1481,15 +1490,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/ac7c64e72b2317356f4d52d23c142d7c759a9778"
-        },
-        {
-            "sha": "fa692ad",
-            "title": "change: userpanel settings button opens now the theme options",
-            "body": "",
-            "date": "2026-10-15T15:25:34Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/fa692ad58f52f85f94739a900ddf3f20dc3f2386"
         }
     ]
 }
