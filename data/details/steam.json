@@ -1222,6 +1222,24 @@
     ],
     "commits": [
         {
+            "sha": "0eb5d7f",
+            "title": "Create classnames.py",
+            "body": "",
+            "date": "2026-10-30T17:54:18Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/0eb5d7f1638391ddee30f92544b3cdfb2ccff769"
+        },
+        {
+            "sha": "6c1127d",
+            "title": "add: classname updater",
+            "body": "",
+            "date": "2026-10-30T17:53:32Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/6c1127dae2e465366077a9809f98254a1ccbef43"
+        },
+        {
             "sha": "91a3804",
             "title": "Merge pull request #238 from gorlock777/fix/size-on-disk-icon",
             "body": "fix(plugin): render size on disk icon",
@@ -1472,24 +1490,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/fa692ad58f52f85f94739a900ddf3f20dc3f2386"
-        },
-        {
-            "sha": "6b92662",
-            "title": "fix: steam settings",
-            "body": "",
-            "date": "2026-10-15T00:09:03Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/6b9266222749c487be8a5783b40a2a426f71fd18"
-        },
-        {
-            "sha": "14f6c46",
-            "title": "change: move roadmap to ROADMAP.md",
-            "body": "",
-            "date": "2026-10-13T13:29:44Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/14f6c469e1f8cf7aef2978e5dc7ac3b4c2bdddea"
         }
     ]
 }
