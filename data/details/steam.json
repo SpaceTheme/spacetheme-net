@@ -1222,6 +1222,96 @@
     ],
     "commits": [
         {
+            "sha": "d772ce7",
+            "title": "add: sidebar download icon",
+            "body": "",
+            "date": "2026-10-31T18:57:21Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/d772ce7889ab158636c621a8c0c562adc786e927"
+        },
+        {
+            "sha": "bd2a9ea",
+            "title": "Revert \"add: sidebar download icon\"",
+            "body": "This reverts commit 1f263b3e412797ded2f290bb318b0eecb4b06097.",
+            "date": "2026-10-31T18:51:18Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/bd2a9ea5d4cffb5832cd5c86bf232ddb420fc3e0"
+        },
+        {
+            "sha": "5d2f093",
+            "title": "fix: library gamepage playbar download info",
+            "body": "",
+            "date": "2026-10-31T18:50:49Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/5d2f093a9ee7186a7867d70a9b76578f968308d4"
+        },
+        {
+            "sha": "da93d3f",
+            "title": "update: library gamepage playbar update icon",
+            "body": "",
+            "date": "2026-10-31T18:50:32Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/da93d3f00be390cb705e74bdfaea0919af900fbe"
+        },
+        {
+            "sha": "1f263b3",
+            "title": "add: sidebar download icon",
+            "body": "",
+            "date": "2026-10-31T18:38:07Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/1f263b3e412797ded2f290bb318b0eecb4b06097"
+        },
+        {
+            "sha": "59a2abb",
+            "title": "fix: store new carousel indicators",
+            "body": "",
+            "date": "2026-10-31T18:14:42Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/59a2abb74fdb87aa78f560080b4eb8dafc2def5a"
+        },
+        {
+            "sha": "9f13116",
+            "title": "fix: store home event/promo banner",
+            "body": "",
+            "date": "2026-10-31T18:11:16Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/9f13116e3cfebc53f164bcda3af0b67ce27def86"
+        },
+        {
+            "sha": "5632eab",
+            "title": "fix: store home personal calendar section",
+            "body": "",
+            "date": "2026-10-31T18:06:31Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/5632eab4ee2a76ef6f194773ed12aec0d89ac6fd"
+        },
+        {
+            "sha": "83ae823",
+            "title": "fix: store home discovery queue section",
+            "body": "",
+            "date": "2026-10-31T17:54:01Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/83ae82363d43e963c23dc63c79ceb3f362c13f3b"
+        },
+        {
+            "sha": "f3ddd8f",
+            "title": "Update classnames.py",
+            "body": "",
+            "date": "2026-10-31T17:53:26Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/f3ddd8fadd128bc27718f3f3bda645c034f6cafa"
+        },
+        {
             "sha": "c9098c2",
             "title": "update: list",
             "body": "",
@@ -1400,96 +1490,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/eba0bc0e9075a7011c2473140cbb12610e4e21cd"
-        },
-        {
-            "sha": "80b86c3",
-            "title": "improve: library gamepage links panel & new option",
-            "body": "",
-            "date": "2026-10-17T18:49:21Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/80b86c3913fa4d01945ebbf41264879861cc9c75"
-        },
-        {
-            "sha": "7708696",
-            "title": "improve: library gamepage playbar panel",
-            "body": "",
-            "date": "2026-10-17T16:48:37Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/77086961b03d41451a222375daa6f3045ef77b3f"
-        },
-        {
-            "sha": "ffb79a7",
-            "title": "Update ROADMAP.md",
-            "body": "",
-            "date": "2026-10-17T16:38:21Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/ffb79a7e55e2b739b7490af078eb1436b74ef233"
-        },
-        {
-            "sha": "5af4cd6",
-            "title": "update: account pages, hide account header",
-            "body": "",
-            "date": "2026-10-16T12:35:14Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/5af4cd6f380409fa80d8a22672c32c8510d98c57"
-        },
-        {
-            "sha": "32ec6a5",
-            "title": "skin: account licences page",
-            "body": "",
-            "date": "2026-10-16T12:34:43Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/32ec6a5fd5a3281dc5c96dcb03ae756fcfb1ebef"
-        },
-        {
-            "sha": "9e571af",
-            "title": "improve: libhome date info in shelf",
-            "body": "",
-            "date": "2026-10-16T11:46:33Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/9e571af18a1502815ecf87d8872d9b1e39f93dc9"
-        },
-        {
-            "sha": "1331807",
-            "title": "improve: libhome shelfs",
-            "body": "",
-            "date": "2026-10-16T11:38:05Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/13318077312b8107d3df01c5f2ef7d45c4f7cdae"
-        },
-        {
-            "sha": "df1548b",
-            "title": "improve: libhome add shelf button",
-            "body": "",
-            "date": "2026-10-16T11:37:19Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/df1548ba3dcd0f168fadeaeb8e0a4e3982de67b0"
-        },
-        {
-            "sha": "1e01124",
-            "title": "skin/fix: plugin settings pages",
-            "body": "",
-            "date": "2026-10-16T10:30:20Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/1e01124087cca6cb7b945dc59a56520aa89410f3"
-        },
-        {
-            "sha": "ac7c64e",
-            "title": "fix: sidebar in download page",
-            "body": "",
-            "date": "2026-10-15T21:35:27Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/ac7c64e72b2317356f4d52d23c142d7c759a9778"
         }
     ]
 }
