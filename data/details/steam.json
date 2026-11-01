@@ -1222,6 +1222,15 @@
     ],
     "commits": [
         {
+            "sha": "ddfbbbe",
+            "title": "update: sidebar resize bar",
+            "body": "",
+            "date": "2026-11-01T22:23:45Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/ddfbbbee23a5461a25ff6c5b375d6500cd668c71"
+        },
+        {
             "sha": "16c70da",
             "title": "readme: update preview images",
             "body": "",
@@ -1481,15 +1490,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/fc552516e920c6168d43d5adb5aaeffdb7574cbb"
-        },
-        {
-            "sha": "13305ed",
-            "title": "add: options for show/hide library gamepage playbar info icons",
-            "body": "",
-            "date": "2026-10-21T17:59:30Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/13305edb86e8fc38400ca6bb725cf35fc092cba5"
         }
     ]
 }
