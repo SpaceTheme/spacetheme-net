@@ -1,6 +1,6 @@
 {
-    "updated": "2026-11-01T07:38:47.328Z",
-    "total_downloads": 488701,
+    "updated": "2026-11-01T15:14:56.780Z",
+    "total_downloads": 490176,
     "total_stars": 362,
     "themes": {
         "steam-custom-artworks": {
@@ -16,9 +16,9 @@
             "stars": 32,
             "forks": 4,
             "issues": 3,
-            "downloads": 1759,
+            "downloads": 1761,
             "sources": {
-                "releases": 1759,
+                "releases": 1761,
                 "clones": 0
             },
             "clonesCounted": {
@@ -39,9 +39,9 @@
             "stars": 2,
             "forks": 0,
             "issues": 0,
-            "downloads": 22,
+            "downloads": 24,
             "sources": {
-                "releases": 22,
+                "releases": 24,
                 "clones": 0
             },
             "clonesCounted": {
@@ -54,19 +54,19 @@
             "image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.webp",
             "socialImage": "https://repository-images.githubusercontent.com/640600509/55a42db8-d905-4d75-8c10-beab128984c0",
             "changelog": "commits",
-            "version": "c54e644",
-            "versionDate": "2026-11-01T07:20:40Z",
-            "updated": "2026-11-01T07:20:43Z",
+            "version": "5757a9d",
+            "versionDate": "2026-11-01T08:25:56Z",
+            "updated": "2026-11-01T09:01:17Z",
             "description": "Theme with a dark aesthetic and modular-inspired look, offering clarity, flexibility, and an enhanced user experience.",
             "license": "MIT",
             "stars": 293,
             "forks": 31,
             "issues": 12,
-            "downloads": 479192,
+            "downloads": 480662,
             "sources": {
                 "releases": 13160,
                 "clones": 0,
-                "steambrew": 466032
+                "steambrew": 467502
             },
             "clonesCounted": {
                 "total": 0,
@@ -179,9 +179,9 @@
             "stars": 9,
             "forks": 2,
             "issues": 0,
-            "downloads": 5262,
+            "downloads": 5263,
             "sources": {
-                "releases": 5262,
+                "releases": 5263,
                 "clones": 0
             },
             "clonesCounted": {

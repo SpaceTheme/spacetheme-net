@@ -1222,6 +1222,51 @@
     ],
     "commits": [
         {
+            "sha": "5757a9d",
+            "title": "Update millenniumSettings.css",
+            "body": "",
+            "date": "2026-11-01T08:25:56Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/5757a9d93df4eadc528fd6e1d4ba3ed5c6f3e5c5"
+        },
+        {
+            "sha": "83d0ecb",
+            "title": "Update dwmx.css",
+            "body": "",
+            "date": "2026-11-01T08:19:34Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/83d0ecb68018996a15aebd9545b3ec3e87432b5d"
+        },
+        {
+            "sha": "74720c0",
+            "title": "Update dropdown.css",
+            "body": "",
+            "date": "2026-11-01T08:19:28Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/74720c008868d991087e69055ebfef91f5955d08"
+        },
+        {
+            "sha": "5ad3cdf",
+            "title": "Update dwmx.css",
+            "body": "",
+            "date": "2026-11-01T08:07:35Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/5ad3cdf7a0847c83d6e3da1a53582573d98fe836"
+        },
+        {
+            "sha": "8b20829",
+            "title": "improve: millennium themes and plugin page with grid view",
+            "body": "",
+            "date": "2026-11-01T08:01:14Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/8b208299d85414a5450c4471cae0041ce07a68bf"
+        },
+        {
             "sha": "c54e644",
             "title": "skin: sidebar",
             "body": "",
@@ -1445,51 +1490,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/04025995333dffc41f6f8a7897ef0123e381566d"
-        },
-        {
-            "sha": "650f396",
-            "title": "add: option for hiding settings button in userpanel",
-            "body": "",
-            "date": "2026-10-18T15:00:26Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/650f3961021720b8c1ee88fc9ca2cdf97f12ed0d"
-        },
-        {
-            "sha": "af2a36c",
-            "title": "fix: dwmx library dropdown menu",
-            "body": "",
-            "date": "2026-10-18T14:18:31Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/af2a36c43d99cbd8134cc5fd16cd0fedbc4a06f3"
-        },
-        {
-            "sha": "5b23b14",
-            "title": "fix: #230",
-            "body": "",
-            "date": "2026-10-17T23:51:17Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/5b23b14bf2d0edbfe1d2e44c2b3070d6efe27f55"
-        },
-        {
-            "sha": "a8257ab",
-            "title": "fix: #177",
-            "body": "",
-            "date": "2026-10-17T23:40:05Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/a8257abce13ea8f50e3607c36024832e3a097f6d"
-        },
-        {
-            "sha": "7f1d2a8",
-            "title": "skin: play on another device with remote play window",
-            "body": "",
-            "date": "2026-10-17T22:07:19Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/7f1d2a82187e4774475ad75b8f78917dd05b694a"
         }
     ]
 }
