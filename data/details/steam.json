@@ -1222,6 +1222,33 @@
     ],
     "commits": [
         {
+            "sha": "c54e644",
+            "title": "skin: sidebar",
+            "body": "",
+            "date": "2026-11-01T07:20:40Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/c54e644e67fa3ef4ca03493ed28bddeeb52eafd2"
+        },
+        {
+            "sha": "edb77b8",
+            "title": "Update dwmx.css",
+            "body": "",
+            "date": "2026-11-01T07:18:13Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/edb77b846e485267dd0503b68ba793fec5c267b8"
+        },
+        {
+            "sha": "c505177",
+            "title": "Update dwmx.css",
+            "body": "",
+            "date": "2026-11-01T07:16:47Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/c50517781ecc19075f49bebf2dd6e41597708e2c"
+        },
+        {
             "sha": "d772ce7",
             "title": "add: sidebar download icon",
             "body": "",
@@ -1463,33 +1490,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/7f1d2a82187e4774475ad75b8f78917dd05b694a"
-        },
-        {
-            "sha": "e49aa50",
-            "title": "fix: library gamepage play panel",
-            "body": "",
-            "date": "2026-10-17T21:53:37Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/e49aa50c2f6a51340aeed04dcddfacd5e16749db"
-        },
-        {
-            "sha": "4c6d81e",
-            "title": "Update ROADMAP.md",
-            "body": "",
-            "date": "2026-10-17T21:53:13Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/4c6d81e2b51dc9d1082541dba23d641db3d8706c"
-        },
-        {
-            "sha": "eba0bc0",
-            "title": "Update ROADMAP.md",
-            "body": "",
-            "date": "2026-10-17T20:52:57Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/eba0bc0e9075a7011c2473140cbb12610e4e21cd"
         }
     ]
 }

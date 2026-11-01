@@ -1,24 +1,24 @@
 {
-    "updated": "2026-11-01T01:15:15.531Z",
-    "total_downloads": 487962,
-    "total_stars": 361,
+    "updated": "2026-11-01T07:38:47.328Z",
+    "total_downloads": 488701,
+    "total_stars": 362,
     "themes": {
         "steam-custom-artworks": {
             "repo": "SpaceTheme/Steam-Custom-Artworks",
             "image": "https://raw.githubusercontent.com/SpaceTheme/Steam-Custom-Artworks/main/.github/assets/banner.webp",
             "socialImage": "https://repository-images.githubusercontent.com/908138433/e9566f6e-839c-4b33-be65-9eef37d1cd1d",
             "changelog": "releases",
-            "version": "v20261025",
-            "versionDate": "2026-10-25T04:46:58Z",
-            "updated": "2026-10-31T23:23:30Z",
+            "version": "v20261101",
+            "versionDate": "2026-11-01T06:15:48Z",
+            "updated": "2026-11-01T06:15:48Z",
             "description": "Custom covers, banners, heroes and logos for your Steam library in one consistent style.",
             "license": "MIT",
             "stars": 32,
             "forks": 4,
             "issues": 3,
-            "downloads": 1678,
+            "downloads": 1759,
             "sources": {
-                "releases": 1678,
+                "releases": 1759,
                 "clones": 0
             },
             "clonesCounted": {
@@ -54,19 +54,19 @@
             "image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.webp",
             "socialImage": "https://repository-images.githubusercontent.com/640600509/55a42db8-d905-4d75-8c10-beab128984c0",
             "changelog": "commits",
-            "version": "d772ce7",
-            "versionDate": "2026-10-31T18:57:21Z",
-            "updated": "2026-10-31T18:57:30Z",
+            "version": "c54e644",
+            "versionDate": "2026-11-01T07:20:40Z",
+            "updated": "2026-11-01T07:20:43Z",
             "description": "Theme with a dark aesthetic and modular-inspired look, offering clarity, flexibility, and an enhanced user experience.",
             "license": "MIT",
-            "stars": 292,
+            "stars": 293,
             "forks": 31,
             "issues": 12,
-            "downloads": 478536,
+            "downloads": 479192,
             "sources": {
                 "releases": 13160,
                 "clones": 0,
-                "steambrew": 465376
+                "steambrew": 466032
             },
             "clonesCounted": {
                 "total": 0,
@@ -179,9 +179,9 @@
             "stars": 9,
             "forks": 2,
             "issues": 0,
-            "downloads": 5260,
+            "downloads": 5262,
             "sources": {
-                "releases": 5260,
+                "releases": 5262,
                 "clones": 0
             },
             "clonesCounted": {
