@@ -1,6 +1,6 @@
 {
-    "updated": "2026-11-01T23:39:20.443Z",
-    "total_downloads": 491867,
+    "updated": "2026-11-02T06:15:34.401Z",
+    "total_downloads": 492601,
     "total_stars": 362,
     "themes": {
         "steam-custom-artworks": {
@@ -16,9 +16,9 @@
             "stars": 32,
             "forks": 4,
             "issues": 3,
-            "downloads": 1762,
+            "downloads": 1766,
             "sources": {
-                "releases": 1762,
+                "releases": 1766,
                 "clones": 0
             },
             "clonesCounted": {
@@ -62,11 +62,11 @@
             "stars": 293,
             "forks": 31,
             "issues": 12,
-            "downloads": 482349,
+            "downloads": 483079,
             "sources": {
                 "releases": 13160,
                 "clones": 0,
-                "steambrew": 469189
+                "steambrew": 469919
             },
             "clonesCounted": {
                 "total": 0,
