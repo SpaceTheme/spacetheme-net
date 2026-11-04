@@ -1222,6 +1222,15 @@
     ],
     "commits": [
         {
+            "sha": "3ca9b61",
+            "title": "chore: update Steam class names (18 renamed)",
+            "body": "",
+            "date": "2026-11-04T02:34:36Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/3ca9b6104f5d0d45c145e6c8b22cef1fc79b4459"
+        },
+        {
             "sha": "ddfbbbe",
             "title": "update: sidebar resize bar",
             "body": "",
@@ -1481,15 +1490,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/c462be494e4987911883be4d5564bbe7660adeb5"
-        },
-        {
-            "sha": "fc55251",
-            "title": "fix: #236",
-            "body": "",
-            "date": "2026-10-24T14:47:50Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/fc552516e920c6168d43d5adb5aaeffdb7574cbb"
         }
     ]
 }
