@@ -1222,6 +1222,15 @@
     ],
     "commits": [
         {
+            "sha": "81db49b",
+            "title": "chore: update Steam class names (659 renamed)",
+            "body": "",
+            "date": "2026-11-08T16:24:47Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/81db49b34f5e6e73b673f80f2818430f9dab4ea7"
+        },
+        {
             "sha": "3ca9b61",
             "title": "chore: update Steam class names (18 renamed)",
             "body": "",
@@ -1481,15 +1490,6 @@
             "author": "SpaceEnergy",
             "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/067661870a7c6a088c807d1514b47f49cf2f0f4c"
-        },
-        {
-            "sha": "c462be4",
-            "title": "update: overlay experimental",
-            "body": "",
-            "date": "2026-10-25T12:56:43Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/c462be494e4987911883be4d5564bbe7660adeb5"
         }
     ]
 }
