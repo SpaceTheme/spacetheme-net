@@ -1222,6 +1222,15 @@
     ],
     "commits": [
         {
+            "sha": "25fbfcd",
+            "title": "chore: update Steam class names (3 renamed)",
+            "body": "",
+            "date": "2026-11-11T20:13:43Z",
+            "author": "SpaceEnergy",
+            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
+            "url": "https://github.com/SpaceTheme/Steam/commit/25fbfcde75de9a3d60db2837e76df4f28f1aec1c"
+        },
+        {
             "sha": "81db49b",
             "title": "chore: update Steam class names (659 renamed)",
             "body": "",
@@ -1481,15 +1490,6 @@
             "author": "gorlock777",
             "avatar": "https://avatars.githubusercontent.com/u/178408288?v=4",
             "url": "https://github.com/SpaceTheme/Steam/commit/0ad4c8873131681b9e6a7204131419ed2d1b2874"
-        },
-        {
-            "sha": "0676618",
-            "title": "Update gameOverview.css",
-            "body": "",
-            "date": "2026-10-26T16:03:09Z",
-            "author": "SpaceEnergy",
-            "avatar": "https://avatars.githubusercontent.com/u/93218131?v=4",
-            "url": "https://github.com/SpaceTheme/Steam/commit/067661870a7c6a088c807d1514b47f49cf2f0f4c"
         }
     ]
 }
