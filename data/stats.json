@@ -1,6 +1,6 @@
 {
-    "updated": "2026-11-12T12:47:57.881Z",
-    "total_downloads": 516163,
+    "updated": "2026-11-12T20:51:43.022Z",
+    "total_downloads": 517976,
     "total_stars": 362,
     "themes": {
         "steam-custom-artworks": {
@@ -10,15 +10,15 @@
             "changelog": "releases",
             "version": "v20261101",
             "versionDate": "2026-11-01T06:15:48Z",
-            "updated": "2026-11-01T06:15:48Z",
+            "updated": "2026-11-12T15:30:09Z",
             "description": "Custom covers, banners, heroes and logos for your Steam library in one consistent style.",
             "license": "MIT",
             "stars": 32,
             "forks": 4,
             "issues": 24,
-            "downloads": 1798,
+            "downloads": 1803,
             "sources": {
-                "releases": 1798,
+                "releases": 1803,
                 "clones": 0
             },
             "clonesCounted": {
@@ -54,19 +54,19 @@
             "image": "https://raw.githubusercontent.com/SpaceTheme/Steam/main/.github/assets/preview/preview.webp",
             "socialImage": "https://repository-images.githubusercontent.com/640600509/55a42db8-d905-4d75-8c10-beab128984c0",
             "changelog": "commits",
-            "version": "25fbfcd",
-            "versionDate": "2026-11-11T20:13:43Z",
-            "updated": "2026-11-11T20:13:57Z",
+            "version": "65bc106",
+            "versionDate": "2026-11-12T14:00:13Z",
+            "updated": "2026-11-12T14:00:15Z",
             "description": "Theme with a dark aesthetic and modular-inspired look, offering clarity, flexibility, and an enhanced user experience.",
             "license": "MIT",
             "stars": 292,
-            "forks": 30,
+            "forks": 29,
             "issues": 12,
-            "downloads": 506576,
+            "downloads": 508382,
             "sources": {
                 "releases": 13162,
                 "clones": 0,
-                "steambrew": 493414
+                "steambrew": 495220
             },
             "clonesCounted": {
                 "total": 0,
@@ -179,9 +179,9 @@
             "stars": 9,
             "forks": 2,
             "issues": 0,
-            "downloads": 5287,
+            "downloads": 5289,
             "sources": {
-                "releases": 5287,
+                "releases": 5289,
                 "clones": 0
             },
             "clonesCounted": {
