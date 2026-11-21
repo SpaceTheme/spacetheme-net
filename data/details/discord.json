@@ -7,13 +7,13 @@
             "date": "2024-07-19T03:05:21Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.4.0-alpha",
-            "downloads": 1188,
+            "downloads": 1189,
             "body": "<h2>v1.4.0-alpha is now out!</h2>\n<ul>\n<li>Add SpotifyControls plugin support</li>\n<li>Custom border-radius setting</li>\n<li>Change padding and margin from 5px-&gt;6px, 10px-&gt;12px and 15px-&gt;16px</li>\n<li>Many many source code improvements...</li>\n<li>Bug fixes\n<ul>\n<li>Channel headers</li>\n<li>Browse Channels tab (Channels &amp; Roles)</li>\n<li>And a few others</li>\n</ul>\n</li>\n</ul>",
             "assets": [
                 {
                     "name": "SpaceTheme.theme.css",
                     "size": 1271,
-                    "downloads": 1188,
+                    "downloads": 1189,
                     "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.4.0-alpha/SpaceTheme.theme.css"
                 }
             ]
@@ -24,13 +24,13 @@
             "date": "2024-05-21T19:26:02Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.3.3-alpha",
-            "downloads": 257,
+            "downloads": 258,
             "body": "<ul>\n<li>Settings (not finished)\n<ul>\n<li>Sidebar icons (only with the Vencord plugin \"ThemeAttributes\")</li>\n<li>My account tab</li>\n<li>Invites tab</li>\n<li>Privacy tab</li>\n<li>Family tab (will probably not be 100% skinned as i probably don't see a few pages of it)</li>\n<li>Devices tab</li>\n<li>Gift Inventory tab</li>\n<li>Language tab (only with the Vencord plugin \"ThemeAttributes\")</li>\n<li>Emoji tab</li>\n<li>Channel permissions tab (not finished)</li>\n<li>General improvements</li>\n<li>Small sidebar when using a vertical monitor (like the memberlist)</li>\n</ul>\n</li>\n<li>ServerProfile plugin support</li>\n<li>Emoji autocomplete popup over chat input</li>\n<li>Addon grid adjustments (Themes/Plugin page)</li>\n<li>Source code improvement (the performance should also have gotten a boost)</li>\n<li>Improvement\n<ul>\n<li>Emoji/Sticker/Gif picker has been reduced in height by 100px</li>\n</ul>\n</li>\n<li>Bug fixes\n<ul>\n<li>Game group invite</li>\n<li>Message input when messages editing</li>\n<li>Gap at the chat input left when there is no upload button</li>\n<li>White shadow under the chat scrollbar</li>\n<li>When opening or loading pages, the Discord standard background color was displayed</li>\n<li>Setting page bottom margin</li>\n<li>Discover sidebar</li>\n<li>Thread create sidebar</li>\n<li>Emoji chat button was cut off</li>\n<li>If a Spotify song title was too long it went through the button in the user modal</li>\n<li>Inbox and Pins note badge</li>\n</ul>\n</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/0795b627f86195a53884b3c38cf8c144044740ac\">Full Changelog</a></strong></p>",
             "assets": [
                 {
                     "name": "SpaceTheme-alpha.theme.css",
                     "size": 798,
-                    "downloads": 257,
+                    "downloads": 258,
                     "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.3.3-alpha/SpaceTheme-alpha.theme.css"
                 }
             ]
@@ -41,13 +41,13 @@
             "date": "2024-04-13T01:56:38Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.3.2-alpha",
-            "downloads": 251,
+            "downloads": 253,
             "body": "<ul>\n<li>Create server modal v0.1</li>\n<li>Polls</li>\n<li>Code block improvement</li>\n<li>Source code improvement</li>\n<li>Bug fixes\n<ul>\n<li>The user game panel no longer covers anything</li>\n<li>Server list server mentions badges are no longer displayed above the bottom 2 pinned buttons</li>\n<li>Forum cards are no longer cut off if the window is too small</li>\n</ul>\n</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/e176fd81b3b6024602f23f6f34b12bbddf61f7a7\">Full Changelog</a></strong></p>",
             "assets": [
                 {
                     "name": "SpaceTheme-alpha.theme.css",
                     "size": 798,
-                    "downloads": 251,
+                    "downloads": 253,
                     "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.3.2-alpha/SpaceTheme-alpha.theme.css"
                 }
             ]
@@ -58,13 +58,13 @@
             "date": "2024-03-27T00:23:54Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.3.1-alpha",
-            "downloads": 84,
+            "downloads": 85,
             "body": "<ul>\n<li>Larger user modal</li>\n<li>Pins</li>\n<li>Code block improvement</li>\n<li>Source code improvement</li>\n<li>Bug fixes\n<ul>\n<li>Random boxes have a different background (Settings)</li>\n<li>Space at the bottom for all settings pages</li>\n<li>Payment methods/billing (user settings)</li>\n<li>Large space in the member list of role editing (server settings)</li>\n</ul>\n</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/81d432f7830b73858cb5b801a0b1a91d2dcd9998\">Full Changelog</a></strong></p>",
             "assets": [
                 {
                     "name": "SpaceTheme-alpha.theme.css",
                     "size": 798,
-                    "downloads": 84,
+                    "downloads": 85,
                     "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.3.1-alpha/SpaceTheme-alpha.theme.css"
                 }
             ]
@@ -75,13 +75,13 @@
             "date": "2024-01-12T21:45:52Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.3.0-alpha-part_2/2",
-            "downloads": 201,
+            "downloads": 202,
             "body": "<ul>\n<li>Inbox</li>\n<li>Modals v0.1</li>\n<li>App Directory v0.1</li>\n<li>BetterFolders plugin support - Vencord Version</li>\n<li>User Settings\n<ul>\n<li>Payment Methodes/Billings</li>\n<li>Registered Games v0.1</li>\n</ul>\n</li>\n<li>Server Settings\n<ul>\n<li>Role and Permissions v0.2</li>\n</ul>\n</li>\n<li>Source code improvement</li>\n<li>Bug fixes\n<ul>\n<li>In messages you could not click on the lower part of the avatar</li>\n<li>Spotify icon in user profile</li>\n<li>Linux base top margin</li>\n<li>Custom gradient username in modal</li>\n<li>Chat pills dont use variables</li>\n<li>Distance between forum chat and forum member list</li>\n</ul>\n</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/3d18658c90f30807f3f6d3b635d71e889e6cb60f\">Full Changelog</a></strong></p>",
             "assets": [
                 {
                     "name": "SpaceTheme-alpha.theme.css",
                     "size": 802,
-                    "downloads": 201,
+                    "downloads": 202,
                     "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.3.0-alpha-part_2/2/SpaceTheme-alpha.theme.css"
                 }
             ]
@@ -92,13 +92,13 @@
             "date": "2023-12-10T23:27:13Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.3.0-alpha-part_1/2",
-            "downloads": 88,
+            "downloads": 90,
             "body": "<ul>\n<li>Codeblock part 2/2</li>\n<li>Emoji/Sticker/Gif picker</li>\n<li>Server members tab v0.1</li>\n<li>Source code improvement</li>\n<li>Bug fixes\n<ul>\n<li>Role and Permissions width</li>\n<li>Chat compact mode</li>\n</ul>\n</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/ab558ea2268c4b5cd305df201ec7e41aa27bcd6a\">Full Changelog</a></strong></p>",
             "assets": [
                 {
                     "name": "SpaceTheme-alpha.theme.css",
                     "size": 802,
-                    "downloads": 88,
+                    "downloads": 90,
                     "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.3.0-alpha-part_1/2/SpaceTheme-alpha.theme.css"
                 }
             ]
@@ -109,13 +109,13 @@
             "date": "2023-11-26T13:15:56Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.2.9-alpha",
-            "downloads": 45,
+            "downloads": 46,
             "body": "<ul>\n<li>Experiements tab</li>\n<li>Codeblock part1/2</li>\n<li>Forum v0.3</li>\n<li>Build override embed</li>\n<li>Remove new server dropdown</li>\n<li>Server Settings\n<ul>\n<li>Role and Permissions v0.1</li>\n</ul>\n</li>\n<li>Source code improvement</li>\n<li>Bug fixes\n<ul>\n<li>Forum list cards</li>\n</ul>\n</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/2e3f10d852b5e806605099084f49f19589f2170c\">Full Changelog</a></strong></p>",
             "assets": [
                 {
                     "name": "SpaceTheme-alpha.theme.css",
                     "size": 802,
-                    "downloads": 45,
+                    "downloads": 46,
                     "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.2.9-alpha/SpaceTheme-alpha.theme.css"
                 }
             ]
@@ -126,13 +126,13 @@
             "date": "2023-11-12T16:10:53Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.2.8-alpha",
-            "downloads": 32,
+            "downloads": 33,
             "body": "<ul>\n<li>Voice calls v0.1</li>\n<li>New server dropdown</li>\n<li>Compact chat member list for vertical monitors</li>\n<li>Vencord addon list</li>\n<li>Remove Fluent status icons</li>\n<li>Source code improvements</li>\n<li>Bug fixes\n<ul>\n<li>Folder icon</li>\n<li>Message bubbles</li>\n<li>Custom gradient username</li>\n<li>Adding margin to text in no permission message input</li>\n<li>Removing attach button in no permission message input</li>\n</ul>\n</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/0344e03374afd2ee355b656b9c60c257af07fc32\">Full Changelog</a></strong></p>",
             "assets": [
                 {
                     "name": "SpaceTheme-alpha.theme.css",
                     "size": 802,
-                    "downloads": 32,
+                    "downloads": 33,
                     "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.2.8-alpha/SpaceTheme-alpha.theme.css"
                 }
             ]
@@ -143,13 +143,13 @@
             "date": "2023-10-28T18:56:16Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.2.7-alpha",
-            "downloads": 61,
+            "downloads": 62,
             "body": "<ul>\n<li>Chat search</li>\n<li>Source code improvements</li>\n<li>The whole theme fixed from the Discord update which changed all classes</li>\n</ul>\n<p><strong>Please update BetterDiscord to version 1.9.5 otherwise the theme will not work properly</strong>.</p>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/410d153d8afbf2d0424b9ffb266c0427369b9007\">Full Changelog</a></strong></p>",
             "assets": [
                 {
                     "name": "SpaceTheme-alpha.theme.css",
                     "size": 802,
-                    "downloads": 61,
+                    "downloads": 62,
                     "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.2.7-alpha/SpaceTheme-alpha.theme.css"
                 }
             ]
@@ -160,13 +160,13 @@
             "date": "2023-10-13T20:00:16Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.2.6-alpha",
-            "downloads": 31,
+            "downloads": 32,
             "body": "<ul>\n<li>Login screen</li>\n<li>New BetterDiscord addon list</li>\n<li>Spotify invite rework</li>\n<li>Better Spotify profile activity</li>\n<li>Better edited message date</li>\n<li>Radio buttons</li>\n<li>Context menu</li>\n<li>Source code improvements</li>\n<li>Bug fixes</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/683b17a8f72cac570f5ada608c04f12e5705b609\">Full Changelog</a></strong></p>",
             "assets": [
                 {
                     "name": "SpaceTheme-alpha.theme.css",
                     "size": 802,
-                    "downloads": 31,
+                    "downloads": 32,
                     "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.2.6-alpha/SpaceTheme-alpha.theme.css"
                 }
             ]

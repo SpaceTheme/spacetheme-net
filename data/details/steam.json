@@ -749,13 +749,13 @@
             "date": "2025-09-01T04:36:27Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250901",
-            "downloads": 834,
+            "downloads": 835,
             "body": "<h2>v2025-09-01 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/2fecb03\"><code>2fecb03</code></a> - Improve \"Window Controls\" Option (Added \"Show only on hover\")</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/a25812e\"><code>a25812e</code></a> - Millennium Theme Settings Are Cut Off</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/41e5258\"><code>41e5258</code></a> - The Give an Award dialog is cut off and doesn't scroll (<a href=\"https://github.com/SpaceTheme/Steam/issues/98\" data-hovercard-type=\"issue\" data-hovercard-url=\"/SpaceTheme/Steam/issues/98/hovercard\">#98</a>)</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/7f267c2\"><code>7f267c2</code></a> - enabling acrylic background causes play button area to get transparent (<a href=\"https://github.com/SpaceTheme/Steam/issues/101\" data-hovercard-type=\"issue\" data-hovercard-url=\"/SpaceTheme/Steam/issues/101/hovercard\">#101</a>)</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250821...v20250901\"><code>v20250821...v20250901</code></a></p>",
             "assets": [
                 {
                     "name": "SpaceTheme_for_Steam.zip",
                     "size": 101379,
-                    "downloads": 834,
+                    "downloads": 835,
                     "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250901/SpaceTheme_for_Steam.zip"
                 }
             ]
@@ -766,13 +766,13 @@
             "date": "2025-08-21T10:10:32Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250821",
-            "downloads": 279,
+            "downloads": 280,
             "body": "<h2>v2025-08-21 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/d74bca7\"><code>d74bca7</code></a> - Update \"Gamepage\" (Age Ratings)</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/7bcceba\"><code>7bcceba</code></a> - Can't interact with many buttons on any game's store page (<a href=\"https://github.com/SpaceTheme/Steam/issues/102\" data-hovercard-type=\"issue\" data-hovercard-url=\"/SpaceTheme/Steam/issues/102/hovercard\">#102</a>)</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250819...v20250821\"><code>v20250819...v20250821</code></a></p>",
             "assets": [
                 {
                     "name": "SpaceTheme_for_Steam.zip",
                     "size": 100437,
-                    "downloads": 279,
+                    "downloads": 280,
                     "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250821/SpaceTheme_for_Steam.zip"
                 }
             ]
@@ -800,13 +800,13 @@
             "date": "2025-08-12T03:38:24Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250812",
-            "downloads": 280,
+            "downloads": 281,
             "body": "<h2>v2025-08-12 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/7c337b2\"><code>7c337b2</code></a> - Added \"Banner position\" - <em>Change the position of the banner (applies to all banners)</em></li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/f6cdea8\"><code>f6cdea8</code></a> - Added \"Mica &amp; Acrylic plugin support\" - <em>Support for Mica and Acrylic plugin <a href=\"https://steambrew.app/plugin?id=b4c58634419b\" rel=\"nofollow\">https://steambrew.app/plugin?id=b4c58634419b</a> (Only works with the standard theme colors)</em></li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/2eb6175\"><code>2eb6175</code></a> - Added Montserrat to \"Font\" option</li>\n</ul>\n<h3>Skin</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/b35c572\"><code>b35c572</code></a> -  Soundtrack Page</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/35fdf35\"><code>35fdf35</code></a>  -  Store Gamepage Video Player (Steam Beta)</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/5075bcf\"><code>5075bcf</code></a>  -  Pointshop Header</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250727...v20250812\"><code>v20250727...v20250812</code></a></p>",
             "assets": [
                 {
                     "name": "SpaceTheme_for_Steam.zip",
                     "size": 98982,
-                    "downloads": 280,
+                    "downloads": 281,
                     "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250812/SpaceTheme_for_Steam.zip"
                 }
             ]
@@ -817,13 +817,13 @@
             "date": "2025-07-27T21:35:40Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250727",
-            "downloads": 489,
+            "downloads": 490,
             "body": "<h2>v2025-07-27 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/f40b457\"><code>f40b457</code></a> - Update \"Gamepage\"</li>\n</ul>\n<h3>Skin</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/b355cbc\"><code>b355cbc</code></a> -  Steam Beta Store Navbar (WIP)</li>\n</ul>\n<h3>Improve</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/368bcf6\"><code>368bcf6</code></a> - Store Valve Footer</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/c25635c\"><code>c25635c</code></a> - Store Navbar Big Space Between Buttons</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/3181286\"><code>3181286</code></a> - 2 Steam Loading Visuals (<a href=\"https://github.com/SpaceTheme/Steam/issue/94\">#94</a>)</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250725...v20250727\"><code>v20250725...v20250727</code></a></p>",
             "assets": [
                 {
                     "name": "SpaceTheme_for_Steam.zip",
                     "size": 93426,
-                    "downloads": 489,
+                    "downloads": 490,
                     "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250727/SpaceTheme_for_Steam.zip"
                 }
             ]
@@ -851,13 +851,13 @@
             "date": "2025-07-17T23:06:18Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250718",
-            "downloads": 317,
+            "downloads": 318,
             "body": "<h2>v2025-07-18 is now out!</h2>\n<h3>Theme settings</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/711ade1\"><code>711ade1</code></a> - Added \"Achievement Notification\" - <em>Hide the Achievment Notification (Sound is still there)</em></li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/9cd5159\"><code>9cd5159</code></a> - \"VAC-Ban visibility\" option</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250628...v20250718\"><code>v20250628...v20250718</code></a></p>",
             "assets": [
                 {
                     "name": "SpaceTheme_for_Steam.zip",
                     "size": 89930,
-                    "downloads": 317,
+                    "downloads": 318,
                     "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250718/SpaceTheme_for_Steam.zip"
                 }
             ]
@@ -868,13 +868,13 @@
             "date": "2025-06-28T21:51:25Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Steam/releases/tag/v20250628",
-            "downloads": 944,
+            "downloads": 945,
             "body": "<h2>v2025-06-28 is now out!</h2>\n<h3>Skin</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/accca2f\"><code>accca2f</code></a> - Points Shop (WIP)</li>\n</ul>\n<h3>Bug fixes</h3>\n<ul>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/8471210\"><code>8471210</code></a> - \"SteamDeck &amp; Giftcard\" Option</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/2d266bd\"><code>2d266bd</code></a> - Bigger Banner Option Not Working For Non-Steam Games (<a href=\"https://github.com/SpaceTheme/Steam/issue/89\">#89</a>)</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/72f3e81\"><code>72f3e81</code></a> - Alignment Issue With Account Changer (<a href=\"https://github.com/SpaceTheme/Steam/issue/91\">#91</a>)</li>\n<li><a href=\"https://github.com/SpaceTheme/Steam/commit/394ce66\"><code>394ce66</code></a> - Recordings And Screenshot Section Is Cut Off (<a href=\"https://github.com/SpaceTheme/Steam/issue/83\">#83</a>)</li>\n</ul>\n<h3>Know issue</h3>\n<ul>\n<li>If the \"Userpannel &amp; Downloadpannel\" option is active and you open the download page and back again, the userpannel &amp; downloadpannel is gone and is only available again after a Steam restart</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a href=\"https://github.com/SpaceTheme/Steam/compare/v20250623...v20250628\"><code>v20250623...v20250628</code></a></p>",
             "assets": [
                 {
                     "name": "SpaceTheme_for_Steam.zip",
                     "size": 89425,
-                    "downloads": 944,
+                    "downloads": 945,
                     "url": "https://github.com/SpaceTheme/Steam/releases/download/v20250628/SpaceTheme_for_Steam.zip"
                 }
             ]
