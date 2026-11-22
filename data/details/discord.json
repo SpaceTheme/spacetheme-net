@@ -262,13 +262,13 @@
             "date": "2023-07-09T16:16:24Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.2.1-alpha",
-            "downloads": 23,
+            "downloads": 24,
             "body": "<ul>\n<li>The source code was further revised</li>\n<li>Server and User Settings v1</li>\n<li>Dropdowns</li>\n<li>Bug Fixes</li>\n<li>Remove Custom Channel Icons (It will come back when it is fixed)</li>\n<li>Custom Server Banner (<a href=\"https://discord.com/channels/1104516050537685144/1126872641211473920\" rel=\"nofollow\">Request your Custom Server Banner</a>)</li>\n<li>Custom Gradient Username (<a href=\"https://discord.com/channels/1104516050537685144/1126874696097484821\" rel=\"nofollow\">Request your Custom Gradient Username</a>)</li>\n</ul>",
             "assets": [
                 {
                     "name": "SpaceTheme-alpha.theme.css",
                     "size": 615,
-                    "downloads": 23,
+                    "downloads": 24,
                     "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.2.1-alpha/SpaceTheme-alpha.theme.css"
                 }
             ]
