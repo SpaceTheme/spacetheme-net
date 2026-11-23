@@ -7,13 +7,13 @@
             "date": "2024-07-19T03:05:21Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.4.0-alpha",
-            "downloads": 1189,
+            "downloads": 1190,
             "body": "<h2>v1.4.0-alpha is now out!</h2>\n<ul>\n<li>Add SpotifyControls plugin support</li>\n<li>Custom border-radius setting</li>\n<li>Change padding and margin from 5px-&gt;6px, 10px-&gt;12px and 15px-&gt;16px</li>\n<li>Many many source code improvements...</li>\n<li>Bug fixes\n<ul>\n<li>Channel headers</li>\n<li>Browse Channels tab (Channels &amp; Roles)</li>\n<li>And a few others</li>\n</ul>\n</li>\n</ul>",
             "assets": [
                 {
                     "name": "SpaceTheme.theme.css",
                     "size": 1271,
-                    "downloads": 1189,
+                    "downloads": 1190,
                     "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.4.0-alpha/SpaceTheme.theme.css"
                 }
             ]
@@ -194,13 +194,13 @@
             "date": "2023-09-24T17:43:21Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.2.5-alpha",
-            "downloads": 25,
+            "downloads": 26,
             "body": "<ul>\n<li>Friends list cards</li>\n<li>Fluent status icons</li>\n<li>Better message bubbles (Mention, Reply, Automod)</li>\n<li>Chat date divider pills</li>\n<li>Sliders</li>\n<li>Source code improvements</li>\n<li>Bug fixes</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/78c6311e8f260df3c9623e22ea58040f86ec9bd2\">Full Changelog</a></strong></p>",
             "assets": [
                 {
                     "name": "SpaceTheme-alpha.theme.css",
                     "size": 677,
-                    "downloads": 25,
+                    "downloads": 26,
                     "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.2.5-alpha/SpaceTheme-alpha.theme.css"
                 }
             ]
