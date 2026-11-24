@@ -211,13 +211,13 @@
             "date": "2023-08-27T08:09:57Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Discord/releases/tag/v1.2.4-alpha",
-            "downloads": 40,
+            "downloads": 41,
             "body": "<ul>\n<li>Channel icons are back</li>\n<li>Forum v0.2</li>\n<li>Source code improvements</li>\n<li>Bug fixes</li>\n</ul>\n<p><strong><a href=\"https://github.com/SpaceEnergy/SpaceEnergy.github.io/commit/6689ecf98f66f59163e4c08dad956a64a99434be\">Full Changelog</a></strong></p>",
             "assets": [
                 {
                     "name": "SpaceTheme-alpha.theme.css",
                     "size": 677,
-                    "downloads": 40,
+                    "downloads": 41,
                     "url": "https://github.com/SpaceTheme/Discord/releases/download/v1.2.4-alpha/SpaceTheme-alpha.theme.css"
                 }
             ]

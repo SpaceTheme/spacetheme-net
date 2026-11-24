@@ -1,7 +1,7 @@
 {
-    "updated": "2026-11-24T11:00:06.404Z",
-    "total_downloads": 535546,
-    "total_stars": 363,
+    "updated": "2026-11-24T21:17:20.851Z",
+    "total_downloads": 536062,
+    "total_stars": 364,
     "themes": {
         "steam-custom-artworks": {
             "repo": "SpaceTheme/Steam-Custom-Artworks",
@@ -59,14 +59,14 @@
             "updated": "2026-11-12T14:00:15Z",
             "description": "Theme with a dark aesthetic and modular-inspired look, offering clarity, flexibility, and an enhanced user experience.",
             "license": "MIT",
-            "stars": 293,
+            "stars": 294,
             "forks": 29,
             "issues": 15,
-            "downloads": 525870,
+            "downloads": 526384,
             "sources": {
                 "releases": 13172,
                 "clones": 0,
-                "steambrew": 512698
+                "steambrew": 513212
             },
             "clonesCounted": {
                 "total": 0,
@@ -86,9 +86,9 @@
             "stars": 20,
             "forks": 3,
             "issues": 4,
-            "downloads": 2491,
+            "downloads": 2492,
             "sources": {
-                "releases": 2491,
+                "releases": 2492,
                 "clones": 0
             },
             "clonesCounted": {
@@ -179,9 +179,9 @@
             "stars": 9,
             "forks": 2,
             "issues": 0,
-            "downloads": 5304,
+            "downloads": 5305,
             "sources": {
-                "releases": 5304,
+                "releases": 5305,
                 "clones": 0
             },
             "clonesCounted": {
