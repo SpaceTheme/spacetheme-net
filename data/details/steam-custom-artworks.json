@@ -7,13 +7,13 @@
             "date": "2026-11-15T06:35:07Z",
             "prerelease": false,
             "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/releases/tag/v20261115",
-            "downloads": 7,
+            "downloads": 8,
             "body": "<p>New artworks for the following games:<br>\n<a href=\"https://steamdb.info/app/4115450\" rel=\"nofollow\"><code>4115450</code></a></p>",
             "assets": [
                 {
                     "name": "grid.zip",
                     "size": 424453778,
-                    "downloads": 7,
+                    "downloads": 8,
                     "url": "https://github.com/SpaceTheme/Steam-Custom-Artworks/releases/download/v20261115/grid.zip"
                 }
             ]
