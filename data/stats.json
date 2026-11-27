@@ -1,7 +1,7 @@
 {
-    "updated": "2026-11-27T12:32:49.457Z",
-    "total_downloads": 540483,
-    "total_stars": 366,
+    "updated": "2026-11-27T22:00:38.751Z",
+    "total_downloads": 542303,
+    "total_stars": 367,
     "themes": {
         "steam-custom-artworks": {
             "repo": "SpaceTheme/Steam-Custom-Artworks",
@@ -15,7 +15,7 @@
             "license": "MIT",
             "stars": 32,
             "forks": 4,
-            "issues": 24,
+            "issues": 25,
             "downloads": 1845,
             "sources": {
                 "releases": 1845,
@@ -39,9 +39,9 @@
             "stars": 3,
             "forks": 0,
             "issues": 0,
-            "downloads": 39,
+            "downloads": 40,
             "sources": {
-                "releases": 39,
+                "releases": 40,
                 "clones": 0
             },
             "clonesCounted": {
@@ -59,14 +59,14 @@
             "updated": "2026-11-26T15:50:30Z",
             "description": "Theme with a dark aesthetic and modular-inspired look, offering clarity, flexibility, and an enhanced user experience.",
             "license": "MIT",
-            "stars": 296,
+            "stars": 297,
             "forks": 30,
             "issues": 15,
-            "downloads": 530794,
+            "downloads": 532611,
             "sources": {
                 "releases": 13173,
                 "clones": 0,
-                "steambrew": 517621
+                "steambrew": 519438
             },
             "clonesCounted": {
                 "total": 0,
@@ -86,9 +86,9 @@
             "stars": 20,
             "forks": 3,
             "issues": 4,
-            "downloads": 2494,
+            "downloads": 2495,
             "sources": {
-                "releases": 2494,
+                "releases": 2495,
                 "clones": 0
             },
             "clonesCounted": {
@@ -179,9 +179,9 @@
             "stars": 9,
             "forks": 2,
             "issues": 0,
-            "downloads": 5311,
+            "downloads": 5312,
             "sources": {
-                "releases": 5311,
+                "releases": 5312,
                 "clones": 0
             },
             "clonesCounted": {
